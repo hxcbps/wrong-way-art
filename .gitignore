@@ -1,0 +1,9 @@
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+output/
+tmp/
+.env
+.venv/
+node_modules/

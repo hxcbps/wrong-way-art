@@ -1,0 +1,89 @@
+{
+  "project": "wrong-way",
+  "github_owner": "hxcbps",
+  "author_email": "hxcbps@gmail.com",
+  "characters": {
+    "astra-mycelion": {
+      "status": "in-production",
+      "description": "Protagonista bio-cyber ilogico con cabeza prisma, nucleo ambar, halo de fragmentos flotantes y bufanda fungica burgundy.",
+      "assets": [
+        {
+          "type": "concept-sheet",
+          "path": "art/characters/astra-mycelion/concept/astra_mycelion_concept_sheet.png",
+          "source_chroma": "art/characters/astra-mycelion/concept/astra_mycelion_concept_sheet_chroma.png",
+          "size": "1536x1024",
+          "status": "draft-01"
+        },
+        {
+          "type": "movement-sprite-sheet",
+          "path": "art/characters/astra-mycelion/animation-sheets/astra_mycelion_movement_sheet.png",
+          "source_chroma": "art/characters/astra-mycelion/animation-sheets/astra_mycelion_movement_sheet_chroma.png",
+          "size": "1774x887",
+          "layout": "12 columns x 6 rows",
+          "animations": [
+            "idle",
+            "idle_ilogico",
+            "walk",
+            "reverse_walk",
+            "run",
+            "run_start",
+            "run_stop",
+            "turn",
+            "crouch",
+            "jump",
+            "fall",
+            "land",
+            "double_jump"
+          ],
+          "status": "draft-01"
+        },
+        {
+          "type": "combat-defense-sprite-sheet",
+          "path": "art/characters/astra-mycelion/animation-sheets/astra_mycelion_combat_defense_sheet.png",
+          "source_chroma": "art/characters/astra-mycelion/animation-sheets/astra_mycelion_combat_defense_sheet_chroma.png",
+          "size": "1536x1024",
+          "layout": "12 columns x 6 rows",
+          "animations": [
+            "attack_1",
+            "attack_2",
+            "attack_3",
+            "air_attack",
+            "dash_attack",
+            "charged_attack",
+            "projectile_cast",
+            "shield_start",
+            "shield_loop",
+            "shield_impact",
+            "shield_break",
+            "parry",
+            "hit_light",
+            "hit_heavy"
+          ],
+          "status": "draft-01"
+        },
+        {
+          "type": "illogical-moves-sprite-sheet",
+          "path": "art/characters/astra-mycelion/animation-sheets/astra_mycelion_illogical_moves_sheet.png",
+          "source_chroma": "art/characters/astra-mycelion/animation-sheets/astra_mycelion_illogical_moves_sheet_chroma.png",
+          "size": "1774x887",
+          "layout": "12 columns x 6 rows",
+          "animations": [
+            "gravity_flip",
+            "upside_down_idle",
+            "teleport_glitch_out",
+            "teleport_glitch_in",
+            "impossible_dash",
+            "temporal_freeze",
+            "mirror_split",
+            "false_fall",
+            "phase_through_floor",
+            "wrong_landing",
+            "fake_death_rebuild",
+            "victory_glitch"
+          ],
+          "status": "draft-01"
+        }
+      ]
+    }
+  }
+}
