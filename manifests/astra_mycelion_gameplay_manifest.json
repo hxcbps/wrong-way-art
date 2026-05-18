@@ -1,0 +1,85 @@
+{
+  "character": "astra-mycelion",
+  "display_name": "Astra Mycelion",
+  "target_cell_size": [192, 192],
+  "pivot_pixels": [96, 166],
+  "pivot_normalized_unity": [0.5, 0.8645833333],
+  "notes": [
+    "Frames are normalized to a 192x192 transparent canvas.",
+    "Default pivot is bottom-center for platformer gameplay.",
+    "Metadata includes atlas rectangles and per-frame source bounds for QA."
+  ],
+  "sheets": [
+    {
+      "id": "movement",
+      "path": "art/characters/astra-mycelion/animation-sheets/astra_mycelion_movement_sheet.png",
+      "columns": 12,
+      "rows": 6,
+      "output_prefix": "movement",
+      "animations": [
+        {"name": "idle", "row": 0, "start_col": 0, "frames": 8, "fps": 10, "loop": true},
+        {"name": "idle_illogical", "row": 0, "start_col": 8, "frames": 4, "fps": 8, "loop": true},
+        {"name": "walk", "row": 1, "start_col": 0, "frames": 8, "fps": 12, "loop": true},
+        {"name": "reverse_walk", "row": 1, "start_col": 8, "frames": 4, "fps": 10, "loop": true},
+        {"name": "run", "row": 2, "start_col": 0, "frames": 8, "fps": 16, "loop": true},
+        {"name": "run_start", "row": 2, "start_col": 8, "frames": 4, "fps": 16, "loop": false},
+        {"name": "run_stop", "row": 3, "start_col": 0, "frames": 5, "fps": 14, "loop": false},
+        {"name": "turn_pivot", "row": 3, "start_col": 5, "frames": 4, "fps": 14, "loop": false},
+        {"name": "crouch", "row": 3, "start_col": 9, "frames": 3, "fps": 10, "loop": false},
+        {"name": "jump_start", "row": 4, "start_col": 0, "frames": 4, "fps": 14, "loop": false},
+        {"name": "jump_up", "row": 4, "start_col": 4, "frames": 3, "fps": 12, "loop": false},
+        {"name": "jump_apex", "row": 4, "start_col": 7, "frames": 2, "fps": 8, "loop": true},
+        {"name": "fall_loop", "row": 4, "start_col": 9, "frames": 3, "fps": 10, "loop": true},
+        {"name": "land_soft", "row": 5, "start_col": 0, "frames": 4, "fps": 14, "loop": false},
+        {"name": "land_hard", "row": 5, "start_col": 4, "frames": 4, "fps": 14, "loop": false},
+        {"name": "double_jump", "row": 5, "start_col": 8, "frames": 4, "fps": 14, "loop": false}
+      ]
+    },
+    {
+      "id": "combat-defense",
+      "path": "art/characters/astra-mycelion/animation-sheets/astra_mycelion_combat_defense_sheet.png",
+      "columns": 12,
+      "rows": 6,
+      "output_prefix": "combat_defense",
+      "animations": [
+        {"name": "attack_1", "row": 0, "start_col": 0, "frames": 6, "fps": 16, "loop": false},
+        {"name": "attack_2", "row": 0, "start_col": 6, "frames": 6, "fps": 16, "loop": false},
+        {"name": "attack_3", "row": 1, "start_col": 0, "frames": 8, "fps": 16, "loop": false},
+        {"name": "air_attack", "row": 1, "start_col": 8, "frames": 4, "fps": 14, "loop": false},
+        {"name": "dash_attack", "row": 2, "start_col": 0, "frames": 6, "fps": 18, "loop": false},
+        {"name": "charged_attack_startup", "row": 2, "start_col": 6, "frames": 6, "fps": 12, "loop": false},
+        {"name": "charged_attack_loop", "row": 3, "start_col": 0, "frames": 4, "fps": 10, "loop": true},
+        {"name": "charged_attack_release", "row": 3, "start_col": 4, "frames": 4, "fps": 16, "loop": false},
+        {"name": "projectile_cast", "row": 3, "start_col": 8, "frames": 4, "fps": 14, "loop": false},
+        {"name": "shield_start", "row": 4, "start_col": 0, "frames": 4, "fps": 12, "loop": false},
+        {"name": "shield_loop", "row": 4, "start_col": 4, "frames": 4, "fps": 10, "loop": true},
+        {"name": "shield_impact", "row": 4, "start_col": 8, "frames": 4, "fps": 12, "loop": false},
+        {"name": "shield_break", "row": 5, "start_col": 0, "frames": 4, "fps": 12, "loop": false},
+        {"name": "parry", "row": 5, "start_col": 4, "frames": 4, "fps": 18, "loop": false},
+        {"name": "hit_light", "row": 5, "start_col": 8, "frames": 2, "fps": 12, "loop": false},
+        {"name": "hit_heavy", "row": 5, "start_col": 10, "frames": 2, "fps": 10, "loop": false}
+      ]
+    },
+    {
+      "id": "illogical",
+      "path": "art/characters/astra-mycelion/animation-sheets/astra_mycelion_illogical_moves_sheet.png",
+      "columns": 12,
+      "rows": 6,
+      "output_prefix": "illogical",
+      "animations": [
+        {"name": "gravity_flip", "row": 0, "start_col": 0, "frames": 8, "fps": 12, "loop": false},
+        {"name": "upside_down_idle", "row": 0, "start_col": 8, "frames": 4, "fps": 8, "loop": true},
+        {"name": "teleport_glitch_out", "row": 1, "start_col": 0, "frames": 6, "fps": 14, "loop": false},
+        {"name": "teleport_glitch_in", "row": 1, "start_col": 6, "frames": 6, "fps": 14, "loop": false},
+        {"name": "impossible_dash", "row": 2, "start_col": 0, "frames": 8, "fps": 18, "loop": false},
+        {"name": "temporal_freeze", "row": 2, "start_col": 8, "frames": 4, "fps": 6, "loop": true},
+        {"name": "mirror_split", "row": 3, "start_col": 0, "frames": 8, "fps": 12, "loop": false},
+        {"name": "false_fall", "row": 3, "start_col": 8, "frames": 4, "fps": 8, "loop": true},
+        {"name": "phase_through_floor", "row": 4, "start_col": 0, "frames": 8, "fps": 12, "loop": false},
+        {"name": "wrong_landing", "row": 4, "start_col": 8, "frames": 4, "fps": 12, "loop": false},
+        {"name": "fake_death_rebuild", "row": 5, "start_col": 0, "frames": 10, "fps": 12, "loop": false},
+        {"name": "victory_glitch", "row": 5, "start_col": 10, "frames": 2, "fps": 8, "loop": false}
+      ]
+    }
+  ]
+}

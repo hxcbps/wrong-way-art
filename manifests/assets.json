@@ -82,6 +82,39 @@
             "victory_glitch"
           ],
           "status": "draft-01"
+        },
+        {
+          "type": "game-ready-character-frames",
+          "path": "art/characters/astra-mycelion/game-ready/frames",
+          "metadata": "art/characters/astra-mycelion/game-ready/metadata/astra_mycelion_animations.json",
+          "cell_size": "192x192",
+          "frame_count": 216,
+          "status": "technical-draft-01"
+        },
+        {
+          "type": "game-ready-character-atlases",
+          "paths": [
+            "art/characters/astra-mycelion/game-ready/atlases/astra_mycelion_movement_atlas.png",
+            "art/characters/astra-mycelion/game-ready/atlases/astra_mycelion_combat_defense_atlas.png",
+            "art/characters/astra-mycelion/game-ready/atlases/astra_mycelion_illogical_atlas.png"
+          ],
+          "metadata": "art/characters/astra-mycelion/game-ready/metadata/astra_mycelion_animations.json",
+          "status": "technical-draft-01"
+        },
+        {
+          "type": "hud-assets",
+          "path": "art/characters/astra-mycelion/game-ready/hud",
+          "source_sheet": "art/characters/astra-mycelion/hud/astra_mycelion_hud_icons.png",
+          "metadata": "art/characters/astra-mycelion/game-ready/metadata/astra_mycelion_secondary_assets.json",
+          "status": "draft-01"
+        },
+        {
+          "type": "vfx-assets",
+          "path": "art/characters/astra-mycelion/game-ready/vfx",
+          "concept_sheet": "art/vfx/astra-mycelion/astra_mycelion_ability_vfx_sheet.png",
+          "atlas": "art/characters/astra-mycelion/game-ready/vfx/atlases/astra_mycelion_vfx_atlas.png",
+          "metadata": "art/characters/astra-mycelion/game-ready/metadata/astra_mycelion_secondary_assets.json",
+          "status": "gameplay-ready-draft-01"
         }
       ]
     }

@@ -1,0 +1,493 @@
+{
+  "type": "SpriteFrames-import-plan",
+  "cell_size": [
+    192,
+    192
+  ],
+  "pivot_pixels": [
+    96,
+    166
+  ],
+  "animations": {
+    "idle": {
+      "fps": 10,
+      "loop": true,
+      "frames": [
+        "art/characters/astra-mycelion/game-ready/frames/movement/idle/idle_000.png",
+        "art/characters/astra-mycelion/game-ready/frames/movement/idle/idle_001.png",
+        "art/characters/astra-mycelion/game-ready/frames/movement/idle/idle_002.png",
+        "art/characters/astra-mycelion/game-ready/frames/movement/idle/idle_003.png",
+        "art/characters/astra-mycelion/game-ready/frames/movement/idle/idle_004.png",
+        "art/characters/astra-mycelion/game-ready/frames/movement/idle/idle_005.png",
+        "art/characters/astra-mycelion/game-ready/frames/movement/idle/idle_006.png",
+        "art/characters/astra-mycelion/game-ready/frames/movement/idle/idle_007.png"
+      ]
+    },
+    "idle_illogical": {
+      "fps": 8,
+      "loop": true,
+      "frames": [
+        "art/characters/astra-mycelion/game-ready/frames/movement/idle_illogical/idle_illogical_000.png",
+        "art/characters/astra-mycelion/game-ready/frames/movement/idle_illogical/idle_illogical_001.png",
+        "art/characters/astra-mycelion/game-ready/frames/movement/idle_illogical/idle_illogical_002.png",
+        "art/characters/astra-mycelion/game-ready/frames/movement/idle_illogical/idle_illogical_003.png"
+      ]
+    },
+    "walk": {
+      "fps": 12,
+      "loop": true,
+      "frames": [
+        "art/characters/astra-mycelion/game-ready/frames/movement/walk/walk_000.png",
+        "art/characters/astra-mycelion/game-ready/frames/movement/walk/walk_001.png",
+        "art/characters/astra-mycelion/game-ready/frames/movement/walk/walk_002.png",
+        "art/characters/astra-mycelion/game-ready/frames/movement/walk/walk_003.png",
+        "art/characters/astra-mycelion/game-ready/frames/movement/walk/walk_004.png",
+        "art/characters/astra-mycelion/game-ready/frames/movement/walk/walk_005.png",
+        "art/characters/astra-mycelion/game-ready/frames/movement/walk/walk_006.png",
+        "art/characters/astra-mycelion/game-ready/frames/movement/walk/walk_007.png"
+      ]
+    },
+    "reverse_walk": {
+      "fps": 10,
+      "loop": true,
+      "frames": [
+        "art/characters/astra-mycelion/game-ready/frames/movement/reverse_walk/reverse_walk_000.png",
+        "art/characters/astra-mycelion/game-ready/frames/movement/reverse_walk/reverse_walk_001.png",
+        "art/characters/astra-mycelion/game-ready/frames/movement/reverse_walk/reverse_walk_002.png",
+        "art/characters/astra-mycelion/game-ready/frames/movement/reverse_walk/reverse_walk_003.png"
+      ]
+    },
+    "run": {
+      "fps": 16,
+      "loop": true,
+      "frames": [
+        "art/characters/astra-mycelion/game-ready/frames/movement/run/run_000.png",
+        "art/characters/astra-mycelion/game-ready/frames/movement/run/run_001.png",
+        "art/characters/astra-mycelion/game-ready/frames/movement/run/run_002.png",
+        "art/characters/astra-mycelion/game-ready/frames/movement/run/run_003.png",
+        "art/characters/astra-mycelion/game-ready/frames/movement/run/run_004.png",
+        "art/characters/astra-mycelion/game-ready/frames/movement/run/run_005.png",
+        "art/characters/astra-mycelion/game-ready/frames/movement/run/run_006.png",
+        "art/characters/astra-mycelion/game-ready/frames/movement/run/run_007.png"
+      ]
+    },
+    "run_start": {
+      "fps": 16,
+      "loop": false,
+      "frames": [
+        "art/characters/astra-mycelion/game-ready/frames/movement/run_start/run_start_000.png",
+        "art/characters/astra-mycelion/game-ready/frames/movement/run_start/run_start_001.png",
+        "art/characters/astra-mycelion/game-ready/frames/movement/run_start/run_start_002.png",
+        "art/characters/astra-mycelion/game-ready/frames/movement/run_start/run_start_003.png"
+      ]
+    },
+    "run_stop": {
+      "fps": 14,
+      "loop": false,
+      "frames": [
+        "art/characters/astra-mycelion/game-ready/frames/movement/run_stop/run_stop_000.png",
+        "art/characters/astra-mycelion/game-ready/frames/movement/run_stop/run_stop_001.png",
+        "art/characters/astra-mycelion/game-ready/frames/movement/run_stop/run_stop_002.png",
+        "art/characters/astra-mycelion/game-ready/frames/movement/run_stop/run_stop_003.png",
+        "art/characters/astra-mycelion/game-ready/frames/movement/run_stop/run_stop_004.png"
+      ]
+    },
+    "turn_pivot": {
+      "fps": 14,
+      "loop": false,
+      "frames": [
+        "art/characters/astra-mycelion/game-ready/frames/movement/turn_pivot/turn_pivot_000.png",
+        "art/characters/astra-mycelion/game-ready/frames/movement/turn_pivot/turn_pivot_001.png",
+        "art/characters/astra-mycelion/game-ready/frames/movement/turn_pivot/turn_pivot_002.png",
+        "art/characters/astra-mycelion/game-ready/frames/movement/turn_pivot/turn_pivot_003.png"
+      ]
+    },
+    "crouch": {
+      "fps": 10,
+      "loop": false,
+      "frames": [
+        "art/characters/astra-mycelion/game-ready/frames/movement/crouch/crouch_000.png",
+        "art/characters/astra-mycelion/game-ready/frames/movement/crouch/crouch_001.png",
+        "art/characters/astra-mycelion/game-ready/frames/movement/crouch/crouch_002.png"
+      ]
+    },
+    "jump_start": {
+      "fps": 14,
+      "loop": false,
+      "frames": [
+        "art/characters/astra-mycelion/game-ready/frames/movement/jump_start/jump_start_000.png",
+        "art/characters/astra-mycelion/game-ready/frames/movement/jump_start/jump_start_001.png",
+        "art/characters/astra-mycelion/game-ready/frames/movement/jump_start/jump_start_002.png",
+        "art/characters/astra-mycelion/game-ready/frames/movement/jump_start/jump_start_003.png"
+      ]
+    },
+    "jump_up": {
+      "fps": 12,
+      "loop": false,
+      "frames": [
+        "art/characters/astra-mycelion/game-ready/frames/movement/jump_up/jump_up_000.png",
+        "art/characters/astra-mycelion/game-ready/frames/movement/jump_up/jump_up_001.png",
+        "art/characters/astra-mycelion/game-ready/frames/movement/jump_up/jump_up_002.png"
+      ]
+    },
+    "jump_apex": {
+      "fps": 8,
+      "loop": true,
+      "frames": [
+        "art/characters/astra-mycelion/game-ready/frames/movement/jump_apex/jump_apex_000.png",
+        "art/characters/astra-mycelion/game-ready/frames/movement/jump_apex/jump_apex_001.png"
+      ]
+    },
+    "fall_loop": {
+      "fps": 10,
+      "loop": true,
+      "frames": [
+        "art/characters/astra-mycelion/game-ready/frames/movement/fall_loop/fall_loop_000.png",
+        "art/characters/astra-mycelion/game-ready/frames/movement/fall_loop/fall_loop_001.png",
+        "art/characters/astra-mycelion/game-ready/frames/movement/fall_loop/fall_loop_002.png"
+      ]
+    },
+    "land_soft": {
+      "fps": 14,
+      "loop": false,
+      "frames": [
+        "art/characters/astra-mycelion/game-ready/frames/movement/land_soft/land_soft_000.png",
+        "art/characters/astra-mycelion/game-ready/frames/movement/land_soft/land_soft_001.png",
+        "art/characters/astra-mycelion/game-ready/frames/movement/land_soft/land_soft_002.png",
+        "art/characters/astra-mycelion/game-ready/frames/movement/land_soft/land_soft_003.png"
+      ]
+    },
+    "land_hard": {
+      "fps": 14,
+      "loop": false,
+      "frames": [
+        "art/characters/astra-mycelion/game-ready/frames/movement/land_hard/land_hard_000.png",
+        "art/characters/astra-mycelion/game-ready/frames/movement/land_hard/land_hard_001.png",
+        "art/characters/astra-mycelion/game-ready/frames/movement/land_hard/land_hard_002.png",
+        "art/characters/astra-mycelion/game-ready/frames/movement/land_hard/land_hard_003.png"
+      ]
+    },
+    "double_jump": {
+      "fps": 14,
+      "loop": false,
+      "frames": [
+        "art/characters/astra-mycelion/game-ready/frames/movement/double_jump/double_jump_000.png",
+        "art/characters/astra-mycelion/game-ready/frames/movement/double_jump/double_jump_001.png",
+        "art/characters/astra-mycelion/game-ready/frames/movement/double_jump/double_jump_002.png",
+        "art/characters/astra-mycelion/game-ready/frames/movement/double_jump/double_jump_003.png"
+      ]
+    },
+    "attack_1": {
+      "fps": 16,
+      "loop": false,
+      "frames": [
+        "art/characters/astra-mycelion/game-ready/frames/combat-defense/attack_1/attack_1_000.png",
+        "art/characters/astra-mycelion/game-ready/frames/combat-defense/attack_1/attack_1_001.png",
+        "art/characters/astra-mycelion/game-ready/frames/combat-defense/attack_1/attack_1_002.png",
+        "art/characters/astra-mycelion/game-ready/frames/combat-defense/attack_1/attack_1_003.png",
+        "art/characters/astra-mycelion/game-ready/frames/combat-defense/attack_1/attack_1_004.png",
+        "art/characters/astra-mycelion/game-ready/frames/combat-defense/attack_1/attack_1_005.png"
+      ]
+    },
+    "attack_2": {
+      "fps": 16,
+      "loop": false,
+      "frames": [
+        "art/characters/astra-mycelion/game-ready/frames/combat-defense/attack_2/attack_2_000.png",
+        "art/characters/astra-mycelion/game-ready/frames/combat-defense/attack_2/attack_2_001.png",
+        "art/characters/astra-mycelion/game-ready/frames/combat-defense/attack_2/attack_2_002.png",
+        "art/characters/astra-mycelion/game-ready/frames/combat-defense/attack_2/attack_2_003.png",
+        "art/characters/astra-mycelion/game-ready/frames/combat-defense/attack_2/attack_2_004.png",
+        "art/characters/astra-mycelion/game-ready/frames/combat-defense/attack_2/attack_2_005.png"
+      ]
+    },
+    "attack_3": {
+      "fps": 16,
+      "loop": false,
+      "frames": [
+        "art/characters/astra-mycelion/game-ready/frames/combat-defense/attack_3/attack_3_000.png",
+        "art/characters/astra-mycelion/game-ready/frames/combat-defense/attack_3/attack_3_001.png",
+        "art/characters/astra-mycelion/game-ready/frames/combat-defense/attack_3/attack_3_002.png",
+        "art/characters/astra-mycelion/game-ready/frames/combat-defense/attack_3/attack_3_003.png",
+        "art/characters/astra-mycelion/game-ready/frames/combat-defense/attack_3/attack_3_004.png",
+        "art/characters/astra-mycelion/game-ready/frames/combat-defense/attack_3/attack_3_005.png",
+        "art/characters/astra-mycelion/game-ready/frames/combat-defense/attack_3/attack_3_006.png",
+        "art/characters/astra-mycelion/game-ready/frames/combat-defense/attack_3/attack_3_007.png"
+      ]
+    },
+    "air_attack": {
+      "fps": 14,
+      "loop": false,
+      "frames": [
+        "art/characters/astra-mycelion/game-ready/frames/combat-defense/air_attack/air_attack_000.png",
+        "art/characters/astra-mycelion/game-ready/frames/combat-defense/air_attack/air_attack_001.png",
+        "art/characters/astra-mycelion/game-ready/frames/combat-defense/air_attack/air_attack_002.png",
+        "art/characters/astra-mycelion/game-ready/frames/combat-defense/air_attack/air_attack_003.png"
+      ]
+    },
+    "dash_attack": {
+      "fps": 18,
+      "loop": false,
+      "frames": [
+        "art/characters/astra-mycelion/game-ready/frames/combat-defense/dash_attack/dash_attack_000.png",
+        "art/characters/astra-mycelion/game-ready/frames/combat-defense/dash_attack/dash_attack_001.png",
+        "art/characters/astra-mycelion/game-ready/frames/combat-defense/dash_attack/dash_attack_002.png",
+        "art/characters/astra-mycelion/game-ready/frames/combat-defense/dash_attack/dash_attack_003.png",
+        "art/characters/astra-mycelion/game-ready/frames/combat-defense/dash_attack/dash_attack_004.png",
+        "art/characters/astra-mycelion/game-ready/frames/combat-defense/dash_attack/dash_attack_005.png"
+      ]
+    },
+    "charged_attack_startup": {
+      "fps": 12,
+      "loop": false,
+      "frames": [
+        "art/characters/astra-mycelion/game-ready/frames/combat-defense/charged_attack_startup/charged_attack_startup_000.png",
+        "art/characters/astra-mycelion/game-ready/frames/combat-defense/charged_attack_startup/charged_attack_startup_001.png",
+        "art/characters/astra-mycelion/game-ready/frames/combat-defense/charged_attack_startup/charged_attack_startup_002.png",
+        "art/characters/astra-mycelion/game-ready/frames/combat-defense/charged_attack_startup/charged_attack_startup_003.png",
+        "art/characters/astra-mycelion/game-ready/frames/combat-defense/charged_attack_startup/charged_attack_startup_004.png",
+        "art/characters/astra-mycelion/game-ready/frames/combat-defense/charged_attack_startup/charged_attack_startup_005.png"
+      ]
+    },
+    "charged_attack_loop": {
+      "fps": 10,
+      "loop": true,
+      "frames": [
+        "art/characters/astra-mycelion/game-ready/frames/combat-defense/charged_attack_loop/charged_attack_loop_000.png",
+        "art/characters/astra-mycelion/game-ready/frames/combat-defense/charged_attack_loop/charged_attack_loop_001.png",
+        "art/characters/astra-mycelion/game-ready/frames/combat-defense/charged_attack_loop/charged_attack_loop_002.png",
+        "art/characters/astra-mycelion/game-ready/frames/combat-defense/charged_attack_loop/charged_attack_loop_003.png"
+      ]
+    },
+    "charged_attack_release": {
+      "fps": 16,
+      "loop": false,
+      "frames": [
+        "art/characters/astra-mycelion/game-ready/frames/combat-defense/charged_attack_release/charged_attack_release_000.png",
+        "art/characters/astra-mycelion/game-ready/frames/combat-defense/charged_attack_release/charged_attack_release_001.png",
+        "art/characters/astra-mycelion/game-ready/frames/combat-defense/charged_attack_release/charged_attack_release_002.png",
+        "art/characters/astra-mycelion/game-ready/frames/combat-defense/charged_attack_release/charged_attack_release_003.png"
+      ]
+    },
+    "projectile_cast": {
+      "fps": 14,
+      "loop": false,
+      "frames": [
+        "art/characters/astra-mycelion/game-ready/frames/combat-defense/projectile_cast/projectile_cast_000.png",
+        "art/characters/astra-mycelion/game-ready/frames/combat-defense/projectile_cast/projectile_cast_001.png",
+        "art/characters/astra-mycelion/game-ready/frames/combat-defense/projectile_cast/projectile_cast_002.png",
+        "art/characters/astra-mycelion/game-ready/frames/combat-defense/projectile_cast/projectile_cast_003.png"
+      ]
+    },
+    "shield_start": {
+      "fps": 12,
+      "loop": false,
+      "frames": [
+        "art/characters/astra-mycelion/game-ready/frames/combat-defense/shield_start/shield_start_000.png",
+        "art/characters/astra-mycelion/game-ready/frames/combat-defense/shield_start/shield_start_001.png",
+        "art/characters/astra-mycelion/game-ready/frames/combat-defense/shield_start/shield_start_002.png",
+        "art/characters/astra-mycelion/game-ready/frames/combat-defense/shield_start/shield_start_003.png"
+      ]
+    },
+    "shield_loop": {
+      "fps": 10,
+      "loop": true,
+      "frames": [
+        "art/characters/astra-mycelion/game-ready/frames/combat-defense/shield_loop/shield_loop_000.png",
+        "art/characters/astra-mycelion/game-ready/frames/combat-defense/shield_loop/shield_loop_001.png",
+        "art/characters/astra-mycelion/game-ready/frames/combat-defense/shield_loop/shield_loop_002.png",
+        "art/characters/astra-mycelion/game-ready/frames/combat-defense/shield_loop/shield_loop_003.png"
+      ]
+    },
+    "shield_impact": {
+      "fps": 12,
+      "loop": false,
+      "frames": [
+        "art/characters/astra-mycelion/game-ready/frames/combat-defense/shield_impact/shield_impact_000.png",
+        "art/characters/astra-mycelion/game-ready/frames/combat-defense/shield_impact/shield_impact_001.png",
+        "art/characters/astra-mycelion/game-ready/frames/combat-defense/shield_impact/shield_impact_002.png",
+        "art/characters/astra-mycelion/game-ready/frames/combat-defense/shield_impact/shield_impact_003.png"
+      ]
+    },
+    "shield_break": {
+      "fps": 12,
+      "loop": false,
+      "frames": [
+        "art/characters/astra-mycelion/game-ready/frames/combat-defense/shield_break/shield_break_000.png",
+        "art/characters/astra-mycelion/game-ready/frames/combat-defense/shield_break/shield_break_001.png",
+        "art/characters/astra-mycelion/game-ready/frames/combat-defense/shield_break/shield_break_002.png",
+        "art/characters/astra-mycelion/game-ready/frames/combat-defense/shield_break/shield_break_003.png"
+      ]
+    },
+    "parry": {
+      "fps": 18,
+      "loop": false,
+      "frames": [
+        "art/characters/astra-mycelion/game-ready/frames/combat-defense/parry/parry_000.png",
+        "art/characters/astra-mycelion/game-ready/frames/combat-defense/parry/parry_001.png",
+        "art/characters/astra-mycelion/game-ready/frames/combat-defense/parry/parry_002.png",
+        "art/characters/astra-mycelion/game-ready/frames/combat-defense/parry/parry_003.png"
+      ]
+    },
+    "hit_light": {
+      "fps": 12,
+      "loop": false,
+      "frames": [
+        "art/characters/astra-mycelion/game-ready/frames/combat-defense/hit_light/hit_light_000.png",
+        "art/characters/astra-mycelion/game-ready/frames/combat-defense/hit_light/hit_light_001.png"
+      ]
+    },
+    "hit_heavy": {
+      "fps": 10,
+      "loop": false,
+      "frames": [
+        "art/characters/astra-mycelion/game-ready/frames/combat-defense/hit_heavy/hit_heavy_000.png",
+        "art/characters/astra-mycelion/game-ready/frames/combat-defense/hit_heavy/hit_heavy_001.png"
+      ]
+    },
+    "gravity_flip": {
+      "fps": 12,
+      "loop": false,
+      "frames": [
+        "art/characters/astra-mycelion/game-ready/frames/illogical/gravity_flip/gravity_flip_000.png",
+        "art/characters/astra-mycelion/game-ready/frames/illogical/gravity_flip/gravity_flip_001.png",
+        "art/characters/astra-mycelion/game-ready/frames/illogical/gravity_flip/gravity_flip_002.png",
+        "art/characters/astra-mycelion/game-ready/frames/illogical/gravity_flip/gravity_flip_003.png",
+        "art/characters/astra-mycelion/game-ready/frames/illogical/gravity_flip/gravity_flip_004.png",
+        "art/characters/astra-mycelion/game-ready/frames/illogical/gravity_flip/gravity_flip_005.png",
+        "art/characters/astra-mycelion/game-ready/frames/illogical/gravity_flip/gravity_flip_006.png",
+        "art/characters/astra-mycelion/game-ready/frames/illogical/gravity_flip/gravity_flip_007.png"
+      ]
+    },
+    "upside_down_idle": {
+      "fps": 8,
+      "loop": true,
+      "frames": [
+        "art/characters/astra-mycelion/game-ready/frames/illogical/upside_down_idle/upside_down_idle_000.png",
+        "art/characters/astra-mycelion/game-ready/frames/illogical/upside_down_idle/upside_down_idle_001.png",
+        "art/characters/astra-mycelion/game-ready/frames/illogical/upside_down_idle/upside_down_idle_002.png",
+        "art/characters/astra-mycelion/game-ready/frames/illogical/upside_down_idle/upside_down_idle_003.png"
+      ]
+    },
+    "teleport_glitch_out": {
+      "fps": 14,
+      "loop": false,
+      "frames": [
+        "art/characters/astra-mycelion/game-ready/frames/illogical/teleport_glitch_out/teleport_glitch_out_000.png",
+        "art/characters/astra-mycelion/game-ready/frames/illogical/teleport_glitch_out/teleport_glitch_out_001.png",
+        "art/characters/astra-mycelion/game-ready/frames/illogical/teleport_glitch_out/teleport_glitch_out_002.png",
+        "art/characters/astra-mycelion/game-ready/frames/illogical/teleport_glitch_out/teleport_glitch_out_003.png",
+        "art/characters/astra-mycelion/game-ready/frames/illogical/teleport_glitch_out/teleport_glitch_out_004.png",
+        "art/characters/astra-mycelion/game-ready/frames/illogical/teleport_glitch_out/teleport_glitch_out_005.png"
+      ]
+    },
+    "teleport_glitch_in": {
+      "fps": 14,
+      "loop": false,
+      "frames": [
+        "art/characters/astra-mycelion/game-ready/frames/illogical/teleport_glitch_in/teleport_glitch_in_000.png",
+        "art/characters/astra-mycelion/game-ready/frames/illogical/teleport_glitch_in/teleport_glitch_in_001.png",
+        "art/characters/astra-mycelion/game-ready/frames/illogical/teleport_glitch_in/teleport_glitch_in_002.png",
+        "art/characters/astra-mycelion/game-ready/frames/illogical/teleport_glitch_in/teleport_glitch_in_003.png",
+        "art/characters/astra-mycelion/game-ready/frames/illogical/teleport_glitch_in/teleport_glitch_in_004.png",
+        "art/characters/astra-mycelion/game-ready/frames/illogical/teleport_glitch_in/teleport_glitch_in_005.png"
+      ]
+    },
+    "impossible_dash": {
+      "fps": 18,
+      "loop": false,
+      "frames": [
+        "art/characters/astra-mycelion/game-ready/frames/illogical/impossible_dash/impossible_dash_000.png",
+        "art/characters/astra-mycelion/game-ready/frames/illogical/impossible_dash/impossible_dash_001.png",
+        "art/characters/astra-mycelion/game-ready/frames/illogical/impossible_dash/impossible_dash_002.png",
+        "art/characters/astra-mycelion/game-ready/frames/illogical/impossible_dash/impossible_dash_003.png",
+        "art/characters/astra-mycelion/game-ready/frames/illogical/impossible_dash/impossible_dash_004.png",
+        "art/characters/astra-mycelion/game-ready/frames/illogical/impossible_dash/impossible_dash_005.png",
+        "art/characters/astra-mycelion/game-ready/frames/illogical/impossible_dash/impossible_dash_006.png",
+        "art/characters/astra-mycelion/game-ready/frames/illogical/impossible_dash/impossible_dash_007.png"
+      ]
+    },
+    "temporal_freeze": {
+      "fps": 6,
+      "loop": true,
+      "frames": [
+        "art/characters/astra-mycelion/game-ready/frames/illogical/temporal_freeze/temporal_freeze_000.png",
+        "art/characters/astra-mycelion/game-ready/frames/illogical/temporal_freeze/temporal_freeze_001.png",
+        "art/characters/astra-mycelion/game-ready/frames/illogical/temporal_freeze/temporal_freeze_002.png",
+        "art/characters/astra-mycelion/game-ready/frames/illogical/temporal_freeze/temporal_freeze_003.png"
+      ]
+    },
+    "mirror_split": {
+      "fps": 12,
+      "loop": false,
+      "frames": [
+        "art/characters/astra-mycelion/game-ready/frames/illogical/mirror_split/mirror_split_000.png",
+        "art/characters/astra-mycelion/game-ready/frames/illogical/mirror_split/mirror_split_001.png",
+        "art/characters/astra-mycelion/game-ready/frames/illogical/mirror_split/mirror_split_002.png",
+        "art/characters/astra-mycelion/game-ready/frames/illogical/mirror_split/mirror_split_003.png",
+        "art/characters/astra-mycelion/game-ready/frames/illogical/mirror_split/mirror_split_004.png",
+        "art/characters/astra-mycelion/game-ready/frames/illogical/mirror_split/mirror_split_005.png",
+        "art/characters/astra-mycelion/game-ready/frames/illogical/mirror_split/mirror_split_006.png",
+        "art/characters/astra-mycelion/game-ready/frames/illogical/mirror_split/mirror_split_007.png"
+      ]
+    },
+    "false_fall": {
+      "fps": 8,
+      "loop": true,
+      "frames": [
+        "art/characters/astra-mycelion/game-ready/frames/illogical/false_fall/false_fall_000.png",
+        "art/characters/astra-mycelion/game-ready/frames/illogical/false_fall/false_fall_001.png",
+        "art/characters/astra-mycelion/game-ready/frames/illogical/false_fall/false_fall_002.png",
+        "art/characters/astra-mycelion/game-ready/frames/illogical/false_fall/false_fall_003.png"
+      ]
+    },
+    "phase_through_floor": {
+      "fps": 12,
+      "loop": false,
+      "frames": [
+        "art/characters/astra-mycelion/game-ready/frames/illogical/phase_through_floor/phase_through_floor_000.png",
+        "art/characters/astra-mycelion/game-ready/frames/illogical/phase_through_floor/phase_through_floor_001.png",
+        "art/characters/astra-mycelion/game-ready/frames/illogical/phase_through_floor/phase_through_floor_002.png",
+        "art/characters/astra-mycelion/game-ready/frames/illogical/phase_through_floor/phase_through_floor_003.png",
+        "art/characters/astra-mycelion/game-ready/frames/illogical/phase_through_floor/phase_through_floor_004.png",
+        "art/characters/astra-mycelion/game-ready/frames/illogical/phase_through_floor/phase_through_floor_005.png",
+        "art/characters/astra-mycelion/game-ready/frames/illogical/phase_through_floor/phase_through_floor_006.png",
+        "art/characters/astra-mycelion/game-ready/frames/illogical/phase_through_floor/phase_through_floor_007.png"
+      ]
+    },
+    "wrong_landing": {
+      "fps": 12,
+      "loop": false,
+      "frames": [
+        "art/characters/astra-mycelion/game-ready/frames/illogical/wrong_landing/wrong_landing_000.png",
+        "art/characters/astra-mycelion/game-ready/frames/illogical/wrong_landing/wrong_landing_001.png",
+        "art/characters/astra-mycelion/game-ready/frames/illogical/wrong_landing/wrong_landing_002.png",
+        "art/characters/astra-mycelion/game-ready/frames/illogical/wrong_landing/wrong_landing_003.png"
+      ]
+    },
+    "fake_death_rebuild": {
+      "fps": 12,
+      "loop": false,
+      "frames": [
+        "art/characters/astra-mycelion/game-ready/frames/illogical/fake_death_rebuild/fake_death_rebuild_000.png",
+        "art/characters/astra-mycelion/game-ready/frames/illogical/fake_death_rebuild/fake_death_rebuild_001.png",
+        "art/characters/astra-mycelion/game-ready/frames/illogical/fake_death_rebuild/fake_death_rebuild_002.png",
+        "art/characters/astra-mycelion/game-ready/frames/illogical/fake_death_rebuild/fake_death_rebuild_003.png",
+        "art/characters/astra-mycelion/game-ready/frames/illogical/fake_death_rebuild/fake_death_rebuild_004.png",
+        "art/characters/astra-mycelion/game-ready/frames/illogical/fake_death_rebuild/fake_death_rebuild_005.png",
+        "art/characters/astra-mycelion/game-ready/frames/illogical/fake_death_rebuild/fake_death_rebuild_006.png",
+        "art/characters/astra-mycelion/game-ready/frames/illogical/fake_death_rebuild/fake_death_rebuild_007.png",
+        "art/characters/astra-mycelion/game-ready/frames/illogical/fake_death_rebuild/fake_death_rebuild_008.png",
+        "art/characters/astra-mycelion/game-ready/frames/illogical/fake_death_rebuild/fake_death_rebuild_009.png"
+      ]
+    },
+    "victory_glitch": {
+      "fps": 8,
+      "loop": false,
+      "frames": [
+        "art/characters/astra-mycelion/game-ready/frames/illogical/victory_glitch/victory_glitch_000.png",
+        "art/characters/astra-mycelion/game-ready/frames/illogical/victory_glitch/victory_glitch_001.png"
+      ]
+    }
+  }
+}

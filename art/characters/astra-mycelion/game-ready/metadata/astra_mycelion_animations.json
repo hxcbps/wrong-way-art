@@ -1,0 +1,8457 @@
+{
+  "character": "astra-mycelion",
+  "display_name": "Astra Mycelion",
+  "cell_size": [
+    192,
+    192
+  ],
+  "pivot_pixels": [
+    96,
+    166
+  ],
+  "pivot_normalized_unity": [
+    0.5,
+    0.8645833333
+  ],
+  "animations": {
+    "idle": {
+      "sheet": "movement",
+      "fps": 10,
+      "loop": true,
+      "frames": [
+        {
+          "index": 0,
+          "file": "art/characters/astra-mycelion/game-ready/frames/movement/idle/idle_000.png",
+          "duration": 0.1,
+          "source_grid": {
+            "row": 0,
+            "column": 0,
+            "box": [
+              38,
+              9,
+              175,
+              159
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            8,
+            129,
+            142
+          ],
+          "trimmed_size": [
+            121,
+            134
+          ],
+          "paste_xy": [
+            36,
+            32
+          ]
+        },
+        {
+          "index": 1,
+          "file": "art/characters/astra-mycelion/game-ready/frames/movement/idle/idle_001.png",
+          "duration": 0.1,
+          "source_grid": {
+            "row": 0,
+            "column": 1,
+            "box": [
+              178,
+              9,
+              307,
+              159
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            8,
+            121,
+            142
+          ],
+          "trimmed_size": [
+            113,
+            134
+          ],
+          "paste_xy": [
+            40,
+            32
+          ]
+        },
+        {
+          "index": 2,
+          "file": "art/characters/astra-mycelion/game-ready/frames/movement/idle/idle_002.png",
+          "duration": 0.1,
+          "source_grid": {
+            "row": 0,
+            "column": 2,
+            "box": [
+              317,
+              10,
+              441,
+              158
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            8,
+            116,
+            140
+          ],
+          "trimmed_size": [
+            108,
+            132
+          ],
+          "paste_xy": [
+            42,
+            34
+          ]
+        },
+        {
+          "index": 3,
+          "file": "art/characters/astra-mycelion/game-ready/frames/movement/idle/idle_003.png",
+          "duration": 0.1,
+          "source_grid": {
+            "row": 0,
+            "column": 3,
+            "box": [
+              443,
+              8,
+              564,
+              158
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            8,
+            113,
+            142
+          ],
+          "trimmed_size": [
+            105,
+            134
+          ],
+          "paste_xy": [
+            44,
+            32
+          ]
+        },
+        {
+          "index": 4,
+          "file": "art/characters/astra-mycelion/game-ready/frames/movement/idle/idle_004.png",
+          "duration": 0.1,
+          "source_grid": {
+            "row": 0,
+            "column": 4,
+            "box": [
+              572,
+              10,
+              695,
+              158
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            8,
+            115,
+            140
+          ],
+          "trimmed_size": [
+            107,
+            132
+          ],
+          "paste_xy": [
+            42,
+            34
+          ]
+        },
+        {
+          "index": 5,
+          "file": "art/characters/astra-mycelion/game-ready/frames/movement/idle/idle_005.png",
+          "duration": 0.1,
+          "source_grid": {
+            "row": 0,
+            "column": 5,
+            "box": [
+              693,
+              11,
+              824,
+              158
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            8,
+            123,
+            139
+          ],
+          "trimmed_size": [
+            115,
+            131
+          ],
+          "paste_xy": [
+            38,
+            35
+          ]
+        },
+        {
+          "index": 6,
+          "file": "art/characters/astra-mycelion/game-ready/frames/movement/idle/idle_006.png",
+          "duration": 0.1,
+          "source_grid": {
+            "row": 0,
+            "column": 6,
+            "box": [
+              838,
+              11,
+              946,
+              159
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            8,
+            100,
+            140
+          ],
+          "trimmed_size": [
+            92,
+            132
+          ],
+          "paste_xy": [
+            50,
+            34
+          ]
+        },
+        {
+          "index": 7,
+          "file": "art/characters/astra-mycelion/game-ready/frames/movement/idle/idle_007.png",
+          "duration": 0.1,
+          "source_grid": {
+            "row": 0,
+            "column": 7,
+            "box": [
+              953,
+              13,
+              1076,
+              159
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            8,
+            115,
+            138
+          ],
+          "trimmed_size": [
+            107,
+            130
+          ],
+          "paste_xy": [
+            42,
+            36
+          ]
+        }
+      ]
+    },
+    "idle_illogical": {
+      "sheet": "movement",
+      "fps": 8,
+      "loop": true,
+      "frames": [
+        {
+          "index": 0,
+          "file": "art/characters/astra-mycelion/game-ready/frames/movement/idle_illogical/idle_illogical_000.png",
+          "duration": 0.125,
+          "source_grid": {
+            "row": 0,
+            "column": 8,
+            "box": [
+              1095,
+              11,
+              1204,
+              157
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            8,
+            101,
+            138
+          ],
+          "trimmed_size": [
+            93,
+            130
+          ],
+          "paste_xy": [
+            50,
+            36
+          ]
+        },
+        {
+          "index": 1,
+          "file": "art/characters/astra-mycelion/game-ready/frames/movement/idle_illogical/idle_illogical_001.png",
+          "duration": 0.125,
+          "source_grid": {
+            "row": 0,
+            "column": 9,
+            "box": [
+              1199,
+              9,
+              1331,
+              157
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            8,
+            124,
+            140
+          ],
+          "trimmed_size": [
+            116,
+            132
+          ],
+          "paste_xy": [
+            38,
+            34
+          ]
+        },
+        {
+          "index": 2,
+          "file": "art/characters/astra-mycelion/game-ready/frames/movement/idle_illogical/idle_illogical_002.png",
+          "duration": 0.125,
+          "source_grid": {
+            "row": 0,
+            "column": 10,
+            "box": [
+              1335,
+              12,
+              1468,
+              155
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            8,
+            125,
+            135
+          ],
+          "trimmed_size": [
+            117,
+            127
+          ],
+          "paste_xy": [
+            38,
+            39
+          ]
+        },
+        {
+          "index": 3,
+          "file": "art/characters/astra-mycelion/game-ready/frames/movement/idle_illogical/idle_illogical_003.png",
+          "duration": 0.125,
+          "source_grid": {
+            "row": 0,
+            "column": 11,
+            "box": [
+              1474,
+              11,
+              1594,
+              159
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            8,
+            112,
+            140
+          ],
+          "trimmed_size": [
+            104,
+            132
+          ],
+          "paste_xy": [
+            44,
+            34
+          ]
+        }
+      ]
+    },
+    "walk": {
+      "sheet": "movement",
+      "fps": 12,
+      "loop": true,
+      "frames": [
+        {
+          "index": 0,
+          "file": "art/characters/astra-mycelion/game-ready/frames/movement/walk/walk_000.png",
+          "duration": 0.083333,
+          "source_grid": {
+            "row": 1,
+            "column": 0,
+            "box": [
+              46,
+              140,
+              171,
+              298
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            32,
+            117,
+            150
+          ],
+          "trimmed_size": [
+            109,
+            118
+          ],
+          "paste_xy": [
+            42,
+            48
+          ]
+        },
+        {
+          "index": 1,
+          "file": "art/characters/astra-mycelion/game-ready/frames/movement/walk/walk_001.png",
+          "duration": 0.083333,
+          "source_grid": {
+            "row": 1,
+            "column": 1,
+            "box": [
+              180,
+              140,
+              301,
+              294
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            31,
+            113,
+            146
+          ],
+          "trimmed_size": [
+            105,
+            115
+          ],
+          "paste_xy": [
+            44,
+            51
+          ]
+        },
+        {
+          "index": 2,
+          "file": "art/characters/astra-mycelion/game-ready/frames/movement/walk/walk_002.png",
+          "duration": 0.083333,
+          "source_grid": {
+            "row": 1,
+            "column": 2,
+            "box": [
+              312,
+              140,
+              429,
+              303
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            32,
+            109,
+            155
+          ],
+          "trimmed_size": [
+            101,
+            123
+          ],
+          "paste_xy": [
+            46,
+            43
+          ]
+        },
+        {
+          "index": 3,
+          "file": "art/characters/astra-mycelion/game-ready/frames/movement/walk/walk_003.png",
+          "duration": 0.083333,
+          "source_grid": {
+            "row": 1,
+            "column": 3,
+            "box": [
+              435,
+              140,
+              559,
+              300
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            33,
+            116,
+            152
+          ],
+          "trimmed_size": [
+            108,
+            119
+          ],
+          "paste_xy": [
+            42,
+            47
+          ]
+        },
+        {
+          "index": 4,
+          "file": "art/characters/astra-mycelion/game-ready/frames/movement/walk/walk_004.png",
+          "duration": 0.083333,
+          "source_grid": {
+            "row": 1,
+            "column": 4,
+            "box": [
+              578,
+              140,
+              690,
+              302
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            36,
+            104,
+            154
+          ],
+          "trimmed_size": [
+            96,
+            118
+          ],
+          "paste_xy": [
+            48,
+            48
+          ]
+        },
+        {
+          "index": 5,
+          "file": "art/characters/astra-mycelion/game-ready/frames/movement/walk/walk_005.png",
+          "duration": 0.083333,
+          "source_grid": {
+            "row": 1,
+            "column": 5,
+            "box": [
+              703,
+              140,
+              820,
+              302
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            30,
+            109,
+            154
+          ],
+          "trimmed_size": [
+            101,
+            124
+          ],
+          "paste_xy": [
+            46,
+            42
+          ]
+        },
+        {
+          "index": 6,
+          "file": "art/characters/astra-mycelion/game-ready/frames/movement/walk/walk_006.png",
+          "duration": 0.083333,
+          "source_grid": {
+            "row": 1,
+            "column": 6,
+            "box": [
+              830,
+              140,
+              951,
+              298
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            36,
+            113,
+            150
+          ],
+          "trimmed_size": [
+            105,
+            114
+          ],
+          "paste_xy": [
+            44,
+            52
+          ]
+        },
+        {
+          "index": 7,
+          "file": "art/characters/astra-mycelion/game-ready/frames/movement/walk/walk_007.png",
+          "duration": 0.083333,
+          "source_grid": {
+            "row": 1,
+            "column": 7,
+            "box": [
+              960,
+              140,
+              1068,
+              304
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            33,
+            100,
+            156
+          ],
+          "trimmed_size": [
+            92,
+            123
+          ],
+          "paste_xy": [
+            50,
+            43
+          ]
+        }
+      ]
+    },
+    "reverse_walk": {
+      "sheet": "movement",
+      "fps": 10,
+      "loop": true,
+      "frames": [
+        {
+          "index": 0,
+          "file": "art/characters/astra-mycelion/game-ready/frames/movement/reverse_walk/reverse_walk_000.png",
+          "duration": 0.1,
+          "source_grid": {
+            "row": 1,
+            "column": 8,
+            "box": [
+              1070,
+              140,
+              1203,
+              303
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            35,
+            125,
+            155
+          ],
+          "trimmed_size": [
+            117,
+            120
+          ],
+          "paste_xy": [
+            38,
+            46
+          ]
+        },
+        {
+          "index": 1,
+          "file": "art/characters/astra-mycelion/game-ready/frames/movement/reverse_walk/reverse_walk_001.png",
+          "duration": 0.1,
+          "source_grid": {
+            "row": 1,
+            "column": 9,
+            "box": [
+              1218,
+              140,
+              1332,
+              302
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            35,
+            106,
+            154
+          ],
+          "trimmed_size": [
+            98,
+            119
+          ],
+          "paste_xy": [
+            47,
+            47
+          ]
+        },
+        {
+          "index": 2,
+          "file": "art/characters/astra-mycelion/game-ready/frames/movement/reverse_walk/reverse_walk_002.png",
+          "duration": 0.1,
+          "source_grid": {
+            "row": 1,
+            "column": 10,
+            "box": [
+              1339,
+              167,
+              1469,
+              302
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            8,
+            122,
+            127
+          ],
+          "trimmed_size": [
+            114,
+            119
+          ],
+          "paste_xy": [
+            39,
+            47
+          ]
+        },
+        {
+          "index": 3,
+          "file": "art/characters/astra-mycelion/game-ready/frames/movement/reverse_walk/reverse_walk_003.png",
+          "duration": 0.1,
+          "source_grid": {
+            "row": 1,
+            "column": 11,
+            "box": [
+              1471,
+              140,
+              1611,
+              302
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            40,
+            132,
+            154
+          ],
+          "trimmed_size": [
+            124,
+            114
+          ],
+          "paste_xy": [
+            34,
+            52
+          ]
+        }
+      ]
+    },
+    "run": {
+      "sheet": "movement",
+      "fps": 16,
+      "loop": true,
+      "frames": [
+        {
+          "index": 0,
+          "file": "art/characters/astra-mycelion/game-ready/frames/movement/run/run_000.png",
+          "duration": 0.0625,
+          "source_grid": {
+            "row": 2,
+            "column": 0,
+            "box": [
+              19,
+              281,
+              164,
+              437
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            48,
+            137,
+            148
+          ],
+          "trimmed_size": [
+            129,
+            100
+          ],
+          "paste_xy": [
+            32,
+            66
+          ]
+        },
+        {
+          "index": 1,
+          "file": "art/characters/astra-mycelion/game-ready/frames/movement/run/run_001.png",
+          "duration": 0.0625,
+          "source_grid": {
+            "row": 2,
+            "column": 1,
+            "box": [
+              158,
+              324,
+              302,
+              439
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            8,
+            136,
+            107
+          ],
+          "trimmed_size": [
+            128,
+            99
+          ],
+          "paste_xy": [
+            32,
+            67
+          ]
+        },
+        {
+          "index": 2,
+          "file": "art/characters/astra-mycelion/game-ready/frames/movement/run/run_002.png",
+          "duration": 0.0625,
+          "source_grid": {
+            "row": 2,
+            "column": 2,
+            "box": [
+              296,
+              281,
+              447,
+              442
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            7,
+            149,
+            153
+          ],
+          "trimmed_size": [
+            141,
+            146
+          ],
+          "paste_xy": [
+            26,
+            20
+          ]
+        },
+        {
+          "index": 3,
+          "file": "art/characters/astra-mycelion/game-ready/frames/movement/run/run_003.png",
+          "duration": 0.0625,
+          "source_grid": {
+            "row": 2,
+            "column": 3,
+            "box": [
+              436,
+              281,
+              591,
+              447
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            56,
+            147,
+            158
+          ],
+          "trimmed_size": [
+            139,
+            102
+          ],
+          "paste_xy": [
+            26,
+            64
+          ]
+        },
+        {
+          "index": 4,
+          "file": "art/characters/astra-mycelion/game-ready/frames/movement/run/run_004.png",
+          "duration": 0.0625,
+          "source_grid": {
+            "row": 2,
+            "column": 4,
+            "box": [
+              594,
+              281,
+              738,
+              450
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            9,
+            134,
+            161
+          ],
+          "trimmed_size": [
+            126,
+            152
+          ],
+          "paste_xy": [
+            33,
+            14
+          ]
+        },
+        {
+          "index": 5,
+          "file": "art/characters/astra-mycelion/game-ready/frames/movement/run/run_005.png",
+          "duration": 0.0625,
+          "source_grid": {
+            "row": 2,
+            "column": 5,
+            "box": [
+              734,
+              281,
+              847,
+              451
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            59,
+            105,
+            162
+          ],
+          "trimmed_size": [
+            97,
+            103
+          ],
+          "paste_xy": [
+            48,
+            63
+          ]
+        },
+        {
+          "index": 6,
+          "file": "art/characters/astra-mycelion/game-ready/frames/movement/run/run_006.png",
+          "duration": 0.0625,
+          "source_grid": {
+            "row": 2,
+            "column": 6,
+            "box": [
+              855,
+              281,
+              1056,
+              457
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            56,
+            193,
+            168
+          ],
+          "trimmed_size": [
+            185,
+            112
+          ],
+          "paste_xy": [
+            4,
+            54
+          ]
+        },
+        {
+          "index": 7,
+          "file": "art/characters/astra-mycelion/game-ready/frames/movement/run/run_007.png",
+          "duration": 0.0625,
+          "source_grid": {
+            "row": 2,
+            "column": 7,
+            "box": [
+              1057,
+              281,
+              1155,
+              458
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            61,
+            90,
+            169
+          ],
+          "trimmed_size": [
+            82,
+            108
+          ],
+          "paste_xy": [
+            55,
+            58
+          ]
+        }
+      ]
+    },
+    "run_start": {
+      "sheet": "movement",
+      "fps": 16,
+      "loop": false,
+      "frames": [
+        {
+          "index": 0,
+          "file": "art/characters/astra-mycelion/game-ready/frames/movement/run_start/run_start_000.png",
+          "duration": 0.0625,
+          "source_grid": {
+            "row": 2,
+            "column": 8,
+            "box": [
+              1157,
+              281,
+              1249,
+              450
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            3,
+            84,
+            161
+          ],
+          "trimmed_size": [
+            76,
+            158
+          ],
+          "paste_xy": [
+            58,
+            8
+          ]
+        },
+        {
+          "index": 1,
+          "file": "art/characters/astra-mycelion/game-ready/frames/movement/run_start/run_start_001.png",
+          "duration": 0.0625,
+          "source_grid": {
+            "row": 2,
+            "column": 9,
+            "box": [
+              1248,
+              281,
+              1374,
+              456
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            10,
+            109,
+            167
+          ],
+          "trimmed_size": [
+            101,
+            157
+          ],
+          "paste_xy": [
+            46,
+            9
+          ]
+        },
+        {
+          "index": 2,
+          "file": "art/characters/astra-mycelion/game-ready/frames/movement/run_start/run_start_002.png",
+          "duration": 0.0625,
+          "source_grid": {
+            "row": 2,
+            "column": 10,
+            "box": [
+              1367,
+              281,
+              1483,
+              451
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            68,
+            108,
+            162
+          ],
+          "trimmed_size": [
+            100,
+            94
+          ],
+          "paste_xy": [
+            46,
+            72
+          ]
+        },
+        {
+          "index": 3,
+          "file": "art/characters/astra-mycelion/game-ready/frames/movement/run_start/run_start_003.png",
+          "duration": 0.0625,
+          "source_grid": {
+            "row": 2,
+            "column": 11,
+            "box": [
+              1478,
+              281,
+              1611,
+              450
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            70,
+            125,
+            161
+          ],
+          "trimmed_size": [
+            117,
+            91
+          ],
+          "paste_xy": [
+            38,
+            75
+          ]
+        }
+      ]
+    },
+    "run_stop": {
+      "sheet": "movement",
+      "fps": 14,
+      "loop": false,
+      "frames": [
+        {
+          "index": 0,
+          "file": "art/characters/astra-mycelion/game-ready/frames/movement/run_stop/run_stop_000.png",
+          "duration": 0.071429,
+          "source_grid": {
+            "row": 3,
+            "column": 0,
+            "box": [
+              28,
+              477,
+              143,
+              593
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            8,
+            107,
+            108
+          ],
+          "trimmed_size": [
+            99,
+            100
+          ],
+          "paste_xy": [
+            46,
+            66
+          ]
+        },
+        {
+          "index": 1,
+          "file": "art/characters/astra-mycelion/game-ready/frames/movement/run_stop/run_stop_001.png",
+          "duration": 0.071429,
+          "source_grid": {
+            "row": 3,
+            "column": 1,
+            "box": [
+              169,
+              468,
+              289,
+              593
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            8,
+            112,
+            117
+          ],
+          "trimmed_size": [
+            104,
+            109
+          ],
+          "paste_xy": [
+            44,
+            57
+          ]
+        },
+        {
+          "index": 2,
+          "file": "art/characters/astra-mycelion/game-ready/frames/movement/run_stop/run_stop_002.png",
+          "duration": 0.071429,
+          "source_grid": {
+            "row": 3,
+            "column": 2,
+            "box": [
+              296,
+              423,
+              409,
+              601
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            6,
+            105,
+            177
+          ],
+          "trimmed_size": [
+            97,
+            171
+          ],
+          "paste_xy": [
+            48,
+            0
+          ]
+        },
+        {
+          "index": 3,
+          "file": "art/characters/astra-mycelion/game-ready/frames/movement/run_stop/run_stop_003.png",
+          "duration": 0.071429,
+          "source_grid": {
+            "row": 3,
+            "column": 3,
+            "box": [
+              417,
+              423,
+              536,
+              601
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            4,
+            111,
+            177
+          ],
+          "trimmed_size": [
+            103,
+            173
+          ],
+          "paste_xy": [
+            44,
+            0
+          ]
+        },
+        {
+          "index": 4,
+          "file": "art/characters/astra-mycelion/game-ready/frames/movement/run_stop/run_stop_004.png",
+          "duration": 0.071429,
+          "source_grid": {
+            "row": 3,
+            "column": 4,
+            "box": [
+              550,
+              423,
+              675,
+              601
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            7,
+            2,
+            117,
+            178
+          ],
+          "trimmed_size": [
+            110,
+            176
+          ],
+          "paste_xy": [
+            41,
+            0
+          ]
+        }
+      ]
+    },
+    "turn_pivot": {
+      "sheet": "movement",
+      "fps": 14,
+      "loop": false,
+      "frames": [
+        {
+          "index": 0,
+          "file": "art/characters/astra-mycelion/game-ready/frames/movement/turn_pivot/turn_pivot_000.png",
+          "duration": 0.071429,
+          "source_grid": {
+            "row": 3,
+            "column": 5,
+            "box": [
+              677,
+              423,
+              798,
+              601
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            5,
+            114,
+            177
+          ],
+          "trimmed_size": [
+            106,
+            172
+          ],
+          "paste_xy": [
+            43,
+            0
+          ]
+        },
+        {
+          "index": 1,
+          "file": "art/characters/astra-mycelion/game-ready/frames/movement/turn_pivot/turn_pivot_001.png",
+          "duration": 0.071429,
+          "source_grid": {
+            "row": 3,
+            "column": 6,
+            "box": [
+              789,
+              423,
+              917,
+              601
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            0,
+            128,
+            177
+          ],
+          "trimmed_size": [
+            120,
+            177
+          ],
+          "paste_xy": [
+            36,
+            0
+          ]
+        },
+        {
+          "index": 2,
+          "file": "art/characters/astra-mycelion/game-ready/frames/movement/turn_pivot/turn_pivot_002.png",
+          "duration": 0.071429,
+          "source_grid": {
+            "row": 3,
+            "column": 7,
+            "box": [
+              925,
+              423,
+              1033,
+              601
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            0,
+            101,
+            177
+          ],
+          "trimmed_size": [
+            93,
+            177
+          ],
+          "paste_xy": [
+            50,
+            0
+          ]
+        },
+        {
+          "index": 3,
+          "file": "art/characters/astra-mycelion/game-ready/frames/movement/turn_pivot/turn_pivot_003.png",
+          "duration": 0.071429,
+          "source_grid": {
+            "row": 3,
+            "column": 8,
+            "box": [
+              1044,
+              423,
+              1246,
+              601
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            0,
+            194,
+            176
+          ],
+          "trimmed_size": [
+            186,
+            176
+          ],
+          "paste_xy": [
+            3,
+            0
+          ]
+        }
+      ]
+    },
+    "crouch": {
+      "sheet": "movement",
+      "fps": 10,
+      "loop": false,
+      "frames": [
+        {
+          "index": 0,
+          "file": "art/characters/astra-mycelion/game-ready/frames/movement/crouch/crouch_000.png",
+          "duration": 0.1,
+          "source_grid": {
+            "row": 3,
+            "column": 9,
+            "box": [
+              1236,
+              423,
+              1365,
+              601
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            0,
+            121,
+            171
+          ],
+          "trimmed_size": [
+            113,
+            171
+          ],
+          "paste_xy": [
+            40,
+            0
+          ]
+        },
+        {
+          "index": 1,
+          "file": "art/characters/astra-mycelion/game-ready/frames/movement/crouch/crouch_001.png",
+          "duration": 0.1,
+          "source_grid": {
+            "row": 3,
+            "column": 10,
+            "box": [
+              1364,
+              423,
+              1486,
+              589
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            66,
+            114,
+            158
+          ],
+          "trimmed_size": [
+            106,
+            92
+          ],
+          "paste_xy": [
+            43,
+            74
+          ]
+        },
+        {
+          "index": 2,
+          "file": "art/characters/astra-mycelion/game-ready/frames/movement/crouch/crouch_002.png",
+          "duration": 0.1,
+          "source_grid": {
+            "row": 3,
+            "column": 11,
+            "box": [
+              1478,
+              423,
+              1596,
+              587
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            12,
+            65,
+            110,
+            156
+          ],
+          "trimmed_size": [
+            98,
+            91
+          ],
+          "paste_xy": [
+            47,
+            75
+          ]
+        }
+      ]
+    },
+    "jump_start": {
+      "sheet": "movement",
+      "fps": 14,
+      "loop": false,
+      "frames": [
+        {
+          "index": 0,
+          "file": "art/characters/astra-mycelion/game-ready/frames/movement/jump_start/jump_start_000.png",
+          "duration": 0.071429,
+          "source_grid": {
+            "row": 4,
+            "column": 0,
+            "box": [
+              12,
+              565,
+              127,
+              721
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            53,
+            101,
+            148
+          ],
+          "trimmed_size": [
+            93,
+            95
+          ],
+          "paste_xy": [
+            50,
+            71
+          ]
+        },
+        {
+          "index": 1,
+          "file": "art/characters/astra-mycelion/game-ready/frames/movement/jump_start/jump_start_001.png",
+          "duration": 0.071429,
+          "source_grid": {
+            "row": 4,
+            "column": 1,
+            "box": [
+              155,
+              565,
+              291,
+              722
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            52,
+            128,
+            149
+          ],
+          "trimmed_size": [
+            120,
+            97
+          ],
+          "paste_xy": [
+            36,
+            69
+          ]
+        },
+        {
+          "index": 2,
+          "file": "art/characters/astra-mycelion/game-ready/frames/movement/jump_start/jump_start_002.png",
+          "duration": 0.071429,
+          "source_grid": {
+            "row": 4,
+            "column": 2,
+            "box": [
+              318,
+              565,
+              453,
+              723
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            0,
+            127,
+            150
+          ],
+          "trimmed_size": [
+            119,
+            150
+          ],
+          "paste_xy": [
+            36,
+            16
+          ]
+        },
+        {
+          "index": 3,
+          "file": "art/characters/astra-mycelion/game-ready/frames/movement/jump_start/jump_start_003.png",
+          "duration": 0.071429,
+          "source_grid": {
+            "row": 4,
+            "column": 3,
+            "box": [
+              470,
+              565,
+              614,
+              724
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            0,
+            136,
+            151
+          ],
+          "trimmed_size": [
+            128,
+            151
+          ],
+          "paste_xy": [
+            32,
+            15
+          ]
+        }
+      ]
+    },
+    "jump_up": {
+      "sheet": "movement",
+      "fps": 12,
+      "loop": false,
+      "frames": [
+        {
+          "index": 0,
+          "file": "art/characters/astra-mycelion/game-ready/frames/movement/jump_up/jump_up_000.png",
+          "duration": 0.083333,
+          "source_grid": {
+            "row": 4,
+            "column": 4,
+            "box": [
+              604,
+              565,
+              649,
+              608
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            0,
+            37,
+            35
+          ],
+          "trimmed_size": [
+            29,
+            35
+          ],
+          "paste_xy": [
+            82,
+            131
+          ]
+        },
+        {
+          "index": 1,
+          "file": "art/characters/astra-mycelion/game-ready/frames/movement/jump_up/jump_up_001.png",
+          "duration": 0.083333,
+          "source_grid": {
+            "row": 4,
+            "column": 5,
+            "box": [
+              661,
+              565,
+              773,
+              730
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            0,
+            104,
+            157
+          ],
+          "trimmed_size": [
+            96,
+            157
+          ],
+          "paste_xy": [
+            48,
+            9
+          ]
+        },
+        {
+          "index": 2,
+          "file": "art/characters/astra-mycelion/game-ready/frames/movement/jump_up/jump_up_002.png",
+          "duration": 0.083333,
+          "source_grid": {
+            "row": 4,
+            "column": 6,
+            "box": [
+              832,
+              565,
+              935,
+              726
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            36,
+            95,
+            153
+          ],
+          "trimmed_size": [
+            87,
+            117
+          ],
+          "paste_xy": [
+            52,
+            49
+          ]
+        }
+      ]
+    },
+    "jump_apex": {
+      "sheet": "movement",
+      "fps": 8,
+      "loop": true,
+      "frames": [
+        {
+          "index": 0,
+          "file": "art/characters/astra-mycelion/game-ready/frames/movement/jump_apex/jump_apex_000.png",
+          "duration": 0.125,
+          "source_grid": {
+            "row": 4,
+            "column": 7,
+            "box": [
+              930,
+              565,
+              968,
+              597
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            6,
+            0,
+            27,
+            24
+          ],
+          "trimmed_size": [
+            21,
+            24
+          ],
+          "paste_xy": [
+            86,
+            142
+          ]
+        },
+        {
+          "index": 1,
+          "file": "art/characters/astra-mycelion/game-ready/frames/movement/jump_apex/jump_apex_001.png",
+          "duration": 0.125,
+          "source_grid": {
+            "row": 4,
+            "column": 8,
+            "box": [
+              969,
+              565,
+              1093,
+              725
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            0,
+            124,
+            152
+          ],
+          "trimmed_size": [
+            116,
+            152
+          ],
+          "paste_xy": [
+            38,
+            14
+          ]
+        }
+      ]
+    },
+    "fall_loop": {
+      "sheet": "movement",
+      "fps": 10,
+      "loop": true,
+      "frames": [
+        {
+          "index": 0,
+          "file": "art/characters/astra-mycelion/game-ready/frames/movement/fall_loop/fall_loop_000.png",
+          "duration": 0.1,
+          "source_grid": {
+            "row": 4,
+            "column": 9,
+            "box": [
+              1133,
+              565,
+              1242,
+              724
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            9,
+            51,
+            101,
+            151
+          ],
+          "trimmed_size": [
+            92,
+            100
+          ],
+          "paste_xy": [
+            50,
+            66
+          ]
+        },
+        {
+          "index": 1,
+          "file": "art/characters/astra-mycelion/game-ready/frames/movement/fall_loop/fall_loop_001.png",
+          "duration": 0.1,
+          "source_grid": {
+            "row": 4,
+            "column": 10,
+            "box": [
+              1247,
+              565,
+              1274,
+              602
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            0,
+            0,
+            19,
+            29
+          ],
+          "trimmed_size": [
+            19,
+            29
+          ],
+          "paste_xy": [
+            86,
+            137
+          ]
+        },
+        {
+          "index": 2,
+          "file": "art/characters/astra-mycelion/game-ready/frames/movement/fall_loop/fall_loop_002.png",
+          "duration": 0.1,
+          "source_grid": {
+            "row": 4,
+            "column": 11,
+            "box": [
+              1280,
+              565,
+              1724,
+              742
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            55,
+            394,
+            177
+          ],
+          "trimmed_size": [
+            192,
+            61
+          ],
+          "paste_xy": [
+            0,
+            105
+          ]
+        }
+      ]
+    },
+    "land_soft": {
+      "sheet": "movement",
+      "fps": 14,
+      "loop": false,
+      "frames": [
+        {
+          "index": 0,
+          "file": "art/characters/astra-mycelion/game-ready/frames/movement/land_soft/land_soft_000.png",
+          "duration": 0.071429,
+          "source_grid": {
+            "row": 5,
+            "column": 0,
+            "box": [
+              19,
+              735,
+              133,
+              858
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            8,
+            106,
+            115
+          ],
+          "trimmed_size": [
+            98,
+            107
+          ],
+          "paste_xy": [
+            47,
+            59
+          ]
+        },
+        {
+          "index": 1,
+          "file": "art/characters/astra-mycelion/game-ready/frames/movement/land_soft/land_soft_001.png",
+          "duration": 0.071429,
+          "source_grid": {
+            "row": 5,
+            "column": 1,
+            "box": [
+              166,
+              735,
+              281,
+              857
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            8,
+            107,
+            114
+          ],
+          "trimmed_size": [
+            99,
+            106
+          ],
+          "paste_xy": [
+            46,
+            60
+          ]
+        },
+        {
+          "index": 2,
+          "file": "art/characters/astra-mycelion/game-ready/frames/movement/land_soft/land_soft_002.png",
+          "duration": 0.071429,
+          "source_grid": {
+            "row": 5,
+            "column": 2,
+            "box": [
+              313,
+              706,
+              432,
+              858
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            3,
+            111,
+            144
+          ],
+          "trimmed_size": [
+            103,
+            141
+          ],
+          "paste_xy": [
+            44,
+            25
+          ]
+        },
+        {
+          "index": 3,
+          "file": "art/characters/astra-mycelion/game-ready/frames/movement/land_soft/land_soft_003.png",
+          "duration": 0.071429,
+          "source_grid": {
+            "row": 5,
+            "column": 3,
+            "box": [
+              458,
+              706,
+              571,
+              857
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            4,
+            105,
+            143
+          ],
+          "trimmed_size": [
+            97,
+            139
+          ],
+          "paste_xy": [
+            48,
+            27
+          ]
+        }
+      ]
+    },
+    "land_hard": {
+      "sheet": "movement",
+      "fps": 14,
+      "loop": false,
+      "frames": [
+        {
+          "index": 0,
+          "file": "art/characters/astra-mycelion/game-ready/frames/movement/land_hard/land_hard_000.png",
+          "duration": 0.071429,
+          "source_grid": {
+            "row": 5,
+            "column": 4,
+            "box": [
+              590,
+              706,
+              717,
+              856
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            42,
+            119,
+            142
+          ],
+          "trimmed_size": [
+            111,
+            100
+          ],
+          "paste_xy": [
+            40,
+            66
+          ]
+        },
+        {
+          "index": 1,
+          "file": "art/characters/astra-mycelion/game-ready/frames/movement/land_hard/land_hard_001.png",
+          "duration": 0.071429,
+          "source_grid": {
+            "row": 5,
+            "column": 5,
+            "box": [
+              725,
+              706,
+              1008,
+              860
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            45,
+            275,
+            146
+          ],
+          "trimmed_size": [
+            192,
+            73
+          ],
+          "paste_xy": [
+            0,
+            93
+          ]
+        },
+        {
+          "index": 2,
+          "file": "art/characters/astra-mycelion/game-ready/frames/movement/land_hard/land_hard_002.png",
+          "duration": 0.071429,
+          "source_grid": {
+            "row": 5,
+            "column": 6,
+            "box": [
+              1006,
+              706,
+              1189,
+              864
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            57,
+            167,
+            150
+          ],
+          "trimmed_size": [
+            159,
+            93
+          ],
+          "paste_xy": [
+            16,
+            73
+          ]
+        },
+        {
+          "index": 3,
+          "file": "art/characters/astra-mycelion/game-ready/frames/movement/land_hard/land_hard_003.png",
+          "duration": 0.071429,
+          "source_grid": {
+            "row": 5,
+            "column": 7,
+            "box": [
+              1187,
+              706,
+              1437,
+              871
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            23,
+            242,
+            157
+          ],
+          "trimmed_size": [
+            192,
+            110
+          ],
+          "paste_xy": [
+            0,
+            56
+          ]
+        }
+      ]
+    },
+    "double_jump": {
+      "sheet": "movement",
+      "fps": 14,
+      "loop": false,
+      "frames": [
+        {
+          "index": 0,
+          "file": "art/characters/astra-mycelion/game-ready/frames/movement/double_jump/double_jump_000.png",
+          "duration": 0.071429,
+          "source_grid": {
+            "row": 5,
+            "column": 8,
+            "box": [
+              1450,
+              706,
+              1557,
+              871
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            25,
+            99,
+            157
+          ],
+          "trimmed_size": [
+            91,
+            132
+          ],
+          "paste_xy": [
+            50,
+            34
+          ]
+        },
+        {
+          "index": 1,
+          "file": "art/characters/astra-mycelion/game-ready/frames/movement/double_jump/double_jump_001.png",
+          "duration": 0.071429,
+          "source_grid": {
+            "row": 5,
+            "column": 9,
+            "box": [
+              1572,
+              706,
+              1695,
+              874
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            21,
+            115,
+            160
+          ],
+          "trimmed_size": [
+            107,
+            139
+          ],
+          "paste_xy": [
+            42,
+            27
+          ]
+        },
+        {
+          "index": 2,
+          "file": "art/characters/astra-mycelion/game-ready/frames/movement/double_jump/double_jump_002.png",
+          "duration": 0.071429,
+          "source_grid": {
+            "row": 5,
+            "column": 10,
+            "box": [
+              1437,
+              716,
+              1596,
+              874
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            21,
+            15,
+            155,
+            147
+          ],
+          "trimmed_size": [
+            134,
+            132
+          ],
+          "paste_xy": [
+            29,
+            34
+          ]
+        },
+        {
+          "index": 3,
+          "file": "art/characters/astra-mycelion/game-ready/frames/movement/double_jump/double_jump_003.png",
+          "duration": 0.071429,
+          "source_grid": {
+            "row": 5,
+            "column": 11,
+            "box": [
+              1580,
+              716,
+              1738,
+              874
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            1,
+            11,
+            107,
+            150
+          ],
+          "trimmed_size": [
+            106,
+            139
+          ],
+          "paste_xy": [
+            43,
+            27
+          ]
+        }
+      ]
+    },
+    "attack_1": {
+      "sheet": "combat-defense",
+      "fps": 16,
+      "loop": false,
+      "frames": [
+        {
+          "index": 0,
+          "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/attack_1/attack_1_000.png",
+          "duration": 0.0625,
+          "source_grid": {
+            "row": 0,
+            "column": 0,
+            "box": [
+              14,
+              15,
+              163,
+              168
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            8,
+            141,
+            145
+          ],
+          "trimmed_size": [
+            133,
+            137
+          ],
+          "paste_xy": [
+            30,
+            29
+          ]
+        },
+        {
+          "index": 1,
+          "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/attack_1/attack_1_001.png",
+          "duration": 0.0625,
+          "source_grid": {
+            "row": 0,
+            "column": 1,
+            "box": [
+              182,
+              15,
+              325,
+              205
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            8,
+            135,
+            190
+          ],
+          "trimmed_size": [
+            127,
+            182
+          ],
+          "paste_xy": [
+            32,
+            0
+          ]
+        },
+        {
+          "index": 2,
+          "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/attack_1/attack_1_002.png",
+          "duration": 0.0625,
+          "source_grid": {
+            "row": 0,
+            "column": 2,
+            "box": [
+              340,
+              18,
+              1150,
+              205
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            8,
+            802,
+            187
+          ],
+          "trimmed_size": [
+            192,
+            43
+          ],
+          "paste_xy": [
+            0,
+            123
+          ]
+        },
+        {
+          "index": 3,
+          "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/attack_1/attack_1_003.png",
+          "duration": 0.0625,
+          "source_grid": {
+            "row": 0,
+            "column": 3,
+            "box": [
+              1165,
+              24,
+              1380,
+              168
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            8,
+            207,
+            136
+          ],
+          "trimmed_size": [
+            192,
+            123
+          ],
+          "paste_xy": [
+            0,
+            43
+          ]
+        },
+        {
+          "index": 4,
+          "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/attack_1/attack_1_004.png",
+          "duration": 0.0625,
+          "source_grid": {
+            "row": 0,
+            "column": 4,
+            "box": [
+              1392,
+              47,
+              1535,
+              170
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            8,
+            135,
+            115
+          ],
+          "trimmed_size": [
+            127,
+            107
+          ],
+          "paste_xy": [
+            32,
+            59
+          ]
+        },
+        {
+          "index": 5,
+          "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/attack_1/attack_1_005.png",
+          "duration": 0.0625,
+          "source_grid": {
+            "row": 0,
+            "column": 5,
+            "box": [
+              632,
+              15,
+              774,
+              195
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            0,
+            18,
+            142,
+            180
+          ],
+          "trimmed_size": [
+            142,
+            162
+          ],
+          "paste_xy": [
+            25,
+            4
+          ]
+        }
+      ]
+    },
+    "attack_2": {
+      "sheet": "combat-defense",
+      "fps": 16,
+      "loop": false,
+      "frames": [
+        {
+          "index": 0,
+          "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/attack_2/attack_2_000.png",
+          "duration": 0.0625,
+          "source_grid": {
+            "row": 0,
+            "column": 6,
+            "box": [
+              758,
+              15,
+              901,
+              195
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            0,
+            11,
+            143,
+            143
+          ],
+          "trimmed_size": [
+            143,
+            132
+          ],
+          "paste_xy": [
+            24,
+            34
+          ]
+        },
+        {
+          "index": 1,
+          "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/attack_2/attack_2_001.png",
+          "duration": 0.0625,
+          "source_grid": {
+            "row": 0,
+            "column": 7,
+            "box": [
+              885,
+              15,
+              1028,
+              195
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            4,
+            22,
+            143,
+            145
+          ],
+          "trimmed_size": [
+            139,
+            123
+          ],
+          "paste_xy": [
+            26,
+            43
+          ]
+        },
+        {
+          "index": 2,
+          "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/attack_2/attack_2_002.png",
+          "duration": 0.0625,
+          "source_grid": {
+            "row": 0,
+            "column": 8,
+            "box": [
+              1012,
+              15,
+              1155,
+              195
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            0,
+            23,
+            130,
+            180
+          ],
+          "trimmed_size": [
+            130,
+            157
+          ],
+          "paste_xy": [
+            31,
+            9
+          ]
+        },
+        {
+          "index": 3,
+          "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/attack_2/attack_2_003.png",
+          "duration": 0.0625,
+          "source_grid": {
+            "row": 0,
+            "column": 9,
+            "box": [
+              1139,
+              15,
+              1282,
+              195
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            34,
+            23,
+            143,
+            145
+          ],
+          "trimmed_size": [
+            109,
+            122
+          ],
+          "paste_xy": [
+            42,
+            44
+          ]
+        },
+        {
+          "index": 4,
+          "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/attack_2/attack_2_004.png",
+          "duration": 0.0625,
+          "source_grid": {
+            "row": 0,
+            "column": 10,
+            "box": [
+              1266,
+              15,
+              1408,
+              195
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            0,
+            17,
+            106,
+            131
+          ],
+          "trimmed_size": [
+            106,
+            114
+          ],
+          "paste_xy": [
+            43,
+            52
+          ]
+        },
+        {
+          "index": 5,
+          "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/attack_2/attack_2_005.png",
+          "duration": 0.0625,
+          "source_grid": {
+            "row": 0,
+            "column": 11,
+            "box": [
+              1392,
+              15,
+              1535,
+              195
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            40,
+            135,
+            147
+          ],
+          "trimmed_size": [
+            127,
+            107
+          ],
+          "paste_xy": [
+            32,
+            59
+          ]
+        }
+      ]
+    },
+    "attack_3": {
+      "sheet": "combat-defense",
+      "fps": 16,
+      "loop": false,
+      "frames": [
+        {
+          "index": 0,
+          "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/attack_3/attack_3_000.png",
+          "duration": 0.0625,
+          "source_grid": {
+            "row": 1,
+            "column": 0,
+            "box": [
+              3,
+              187,
+              360,
+              328
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            8,
+            349,
+            133
+          ],
+          "trimmed_size": [
+            192,
+            70
+          ],
+          "paste_xy": [
+            0,
+            96
+          ]
+        },
+        {
+          "index": 1,
+          "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/attack_3/attack_3_001.png",
+          "duration": 0.0625,
+          "source_grid": {
+            "row": 1,
+            "column": 1,
+            "box": [
+              364,
+              190,
+              603,
+              330
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            8,
+            231,
+            132
+          ],
+          "trimmed_size": [
+            192,
+            107
+          ],
+          "paste_xy": [
+            0,
+            59
+          ]
+        },
+        {
+          "index": 2,
+          "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/attack_3/attack_3_002.png",
+          "duration": 0.0625,
+          "source_grid": {
+            "row": 1,
+            "column": 2,
+            "box": [
+              596,
+              182,
+              897,
+              369
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            8,
+            293,
+            187
+          ],
+          "trimmed_size": [
+            192,
+            121
+          ],
+          "paste_xy": [
+            0,
+            45
+          ]
+        },
+        {
+          "index": 3,
+          "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/attack_3/attack_3_003.png",
+          "duration": 0.0625,
+          "source_grid": {
+            "row": 1,
+            "column": 3,
+            "box": [
+              917,
+              186,
+              1071,
+              369
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            8,
+            146,
+            183
+          ],
+          "trimmed_size": [
+            138,
+            175
+          ],
+          "paste_xy": [
+            27,
+            0
+          ]
+        },
+        {
+          "index": 4,
+          "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/attack_3/attack_3_004.png",
+          "duration": 0.0625,
+          "source_grid": {
+            "row": 1,
+            "column": 4,
+            "box": [
+              1073,
+              190,
+              1394,
+              369
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            8,
+            313,
+            179
+          ],
+          "trimmed_size": [
+            192,
+            108
+          ],
+          "paste_xy": [
+            0,
+            58
+          ]
+        },
+        {
+          "index": 5,
+          "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/attack_3/attack_3_005.png",
+          "duration": 0.0625,
+          "source_grid": {
+            "row": 1,
+            "column": 5,
+            "box": [
+              1393,
+              196,
+              1526,
+              332
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            8,
+            125,
+            128
+          ],
+          "trimmed_size": [
+            117,
+            120
+          ],
+          "paste_xy": [
+            38,
+            46
+          ]
+        },
+        {
+          "index": 6,
+          "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/attack_3/attack_3_006.png",
+          "duration": 0.0625,
+          "source_grid": {
+            "row": 1,
+            "column": 6,
+            "box": [
+              758,
+              179,
+              901,
+              359
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            0,
+            11,
+            131,
+            180
+          ],
+          "trimmed_size": [
+            131,
+            169
+          ],
+          "paste_xy": [
+            30,
+            0
+          ]
+        },
+        {
+          "index": 7,
+          "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/attack_3/attack_3_007.png",
+          "duration": 0.0625,
+          "source_grid": {
+            "row": 1,
+            "column": 7,
+            "box": [
+              885,
+              179,
+              1028,
+              359
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            40,
+            16,
+            143,
+            143
+          ],
+          "trimmed_size": [
+            103,
+            127
+          ],
+          "paste_xy": [
+            44,
+            39
+          ]
+        }
+      ]
+    },
+    "air_attack": {
+      "sheet": "combat-defense",
+      "fps": 14,
+      "loop": false,
+      "frames": [
+        {
+          "index": 0,
+          "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/air_attack/air_attack_000.png",
+          "duration": 0.071429,
+          "source_grid": {
+            "row": 1,
+            "column": 8,
+            "box": [
+              1012,
+              179,
+              1155,
+              359
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            0,
+            15,
+            143,
+            143
+          ],
+          "trimmed_size": [
+            143,
+            128
+          ],
+          "paste_xy": [
+            24,
+            38
+          ]
+        },
+        {
+          "index": 1,
+          "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/air_attack/air_attack_001.png",
+          "duration": 0.071429,
+          "source_grid": {
+            "row": 1,
+            "column": 9,
+            "box": [
+              1139,
+              179,
+              1282,
+              359
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            0,
+            19,
+            143,
+            180
+          ],
+          "trimmed_size": [
+            143,
+            161
+          ],
+          "paste_xy": [
+            24,
+            5
+          ]
+        },
+        {
+          "index": 2,
+          "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/air_attack/air_attack_002.png",
+          "duration": 0.071429,
+          "source_grid": {
+            "row": 1,
+            "column": 10,
+            "box": [
+              1266,
+              179,
+              1408,
+              359
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            0,
+            19,
+            120,
+            180
+          ],
+          "trimmed_size": [
+            120,
+            161
+          ],
+          "paste_xy": [
+            36,
+            5
+          ]
+        },
+        {
+          "index": 3,
+          "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/air_attack/air_attack_003.png",
+          "duration": 0.071429,
+          "source_grid": {
+            "row": 1,
+            "column": 11,
+            "box": [
+              1392,
+              179,
+              1535,
+              359
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            9,
+            25,
+            126,
+            145
+          ],
+          "trimmed_size": [
+            117,
+            120
+          ],
+          "paste_xy": [
+            38,
+            46
+          ]
+        }
+      ]
+    },
+    "dash_attack": {
+      "sheet": "combat-defense",
+      "fps": 18,
+      "loop": false,
+      "frames": [
+        {
+          "index": 0,
+          "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/dash_attack/dash_attack_000.png",
+          "duration": 0.055556,
+          "source_grid": {
+            "row": 2,
+            "column": 0,
+            "box": [
+              0,
+              364,
+              166,
+              496
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            6,
+            8,
+            158,
+            124
+          ],
+          "trimmed_size": [
+            152,
+            116
+          ],
+          "paste_xy": [
+            20,
+            50
+          ]
+        },
+        {
+          "index": 1,
+          "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/dash_attack/dash_attack_001.png",
+          "duration": 0.055556,
+          "source_grid": {
+            "row": 2,
+            "column": 1,
+            "box": [
+              171,
+              373,
+              317,
+              497
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            8,
+            138,
+            116
+          ],
+          "trimmed_size": [
+            130,
+            108
+          ],
+          "paste_xy": [
+            31,
+            58
+          ]
+        },
+        {
+          "index": 2,
+          "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/dash_attack/dash_attack_002.png",
+          "duration": 0.055556,
+          "source_grid": {
+            "row": 2,
+            "column": 2,
+            "box": [
+              317,
+              376,
+              443,
+              497
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            8,
+            118,
+            113
+          ],
+          "trimmed_size": [
+            110,
+            105
+          ],
+          "paste_xy": [
+            41,
+            61
+          ]
+        },
+        {
+          "index": 3,
+          "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/dash_attack/dash_attack_003.png",
+          "duration": 0.055556,
+          "source_grid": {
+            "row": 2,
+            "column": 3,
+            "box": [
+              446,
+              375,
+              611,
+              500
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            8,
+            157,
+            117
+          ],
+          "trimmed_size": [
+            149,
+            109
+          ],
+          "paste_xy": [
+            22,
+            57
+          ]
+        },
+        {
+          "index": 4,
+          "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/dash_attack/dash_attack_004.png",
+          "duration": 0.055556,
+          "source_grid": {
+            "row": 2,
+            "column": 4,
+            "box": [
+              614,
+              367,
+              797,
+              497
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            8,
+            175,
+            122
+          ],
+          "trimmed_size": [
+            167,
+            114
+          ],
+          "paste_xy": [
+            12,
+            52
+          ]
+        },
+        {
+          "index": 5,
+          "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/dash_attack/dash_attack_005.png",
+          "duration": 0.055556,
+          "source_grid": {
+            "row": 2,
+            "column": 5,
+            "box": [
+              798,
+              342,
+              924,
+              508
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            8,
+            118,
+            158
+          ],
+          "trimmed_size": [
+            110,
+            150
+          ],
+          "paste_xy": [
+            41,
+            16
+          ]
+        }
+      ]
+    },
+    "charged_attack_startup": {
+      "sheet": "combat-defense",
+      "fps": 12,
+      "loop": false,
+      "frames": [
+        {
+          "index": 0,
+          "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/charged_attack_startup/charged_attack_startup_000.png",
+          "duration": 0.083333,
+          "source_grid": {
+            "row": 2,
+            "column": 6,
+            "box": [
+              941,
+              344,
+              1080,
+              508
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            8,
+            131,
+            156
+          ],
+          "trimmed_size": [
+            123,
+            148
+          ],
+          "paste_xy": [
+            34,
+            18
+          ]
+        },
+        {
+          "index": 1,
+          "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/charged_attack_startup/charged_attack_startup_001.png",
+          "duration": 0.083333,
+          "source_grid": {
+            "row": 2,
+            "column": 7,
+            "box": [
+              1101,
+              342,
+              1238,
+              509
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            8,
+            129,
+            159
+          ],
+          "trimmed_size": [
+            121,
+            151
+          ],
+          "paste_xy": [
+            36,
+            15
+          ]
+        },
+        {
+          "index": 2,
+          "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/charged_attack_startup/charged_attack_startup_002.png",
+          "duration": 0.083333,
+          "source_grid": {
+            "row": 2,
+            "column": 8,
+            "box": [
+              1250,
+              343,
+              1526,
+              510
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            8,
+            268,
+            159
+          ],
+          "trimmed_size": [
+            192,
+            112
+          ],
+          "paste_xy": [
+            0,
+            54
+          ]
+        },
+        {
+          "index": 3,
+          "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/charged_attack_startup/charged_attack_startup_003.png",
+          "duration": 0.083333,
+          "source_grid": {
+            "row": 2,
+            "column": 9,
+            "box": [
+              1139,
+              343,
+              1282,
+              523
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            0,
+            7,
+            91,
+            158
+          ],
+          "trimmed_size": [
+            91,
+            151
+          ],
+          "paste_xy": [
+            50,
+            15
+          ]
+        },
+        {
+          "index": 4,
+          "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/charged_attack_startup/charged_attack_startup_004.png",
+          "duration": 0.083333,
+          "source_grid": {
+            "row": 2,
+            "column": 10,
+            "box": [
+              1266,
+              343,
+              1408,
+              523
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            0,
+            8,
+            142,
+            159
+          ],
+          "trimmed_size": [
+            142,
+            151
+          ],
+          "paste_xy": [
+            25,
+            15
+          ]
+        },
+        {
+          "index": 5,
+          "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/charged_attack_startup/charged_attack_startup_005.png",
+          "duration": 0.083333,
+          "source_grid": {
+            "row": 2,
+            "column": 11,
+            "box": [
+              1392,
+              343,
+              1535,
+              523
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            0,
+            45,
+            126,
+            118
+          ],
+          "trimmed_size": [
+            126,
+            73
+          ],
+          "paste_xy": [
+            33,
+            93
+          ]
+        }
+      ]
+    },
+    "charged_attack_loop": {
+      "sheet": "combat-defense",
+      "fps": 10,
+      "loop": true,
+      "frames": [
+        {
+          "index": 0,
+          "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/charged_attack_loop/charged_attack_loop_000.png",
+          "duration": 0.1,
+          "source_grid": {
+            "row": 3,
+            "column": 0,
+            "box": [
+              9,
+              534,
+              146,
+              697
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            8,
+            129,
+            159
+          ],
+          "trimmed_size": [
+            121,
+            151
+          ],
+          "paste_xy": [
+            36,
+            15
+          ]
+        },
+        {
+          "index": 1,
+          "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/charged_attack_loop/charged_attack_loop_001.png",
+          "duration": 0.1,
+          "source_grid": {
+            "row": 3,
+            "column": 1,
+            "box": [
+              159,
+              535,
+              293,
+              697
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            8,
+            126,
+            160
+          ],
+          "trimmed_size": [
+            118,
+            152
+          ],
+          "paste_xy": [
+            37,
+            14
+          ]
+        },
+        {
+          "index": 2,
+          "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/charged_attack_loop/charged_attack_loop_002.png",
+          "duration": 0.1,
+          "source_grid": {
+            "row": 3,
+            "column": 2,
+            "box": [
+              294,
+              537,
+              427,
+              697
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            8,
+            125,
+            158
+          ],
+          "trimmed_size": [
+            117,
+            150
+          ],
+          "paste_xy": [
+            38,
+            16
+          ]
+        },
+        {
+          "index": 3,
+          "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/charged_attack_loop/charged_attack_loop_003.png",
+          "duration": 0.1,
+          "source_grid": {
+            "row": 3,
+            "column": 3,
+            "box": [
+              443,
+              547,
+              616,
+              697
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            8,
+            165,
+            146
+          ],
+          "trimmed_size": [
+            157,
+            138
+          ],
+          "paste_xy": [
+            18,
+            28
+          ]
+        }
+      ]
+    },
+    "charged_attack_release": {
+      "sheet": "combat-defense",
+      "fps": 16,
+      "loop": false,
+      "frames": [
+        {
+          "index": 0,
+          "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/charged_attack_release/charged_attack_release_000.png",
+          "duration": 0.0625,
+          "source_grid": {
+            "row": 3,
+            "column": 4,
+            "box": [
+              612,
+              546,
+              758,
+              697
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            8,
+            138,
+            147
+          ],
+          "trimmed_size": [
+            130,
+            139
+          ],
+          "paste_xy": [
+            31,
+            27
+          ]
+        },
+        {
+          "index": 1,
+          "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/charged_attack_release/charged_attack_release_001.png",
+          "duration": 0.0625,
+          "source_grid": {
+            "row": 3,
+            "column": 5,
+            "box": [
+              762,
+              548,
+              930,
+              697
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            8,
+            160,
+            147
+          ],
+          "trimmed_size": [
+            152,
+            139
+          ],
+          "paste_xy": [
+            20,
+            27
+          ]
+        },
+        {
+          "index": 2,
+          "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/charged_attack_release/charged_attack_release_002.png",
+          "duration": 0.0625,
+          "source_grid": {
+            "row": 3,
+            "column": 6,
+            "box": [
+              929,
+              547,
+              1083,
+              697
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            8,
+            146,
+            149
+          ],
+          "trimmed_size": [
+            138,
+            141
+          ],
+          "paste_xy": [
+            27,
+            25
+          ]
+        },
+        {
+          "index": 3,
+          "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/charged_attack_release/charged_attack_release_003.png",
+          "duration": 0.0625,
+          "source_grid": {
+            "row": 3,
+            "column": 7,
+            "box": [
+              1093,
+              548,
+              1247,
+              697
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            8,
+            146,
+            148
+          ],
+          "trimmed_size": [
+            138,
+            140
+          ],
+          "paste_xy": [
+            27,
+            26
+          ]
+        }
+      ]
+    },
+    "projectile_cast": {
+      "sheet": "combat-defense",
+      "fps": 14,
+      "loop": false,
+      "frames": [
+        {
+          "index": 0,
+          "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/projectile_cast/projectile_cast_000.png",
+          "duration": 0.071429,
+          "source_grid": {
+            "row": 3,
+            "column": 8,
+            "box": [
+              1254,
+              563,
+              1533,
+              697
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            8,
+            271,
+            133
+          ],
+          "trimmed_size": [
+            192,
+            91
+          ],
+          "paste_xy": [
+            0,
+            75
+          ]
+        },
+        {
+          "index": 1,
+          "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/projectile_cast/projectile_cast_001.png",
+          "duration": 0.071429,
+          "source_grid": {
+            "row": 3,
+            "column": 9,
+            "box": [
+              1139,
+              507,
+              1282,
+              687
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            0,
+            49,
+            100,
+            180
+          ],
+          "trimmed_size": [
+            100,
+            131
+          ],
+          "paste_xy": [
+            46,
+            35
+          ]
+        },
+        {
+          "index": 2,
+          "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/projectile_cast/projectile_cast_002.png",
+          "duration": 0.071429,
+          "source_grid": {
+            "row": 3,
+            "column": 10,
+            "box": [
+              1266,
+              507,
+              1408,
+              687
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            0,
+            64,
+            142,
+            180
+          ],
+          "trimmed_size": [
+            142,
+            116
+          ],
+          "paste_xy": [
+            25,
+            50
+          ]
+        },
+        {
+          "index": 3,
+          "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/projectile_cast/projectile_cast_003.png",
+          "duration": 0.071429,
+          "source_grid": {
+            "row": 3,
+            "column": 11,
+            "box": [
+              1392,
+              507,
+              1535,
+              687
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            0,
+            86,
+            133,
+            154
+          ],
+          "trimmed_size": [
+            133,
+            68
+          ],
+          "paste_xy": [
+            30,
+            98
+          ]
+        }
+      ]
+    },
+    "shield_start": {
+      "sheet": "combat-defense",
+      "fps": 12,
+      "loop": false,
+      "frames": [
+        {
+          "index": 0,
+          "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/shield_start/shield_start_000.png",
+          "duration": 0.083333,
+          "source_grid": {
+            "row": 4,
+            "column": 0,
+            "box": [
+              12,
+              661,
+              127,
+              860
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            75,
+            101,
+            191
+          ],
+          "trimmed_size": [
+            93,
+            116
+          ],
+          "paste_xy": [
+            50,
+            50
+          ]
+        },
+        {
+          "index": 1,
+          "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/shield_start/shield_start_001.png",
+          "duration": 0.083333,
+          "source_grid": {
+            "row": 4,
+            "column": 1,
+            "box": [
+              146,
+              661,
+              273,
+              861
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            74,
+            118,
+            192
+          ],
+          "trimmed_size": [
+            110,
+            118
+          ],
+          "paste_xy": [
+            41,
+            48
+          ]
+        },
+        {
+          "index": 2,
+          "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/shield_start/shield_start_002.png",
+          "duration": 0.083333,
+          "source_grid": {
+            "row": 4,
+            "column": 2,
+            "box": [
+              286,
+              661,
+              433,
+              861
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            75,
+            139,
+            193
+          ],
+          "trimmed_size": [
+            131,
+            118
+          ],
+          "paste_xy": [
+            30,
+            48
+          ]
+        },
+        {
+          "index": 3,
+          "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/shield_start/shield_start_003.png",
+          "duration": 0.083333,
+          "source_grid": {
+            "row": 4,
+            "column": 3,
+            "box": [
+              440,
+              661,
+              952,
+              861
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            0,
+            504,
+            195
+          ],
+          "trimmed_size": [
+            192,
+            75
+          ],
+          "paste_xy": [
+            0,
+            91
+          ]
+        }
+      ]
+    },
+    "shield_loop": {
+      "sheet": "combat-defense",
+      "fps": 10,
+      "loop": true,
+      "frames": [
+        {
+          "index": 0,
+          "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/shield_loop/shield_loop_000.png",
+          "duration": 0.1,
+          "source_grid": {
+            "row": 4,
+            "column": 4,
+            "box": [
+              952,
+              661,
+              1088,
+              861
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            0,
+            128,
+            193
+          ],
+          "trimmed_size": [
+            119,
+            192
+          ],
+          "paste_xy": [
+            36,
+            0
+          ]
+        },
+        {
+          "index": 1,
+          "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/shield_loop/shield_loop_001.png",
+          "duration": 0.1,
+          "source_grid": {
+            "row": 4,
+            "column": 5,
+            "box": [
+              1089,
+              661,
+              1244,
+              861
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            4,
+            147,
+            197
+          ],
+          "trimmed_size": [
+            138,
+            192
+          ],
+          "paste_xy": [
+            27,
+            0
+          ]
+        },
+        {
+          "index": 2,
+          "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/shield_loop/shield_loop_002.png",
+          "duration": 0.1,
+          "source_grid": {
+            "row": 4,
+            "column": 6,
+            "box": [
+              1242,
+              661,
+              1528,
+              861
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            0,
+            278,
+            199
+          ],
+          "trimmed_size": [
+            192,
+            142
+          ],
+          "paste_xy": [
+            0,
+            24
+          ]
+        },
+        {
+          "index": 3,
+          "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/shield_loop/shield_loop_003.png",
+          "duration": 0.1,
+          "source_grid": {
+            "row": 4,
+            "column": 7,
+            "box": [
+              885,
+              671,
+              1028,
+              851
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            0,
+            60,
+            143,
+            180
+          ],
+          "trimmed_size": [
+            143,
+            120
+          ],
+          "paste_xy": [
+            24,
+            46
+          ]
+        }
+      ]
+    },
+    "shield_impact": {
+      "sheet": "combat-defense",
+      "fps": 12,
+      "loop": false,
+      "frames": [
+        {
+          "index": 0,
+          "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/shield_impact/shield_impact_000.png",
+          "duration": 0.083333,
+          "source_grid": {
+            "row": 4,
+            "column": 8,
+            "box": [
+              1012,
+              671,
+              1155,
+              851
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            0,
+            61,
+            143,
+            180
+          ],
+          "trimmed_size": [
+            143,
+            119
+          ],
+          "paste_xy": [
+            24,
+            47
+          ]
+        },
+        {
+          "index": 1,
+          "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/shield_impact/shield_impact_001.png",
+          "duration": 0.083333,
+          "source_grid": {
+            "row": 4,
+            "column": 9,
+            "box": [
+              1139,
+              671,
+              1282,
+              851
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            0,
+            5,
+            143,
+            180
+          ],
+          "trimmed_size": [
+            143,
+            175
+          ],
+          "paste_xy": [
+            24,
+            0
+          ]
+        },
+        {
+          "index": 2,
+          "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/shield_impact/shield_impact_002.png",
+          "duration": 0.083333,
+          "source_grid": {
+            "row": 4,
+            "column": 10,
+            "box": [
+              1266,
+              671,
+              1408,
+              851
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            0,
+            0,
+            116,
+            180
+          ],
+          "trimmed_size": [
+            116,
+            180
+          ],
+          "paste_xy": [
+            38,
+            0
+          ]
+        },
+        {
+          "index": 3,
+          "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/shield_impact/shield_impact_003.png",
+          "duration": 0.083333,
+          "source_grid": {
+            "row": 4,
+            "column": 11,
+            "box": [
+              1392,
+              671,
+              1535,
+              851
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            0,
+            68,
+            128,
+            180
+          ],
+          "trimmed_size": [
+            128,
+            112
+          ],
+          "paste_xy": [
+            32,
+            54
+          ]
+        }
+      ]
+    },
+    "shield_break": {
+      "sheet": "combat-defense",
+      "fps": 12,
+      "loop": false,
+      "frames": [
+        {
+          "index": 0,
+          "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/shield_break/shield_break_000.png",
+          "duration": 0.083333,
+          "source_grid": {
+            "row": 5,
+            "column": 0,
+            "box": [
+              1,
+              825,
+              143,
+              1014
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            0,
+            134,
+            181
+          ],
+          "trimmed_size": [
+            126,
+            181
+          ],
+          "paste_xy": [
+            33,
+            0
+          ]
+        },
+        {
+          "index": 1,
+          "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/shield_break/shield_break_001.png",
+          "duration": 0.083333,
+          "source_grid": {
+            "row": 5,
+            "column": 1,
+            "box": [
+              137,
+              825,
+              294,
+              1012
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            0,
+            149,
+            179
+          ],
+          "trimmed_size": [
+            141,
+            179
+          ],
+          "paste_xy": [
+            26,
+            0
+          ]
+        },
+        {
+          "index": 2,
+          "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/shield_break/shield_break_002.png",
+          "duration": 0.083333,
+          "source_grid": {
+            "row": 5,
+            "column": 2,
+            "box": [
+              286,
+              825,
+              576,
+              1013
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            0,
+            282,
+            180
+          ],
+          "trimmed_size": [
+            192,
+            126
+          ],
+          "paste_xy": [
+            0,
+            40
+          ]
+        },
+        {
+          "index": 3,
+          "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/shield_break/shield_break_003.png",
+          "duration": 0.083333,
+          "source_grid": {
+            "row": 5,
+            "column": 3,
+            "box": [
+              571,
+              825,
+              684,
+              1014
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            0,
+            105,
+            181
+          ],
+          "trimmed_size": [
+            97,
+            181
+          ],
+          "paste_xy": [
+            48,
+            0
+          ]
+        }
+      ]
+    },
+    "parry": {
+      "sheet": "combat-defense",
+      "fps": 18,
+      "loop": false,
+      "frames": [
+        {
+          "index": 0,
+          "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/parry/parry_000.png",
+          "duration": 0.055556,
+          "source_grid": {
+            "row": 5,
+            "column": 4,
+            "box": [
+              691,
+              825,
+              1526,
+              1015
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            0,
+            827,
+            182
+          ],
+          "trimmed_size": [
+            192,
+            43
+          ],
+          "paste_xy": [
+            0,
+            123
+          ]
+        },
+        {
+          "index": 1,
+          "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/parry/parry_001.png",
+          "duration": 0.055556,
+          "source_grid": {
+            "row": 5,
+            "column": 5,
+            "box": [
+              632,
+              835,
+              774,
+              1015
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            0,
+            61,
+            142,
+            167
+          ],
+          "trimmed_size": [
+            142,
+            106
+          ],
+          "paste_xy": [
+            25,
+            60
+          ]
+        },
+        {
+          "index": 2,
+          "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/parry/parry_002.png",
+          "duration": 0.055556,
+          "source_grid": {
+            "row": 5,
+            "column": 6,
+            "box": [
+              758,
+              835,
+              901,
+              1015
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            0,
+            50,
+            143,
+            164
+          ],
+          "trimmed_size": [
+            143,
+            114
+          ],
+          "paste_xy": [
+            24,
+            52
+          ]
+        },
+        {
+          "index": 3,
+          "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/parry/parry_003.png",
+          "duration": 0.055556,
+          "source_grid": {
+            "row": 5,
+            "column": 7,
+            "box": [
+              885,
+              835,
+              1028,
+              1015
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            0,
+            50,
+            127,
+            172
+          ],
+          "trimmed_size": [
+            127,
+            122
+          ],
+          "paste_xy": [
+            32,
+            44
+          ]
+        }
+      ]
+    },
+    "hit_light": {
+      "sheet": "combat-defense",
+      "fps": 12,
+      "loop": false,
+      "frames": [
+        {
+          "index": 0,
+          "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/hit_light/hit_light_000.png",
+          "duration": 0.083333,
+          "source_grid": {
+            "row": 5,
+            "column": 8,
+            "box": [
+              1012,
+              835,
+              1155,
+              1015
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            10,
+            0,
+            143,
+            169
+          ],
+          "trimmed_size": [
+            133,
+            169
+          ],
+          "paste_xy": [
+            30,
+            0
+          ]
+        },
+        {
+          "index": 1,
+          "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/hit_light/hit_light_001.png",
+          "duration": 0.083333,
+          "source_grid": {
+            "row": 5,
+            "column": 9,
+            "box": [
+              1139,
+              835,
+              1282,
+              1015
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            0,
+            6,
+            143,
+            168
+          ],
+          "trimmed_size": [
+            143,
+            162
+          ],
+          "paste_xy": [
+            24,
+            4
+          ]
+        }
+      ]
+    },
+    "hit_heavy": {
+      "sheet": "combat-defense",
+      "fps": 10,
+      "loop": false,
+      "frames": [
+        {
+          "index": 0,
+          "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/hit_heavy/hit_heavy_000.png",
+          "duration": 0.1,
+          "source_grid": {
+            "row": 5,
+            "column": 10,
+            "box": [
+              1266,
+              835,
+              1408,
+              1015
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            0,
+            0,
+            142,
+            170
+          ],
+          "trimmed_size": [
+            142,
+            170
+          ],
+          "paste_xy": [
+            25,
+            0
+          ]
+        },
+        {
+          "index": 1,
+          "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/hit_heavy/hit_heavy_001.png",
+          "duration": 0.1,
+          "source_grid": {
+            "row": 5,
+            "column": 11,
+            "box": [
+              1392,
+              835,
+              1535,
+              1015
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            0,
+            0,
+            126,
+            170
+          ],
+          "trimmed_size": [
+            126,
+            170
+          ],
+          "paste_xy": [
+            33,
+            0
+          ]
+        }
+      ]
+    },
+    "gravity_flip": {
+      "sheet": "illogical",
+      "fps": 12,
+      "loop": false,
+      "frames": [
+        {
+          "index": 0,
+          "file": "art/characters/astra-mycelion/game-ready/frames/illogical/gravity_flip/gravity_flip_000.png",
+          "duration": 0.083333,
+          "source_grid": {
+            "row": 0,
+            "column": 0,
+            "box": [
+              18,
+              10,
+              154,
+              159
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            8,
+            128,
+            141
+          ],
+          "trimmed_size": [
+            120,
+            133
+          ],
+          "paste_xy": [
+            36,
+            33
+          ]
+        },
+        {
+          "index": 1,
+          "file": "art/characters/astra-mycelion/game-ready/frames/illogical/gravity_flip/gravity_flip_001.png",
+          "duration": 0.083333,
+          "source_grid": {
+            "row": 0,
+            "column": 1,
+            "box": [
+              156,
+              8,
+              318,
+              149
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            8,
+            154,
+            133
+          ],
+          "trimmed_size": [
+            146,
+            125
+          ],
+          "paste_xy": [
+            23,
+            41
+          ]
+        },
+        {
+          "index": 2,
+          "file": "art/characters/astra-mycelion/game-ready/frames/illogical/gravity_flip/gravity_flip_002.png",
+          "duration": 0.083333,
+          "source_grid": {
+            "row": 0,
+            "column": 2,
+            "box": [
+              339,
+              7,
+              488,
+              152
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            8,
+            141,
+            137
+          ],
+          "trimmed_size": [
+            133,
+            129
+          ],
+          "paste_xy": [
+            30,
+            37
+          ]
+        },
+        {
+          "index": 3,
+          "file": "art/characters/astra-mycelion/game-ready/frames/illogical/gravity_flip/gravity_flip_003.png",
+          "duration": 0.083333,
+          "source_grid": {
+            "row": 0,
+            "column": 3,
+            "box": [
+              522,
+              9,
+              648,
+              156
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            8,
+            118,
+            139
+          ],
+          "trimmed_size": [
+            110,
+            131
+          ],
+          "paste_xy": [
+            41,
+            35
+          ]
+        },
+        {
+          "index": 4,
+          "file": "art/characters/astra-mycelion/game-ready/frames/illogical/gravity_flip/gravity_flip_004.png",
+          "duration": 0.083333,
+          "source_grid": {
+            "row": 0,
+            "column": 4,
+            "box": [
+              666,
+              4,
+              799,
+              156
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            8,
+            125,
+            144
+          ],
+          "trimmed_size": [
+            117,
+            136
+          ],
+          "paste_xy": [
+            38,
+            30
+          ]
+        },
+        {
+          "index": 5,
+          "file": "art/characters/astra-mycelion/game-ready/frames/illogical/gravity_flip/gravity_flip_005.png",
+          "duration": 0.083333,
+          "source_grid": {
+            "row": 0,
+            "column": 5,
+            "box": [
+              817,
+              10,
+              953,
+              156
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            8,
+            128,
+            138
+          ],
+          "trimmed_size": [
+            120,
+            130
+          ],
+          "paste_xy": [
+            36,
+            36
+          ]
+        },
+        {
+          "index": 6,
+          "file": "art/characters/astra-mycelion/game-ready/frames/illogical/gravity_flip/gravity_flip_006.png",
+          "duration": 0.083333,
+          "source_grid": {
+            "row": 0,
+            "column": 6,
+            "box": [
+              976,
+              10,
+              1098,
+              157
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            8,
+            114,
+            139
+          ],
+          "trimmed_size": [
+            106,
+            131
+          ],
+          "paste_xy": [
+            43,
+            35
+          ]
+        },
+        {
+          "index": 7,
+          "file": "art/characters/astra-mycelion/game-ready/frames/illogical/gravity_flip/gravity_flip_007.png",
+          "duration": 0.083333,
+          "source_grid": {
+            "row": 0,
+            "column": 7,
+            "box": [
+              1128,
+              6,
+              1250,
+              157
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            8,
+            114,
+            143
+          ],
+          "trimmed_size": [
+            106,
+            135
+          ],
+          "paste_xy": [
+            43,
+            31
+          ]
+        }
+      ]
+    },
+    "upside_down_idle": {
+      "sheet": "illogical",
+      "fps": 8,
+      "loop": true,
+      "frames": [
+        {
+          "index": 0,
+          "file": "art/characters/astra-mycelion/game-ready/frames/illogical/upside_down_idle/upside_down_idle_000.png",
+          "duration": 0.125,
+          "source_grid": {
+            "row": 0,
+            "column": 8,
+            "box": [
+              1276,
+              7,
+              1383,
+              159
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            8,
+            99,
+            144
+          ],
+          "trimmed_size": [
+            91,
+            136
+          ],
+          "paste_xy": [
+            50,
+            30
+          ]
+        },
+        {
+          "index": 1,
+          "file": "art/characters/astra-mycelion/game-ready/frames/illogical/upside_down_idle/upside_down_idle_001.png",
+          "duration": 0.125,
+          "source_grid": {
+            "row": 0,
+            "column": 9,
+            "box": [
+              1397,
+              9,
+              1518,
+              159
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            8,
+            113,
+            142
+          ],
+          "trimmed_size": [
+            105,
+            134
+          ],
+          "paste_xy": [
+            44,
+            32
+          ]
+        },
+        {
+          "index": 2,
+          "file": "art/characters/astra-mycelion/game-ready/frames/illogical/upside_down_idle/upside_down_idle_002.png",
+          "duration": 0.125,
+          "source_grid": {
+            "row": 0,
+            "column": 10,
+            "box": [
+              1530,
+              9,
+              1636,
+              159
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            8,
+            98,
+            142
+          ],
+          "trimmed_size": [
+            90,
+            134
+          ],
+          "paste_xy": [
+            51,
+            32
+          ]
+        },
+        {
+          "index": 3,
+          "file": "art/characters/astra-mycelion/game-ready/frames/illogical/upside_down_idle/upside_down_idle_003.png",
+          "duration": 0.125,
+          "source_grid": {
+            "row": 0,
+            "column": 11,
+            "box": [
+              1644,
+              9,
+              1749,
+              159
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            8,
+            97,
+            142
+          ],
+          "trimmed_size": [
+            89,
+            134
+          ],
+          "paste_xy": [
+            52,
+            32
+          ]
+        }
+      ]
+    },
+    "teleport_glitch_out": {
+      "sheet": "illogical",
+      "fps": 14,
+      "loop": false,
+      "frames": [
+        {
+          "index": 0,
+          "file": "art/characters/astra-mycelion/game-ready/frames/illogical/teleport_glitch_out/teleport_glitch_out_000.png",
+          "duration": 0.071429,
+          "source_grid": {
+            "row": 1,
+            "column": 0,
+            "box": [
+              14,
+              138,
+              133,
+              314
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            28,
+            111,
+            168
+          ],
+          "trimmed_size": [
+            103,
+            140
+          ],
+          "paste_xy": [
+            44,
+            26
+          ]
+        },
+        {
+          "index": 1,
+          "file": "art/characters/astra-mycelion/game-ready/frames/illogical/teleport_glitch_out/teleport_glitch_out_001.png",
+          "duration": 0.071429,
+          "source_grid": {
+            "row": 1,
+            "column": 1,
+            "box": [
+              148,
+              169,
+              285,
+              313
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            8,
+            129,
+            136
+          ],
+          "trimmed_size": [
+            121,
+            128
+          ],
+          "paste_xy": [
+            36,
+            38
+          ]
+        },
+        {
+          "index": 2,
+          "file": "art/characters/astra-mycelion/game-ready/frames/illogical/teleport_glitch_out/teleport_glitch_out_002.png",
+          "duration": 0.071429,
+          "source_grid": {
+            "row": 1,
+            "column": 2,
+            "box": [
+              291,
+              171,
+              422,
+              313
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            8,
+            123,
+            134
+          ],
+          "trimmed_size": [
+            115,
+            126
+          ],
+          "paste_xy": [
+            38,
+            40
+          ]
+        },
+        {
+          "index": 3,
+          "file": "art/characters/astra-mycelion/game-ready/frames/illogical/teleport_glitch_out/teleport_glitch_out_003.png",
+          "duration": 0.071429,
+          "source_grid": {
+            "row": 1,
+            "column": 3,
+            "box": [
+              423,
+              138,
+              570,
+              312
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            34,
+            133,
+            166
+          ],
+          "trimmed_size": [
+            125,
+            132
+          ],
+          "paste_xy": [
+            34,
+            34
+          ]
+        },
+        {
+          "index": 4,
+          "file": "art/characters/astra-mycelion/game-ready/frames/illogical/teleport_glitch_out/teleport_glitch_out_004.png",
+          "duration": 0.071429,
+          "source_grid": {
+            "row": 1,
+            "column": 4,
+            "box": [
+              570,
+              176,
+              689,
+              309
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            8,
+            111,
+            125
+          ],
+          "trimmed_size": [
+            103,
+            117
+          ],
+          "paste_xy": [
+            44,
+            49
+          ]
+        },
+        {
+          "index": 5,
+          "file": "art/characters/astra-mycelion/game-ready/frames/illogical/teleport_glitch_out/teleport_glitch_out_005.png",
+          "duration": 0.071429,
+          "source_grid": {
+            "row": 1,
+            "column": 5,
+            "box": [
+              694,
+              138,
+              814,
+              302
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            48,
+            112,
+            156
+          ],
+          "trimmed_size": [
+            104,
+            108
+          ],
+          "paste_xy": [
+            44,
+            58
+          ]
+        }
+      ]
+    },
+    "teleport_glitch_in": {
+      "sheet": "illogical",
+      "fps": 14,
+      "loop": false,
+      "frames": [
+        {
+          "index": 0,
+          "file": "art/characters/astra-mycelion/game-ready/frames/illogical/teleport_glitch_in/teleport_glitch_in_000.png",
+          "duration": 0.071429,
+          "source_grid": {
+            "row": 1,
+            "column": 6,
+            "box": [
+              819,
+              138,
+              1055,
+              312
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            45,
+            228,
+            166
+          ],
+          "trimmed_size": [
+            192,
+            106
+          ],
+          "paste_xy": [
+            0,
+            60
+          ]
+        },
+        {
+          "index": 1,
+          "file": "art/characters/astra-mycelion/game-ready/frames/illogical/teleport_glitch_in/teleport_glitch_in_001.png",
+          "duration": 0.071429,
+          "source_grid": {
+            "row": 1,
+            "column": 7,
+            "box": [
+              1047,
+              138,
+              1200,
+              314
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            27,
+            145,
+            168
+          ],
+          "trimmed_size": [
+            137,
+            141
+          ],
+          "paste_xy": [
+            28,
+            25
+          ]
+        },
+        {
+          "index": 2,
+          "file": "art/characters/astra-mycelion/game-ready/frames/illogical/teleport_glitch_in/teleport_glitch_in_002.png",
+          "duration": 0.071429,
+          "source_grid": {
+            "row": 1,
+            "column": 8,
+            "box": [
+              1205,
+              138,
+              1356,
+              316
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            28,
+            143,
+            170
+          ],
+          "trimmed_size": [
+            135,
+            142
+          ],
+          "paste_xy": [
+            28,
+            24
+          ]
+        },
+        {
+          "index": 3,
+          "file": "art/characters/astra-mycelion/game-ready/frames/illogical/teleport_glitch_in/teleport_glitch_in_003.png",
+          "duration": 0.071429,
+          "source_grid": {
+            "row": 1,
+            "column": 9,
+            "box": [
+              1357,
+              138,
+              1502,
+              316
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            43,
+            136,
+            170
+          ],
+          "trimmed_size": [
+            128,
+            127
+          ],
+          "paste_xy": [
+            32,
+            39
+          ]
+        },
+        {
+          "index": 4,
+          "file": "art/characters/astra-mycelion/game-ready/frames/illogical/teleport_glitch_in/teleport_glitch_in_004.png",
+          "duration": 0.071429,
+          "source_grid": {
+            "row": 1,
+            "column": 10,
+            "box": [
+              1510,
+              138,
+              1626,
+              317
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            38,
+            108,
+            171
+          ],
+          "trimmed_size": [
+            100,
+            133
+          ],
+          "paste_xy": [
+            46,
+            33
+          ]
+        },
+        {
+          "index": 5,
+          "file": "art/characters/astra-mycelion/game-ready/frames/illogical/teleport_glitch_in/teleport_glitch_in_005.png",
+          "duration": 0.071429,
+          "source_grid": {
+            "row": 1,
+            "column": 11,
+            "box": [
+              1641,
+              138,
+              1746,
+              317
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            37,
+            97,
+            171
+          ],
+          "trimmed_size": [
+            89,
+            134
+          ],
+          "paste_xy": [
+            52,
+            32
+          ]
+        }
+      ]
+    },
+    "impossible_dash": {
+      "sheet": "illogical",
+      "fps": 18,
+      "loop": false,
+      "frames": [
+        {
+          "index": 0,
+          "file": "art/characters/astra-mycelion/game-ready/frames/illogical/impossible_dash/impossible_dash_000.png",
+          "duration": 0.055556,
+          "source_grid": {
+            "row": 2,
+            "column": 0,
+            "box": [
+              9,
+              281,
+              181,
+              443
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            0,
+            164,
+            154
+          ],
+          "trimmed_size": [
+            156,
+            154
+          ],
+          "paste_xy": [
+            18,
+            12
+          ]
+        },
+        {
+          "index": 1,
+          "file": "art/characters/astra-mycelion/game-ready/frames/illogical/impossible_dash/impossible_dash_001.png",
+          "duration": 0.055556,
+          "source_grid": {
+            "row": 2,
+            "column": 1,
+            "box": [
+              171,
+              281,
+              768,
+              446
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            0,
+            589,
+            157
+          ],
+          "trimmed_size": [
+            192,
+            52
+          ],
+          "paste_xy": [
+            0,
+            114
+          ]
+        },
+        {
+          "index": 2,
+          "file": "art/characters/astra-mycelion/game-ready/frames/illogical/impossible_dash/impossible_dash_002.png",
+          "duration": 0.055556,
+          "source_grid": {
+            "row": 2,
+            "column": 2,
+            "box": [
+              766,
+              281,
+              1183,
+              447
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            0,
+            409,
+            158
+          ],
+          "trimmed_size": [
+            192,
+            76
+          ],
+          "paste_xy": [
+            0,
+            90
+          ]
+        },
+        {
+          "index": 3,
+          "file": "art/characters/astra-mycelion/game-ready/frames/illogical/impossible_dash/impossible_dash_003.png",
+          "duration": 0.055556,
+          "source_grid": {
+            "row": 2,
+            "column": 3,
+            "box": [
+              1176,
+              281,
+              1346,
+              458
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            0,
+            162,
+            169
+          ],
+          "trimmed_size": [
+            154,
+            169
+          ],
+          "paste_xy": [
+            19,
+            0
+          ]
+        },
+        {
+          "index": 4,
+          "file": "art/characters/astra-mycelion/game-ready/frames/illogical/impossible_dash/impossible_dash_004.png",
+          "duration": 0.055556,
+          "source_grid": {
+            "row": 2,
+            "column": 4,
+            "box": [
+              1341,
+              281,
+              1497,
+              459
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            7,
+            148,
+            170
+          ],
+          "trimmed_size": [
+            140,
+            163
+          ],
+          "paste_xy": [
+            26,
+            3
+          ]
+        },
+        {
+          "index": 5,
+          "file": "art/characters/astra-mycelion/game-ready/frames/illogical/impossible_dash/impossible_dash_005.png",
+          "duration": 0.055556,
+          "source_grid": {
+            "row": 2,
+            "column": 5,
+            "box": [
+              1504,
+              281,
+              1629,
+              457
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            46,
+            117,
+            168
+          ],
+          "trimmed_size": [
+            109,
+            122
+          ],
+          "paste_xy": [
+            42,
+            44
+          ]
+        },
+        {
+          "index": 6,
+          "file": "art/characters/astra-mycelion/game-ready/frames/illogical/impossible_dash/impossible_dash_006.png",
+          "duration": 0.055556,
+          "source_grid": {
+            "row": 2,
+            "column": 6,
+            "box": [
+              1635,
+              281,
+              1763,
+              458
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            45,
+            120,
+            169
+          ],
+          "trimmed_size": [
+            112,
+            124
+          ],
+          "paste_xy": [
+            40,
+            42
+          ]
+        },
+        {
+          "index": 7,
+          "file": "art/characters/astra-mycelion/game-ready/frames/illogical/impossible_dash/impossible_dash_007.png",
+          "duration": 0.055556,
+          "source_grid": {
+            "row": 2,
+            "column": 7,
+            "box": [
+              1020,
+              291,
+              1181,
+              450
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            0,
+            4,
+            155,
+            148
+          ],
+          "trimmed_size": [
+            155,
+            144
+          ],
+          "paste_xy": [
+            18,
+            22
+          ]
+        }
+      ]
+    },
+    "temporal_freeze": {
+      "sheet": "illogical",
+      "fps": 6,
+      "loop": true,
+      "frames": [
+        {
+          "index": 0,
+          "file": "art/characters/astra-mycelion/game-ready/frames/illogical/temporal_freeze/temporal_freeze_000.png",
+          "duration": 0.166667,
+          "source_grid": {
+            "row": 2,
+            "column": 8,
+            "box": [
+              1165,
+              291,
+              1327,
+              450
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            7,
+            2,
+            162,
+            159
+          ],
+          "trimmed_size": [
+            155,
+            157
+          ],
+          "paste_xy": [
+            18,
+            9
+          ]
+        },
+        {
+          "index": 1,
+          "file": "art/characters/astra-mycelion/game-ready/frames/illogical/temporal_freeze/temporal_freeze_001.png",
+          "duration": 0.166667,
+          "source_grid": {
+            "row": 2,
+            "column": 9,
+            "box": [
+              1311,
+              291,
+              1472,
+              450
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            6,
+            4,
+            161,
+            159
+          ],
+          "trimmed_size": [
+            155,
+            155
+          ],
+          "paste_xy": [
+            18,
+            11
+          ]
+        },
+        {
+          "index": 2,
+          "file": "art/characters/astra-mycelion/game-ready/frames/illogical/temporal_freeze/temporal_freeze_002.png",
+          "duration": 0.166667,
+          "source_grid": {
+            "row": 2,
+            "column": 10,
+            "box": [
+              1456,
+              291,
+              1618,
+              450
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            0,
+            6,
+            162,
+            158
+          ],
+          "trimmed_size": [
+            162,
+            152
+          ],
+          "paste_xy": [
+            15,
+            14
+          ]
+        },
+        {
+          "index": 3,
+          "file": "art/characters/astra-mycelion/game-ready/frames/illogical/temporal_freeze/temporal_freeze_003.png",
+          "duration": 0.166667,
+          "source_grid": {
+            "row": 2,
+            "column": 11,
+            "box": [
+              1602,
+              291,
+              1763,
+              450
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            10,
+            35,
+            153,
+            159
+          ],
+          "trimmed_size": [
+            143,
+            124
+          ],
+          "paste_xy": [
+            24,
+            42
+          ]
+        }
+      ]
+    },
+    "mirror_split": {
+      "sheet": "illogical",
+      "fps": 12,
+      "loop": false,
+      "frames": [
+        {
+          "index": 0,
+          "file": "art/characters/astra-mycelion/game-ready/frames/illogical/mirror_split/mirror_split_000.png",
+          "duration": 0.083333,
+          "source_grid": {
+            "row": 3,
+            "column": 0,
+            "box": [
+              11,
+              424,
+              116,
+              604
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            5,
+            97,
+            180
+          ],
+          "trimmed_size": [
+            89,
+            175
+          ],
+          "paste_xy": [
+            52,
+            0
+          ]
+        },
+        {
+          "index": 1,
+          "file": "art/characters/astra-mycelion/game-ready/frames/illogical/mirror_split/mirror_split_001.png",
+          "duration": 0.083333,
+          "source_grid": {
+            "row": 3,
+            "column": 1,
+            "box": [
+              113,
+              424,
+              324,
+              604
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            2,
+            203,
+            180
+          ],
+          "trimmed_size": [
+            192,
+            175
+          ],
+          "paste_xy": [
+            0,
+            0
+          ]
+        },
+        {
+          "index": 2,
+          "file": "art/characters/astra-mycelion/game-ready/frames/illogical/mirror_split/mirror_split_002.png",
+          "duration": 0.083333,
+          "source_grid": {
+            "row": 3,
+            "column": 2,
+            "box": [
+              330,
+              424,
+              439,
+              604
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            3,
+            90,
+            175
+          ],
+          "trimmed_size": [
+            82,
+            172
+          ],
+          "paste_xy": [
+            55,
+            0
+          ]
+        },
+        {
+          "index": 3,
+          "file": "art/characters/astra-mycelion/game-ready/frames/illogical/mirror_split/mirror_split_003.png",
+          "duration": 0.083333,
+          "source_grid": {
+            "row": 3,
+            "column": 3,
+            "box": [
+              436,
+              424,
+              558,
+              604
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            47,
+            114,
+            173
+          ],
+          "trimmed_size": [
+            106,
+            126
+          ],
+          "paste_xy": [
+            43,
+            40
+          ]
+        },
+        {
+          "index": 4,
+          "file": "art/characters/astra-mycelion/game-ready/frames/illogical/mirror_split/mirror_split_004.png",
+          "duration": 0.083333,
+          "source_grid": {
+            "row": 3,
+            "column": 4,
+            "box": [
+              549,
+              424,
+              577,
+              446
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            0,
+            28,
+            14
+          ],
+          "trimmed_size": [
+            20,
+            14
+          ],
+          "paste_xy": [
+            86,
+            152
+          ]
+        },
+        {
+          "index": 5,
+          "file": "art/characters/astra-mycelion/game-ready/frames/illogical/mirror_split/mirror_split_005.png",
+          "duration": 0.083333,
+          "source_grid": {
+            "row": 3,
+            "column": 5,
+            "box": [
+              566,
+              424,
+              674,
+              604
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            46,
+            106,
+            180
+          ],
+          "trimmed_size": [
+            98,
+            134
+          ],
+          "paste_xy": [
+            47,
+            32
+          ]
+        },
+        {
+          "index": 6,
+          "file": "art/characters/astra-mycelion/game-ready/frames/illogical/mirror_split/mirror_split_006.png",
+          "duration": 0.083333,
+          "source_grid": {
+            "row": 3,
+            "column": 6,
+            "box": [
+              691,
+              461,
+              821,
+              604
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            8,
+            122,
+            141
+          ],
+          "trimmed_size": [
+            114,
+            133
+          ],
+          "paste_xy": [
+            39,
+            33
+          ]
+        },
+        {
+          "index": 7,
+          "file": "art/characters/astra-mycelion/game-ready/frames/illogical/mirror_split/mirror_split_007.png",
+          "duration": 0.083333,
+          "source_grid": {
+            "row": 3,
+            "column": 7,
+            "box": [
+              830,
+              424,
+              946,
+              604
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            5,
+            108,
+            180
+          ],
+          "trimmed_size": [
+            100,
+            175
+          ],
+          "paste_xy": [
+            46,
+            0
+          ]
+        }
+      ]
+    },
+    "false_fall": {
+      "sheet": "illogical",
+      "fps": 8,
+      "loop": true,
+      "frames": [
+        {
+          "index": 0,
+          "file": "art/characters/astra-mycelion/game-ready/frames/illogical/false_fall/false_fall_000.png",
+          "duration": 0.125,
+          "source_grid": {
+            "row": 3,
+            "column": 8,
+            "box": [
+              951,
+              424,
+              1087,
+              601
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            4,
+            133,
+            169
+          ],
+          "trimmed_size": [
+            125,
+            165
+          ],
+          "paste_xy": [
+            34,
+            1
+          ]
+        },
+        {
+          "index": 1,
+          "file": "art/characters/astra-mycelion/game-ready/frames/illogical/false_fall/false_fall_001.png",
+          "duration": 0.125,
+          "source_grid": {
+            "row": 3,
+            "column": 9,
+            "box": [
+              1098,
+              424,
+              1348,
+              604
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            0,
+            242,
+            180
+          ],
+          "trimmed_size": [
+            192,
+            148
+          ],
+          "paste_xy": [
+            0,
+            18
+          ]
+        },
+        {
+          "index": 2,
+          "file": "art/characters/astra-mycelion/game-ready/frames/illogical/false_fall/false_fall_002.png",
+          "duration": 0.125,
+          "source_grid": {
+            "row": 3,
+            "column": 10,
+            "box": [
+              1363,
+              424,
+              1492,
+              604
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            0,
+            124,
+            180
+          ],
+          "trimmed_size": [
+            116,
+            180
+          ],
+          "paste_xy": [
+            38,
+            0
+          ]
+        },
+        {
+          "index": 3,
+          "file": "art/characters/astra-mycelion/game-ready/frames/illogical/false_fall/false_fall_003.png",
+          "duration": 0.125,
+          "source_grid": {
+            "row": 3,
+            "column": 11,
+            "box": [
+              1497,
+              424,
+              1759,
+              604
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            0,
+            254,
+            180
+          ],
+          "trimmed_size": [
+            192,
+            140
+          ],
+          "paste_xy": [
+            0,
+            26
+          ]
+        }
+      ]
+    },
+    "phase_through_floor": {
+      "sheet": "illogical",
+      "fps": 12,
+      "loop": false,
+      "frames": [
+        {
+          "index": 0,
+          "file": "art/characters/astra-mycelion/game-ready/frames/illogical/phase_through_floor/phase_through_floor_000.png",
+          "duration": 0.083333,
+          "source_grid": {
+            "row": 4,
+            "column": 0,
+            "box": [
+              11,
+              568,
+              148,
+              746
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            0,
+            129,
+            170
+          ],
+          "trimmed_size": [
+            121,
+            170
+          ],
+          "paste_xy": [
+            36,
+            0
+          ]
+        },
+        {
+          "index": 1,
+          "file": "art/characters/astra-mycelion/game-ready/frames/illogical/phase_through_floor/phase_through_floor_001.png",
+          "duration": 0.083333,
+          "source_grid": {
+            "row": 4,
+            "column": 1,
+            "box": [
+              146,
+              568,
+              288,
+              744
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            0,
+            130,
+            168
+          ],
+          "trimmed_size": [
+            122,
+            168
+          ],
+          "paste_xy": [
+            35,
+            0
+          ]
+        },
+        {
+          "index": 2,
+          "file": "art/characters/astra-mycelion/game-ready/frames/illogical/phase_through_floor/phase_through_floor_002.png",
+          "duration": 0.083333,
+          "source_grid": {
+            "row": 4,
+            "column": 2,
+            "box": [
+              292,
+              568,
+              422,
+              748
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            7,
+            51,
+            122,
+            176
+          ],
+          "trimmed_size": [
+            115,
+            125
+          ],
+          "paste_xy": [
+            38,
+            41
+          ]
+        },
+        {
+          "index": 3,
+          "file": "art/characters/astra-mycelion/game-ready/frames/illogical/phase_through_floor/phase_through_floor_003.png",
+          "duration": 0.083333,
+          "source_grid": {
+            "row": 4,
+            "column": 3,
+            "box": [
+              427,
+              568,
+              550,
+              748
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            3,
+            6,
+            115,
+            178
+          ],
+          "trimmed_size": [
+            112,
+            172
+          ],
+          "paste_xy": [
+            40,
+            0
+          ]
+        },
+        {
+          "index": 4,
+          "file": "art/characters/astra-mycelion/game-ready/frames/illogical/phase_through_floor/phase_through_floor_004.png",
+          "duration": 0.083333,
+          "source_grid": {
+            "row": 4,
+            "column": 4,
+            "box": [
+              547,
+              568,
+              679,
+              735
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            5,
+            0,
+            124,
+            159
+          ],
+          "trimmed_size": [
+            119,
+            159
+          ],
+          "paste_xy": [
+            36,
+            7
+          ]
+        },
+        {
+          "index": 5,
+          "file": "art/characters/astra-mycelion/game-ready/frames/illogical/phase_through_floor/phase_through_floor_005.png",
+          "duration": 0.083333,
+          "source_grid": {
+            "row": 4,
+            "column": 5,
+            "box": [
+              668,
+              568,
+              810,
+              736
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            2,
+            0,
+            134,
+            160
+          ],
+          "trimmed_size": [
+            132,
+            160
+          ],
+          "paste_xy": [
+            30,
+            6
+          ]
+        },
+        {
+          "index": 6,
+          "file": "art/characters/astra-mycelion/game-ready/frames/illogical/phase_through_floor/phase_through_floor_006.png",
+          "duration": 0.083333,
+          "source_grid": {
+            "row": 4,
+            "column": 6,
+            "box": [
+              803,
+              568,
+              957,
+              720
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            0,
+            147,
+            144
+          ],
+          "trimmed_size": [
+            139,
+            144
+          ],
+          "paste_xy": [
+            26,
+            22
+          ]
+        },
+        {
+          "index": 7,
+          "file": "art/characters/astra-mycelion/game-ready/frames/illogical/phase_through_floor/phase_through_floor_007.png",
+          "duration": 0.083333,
+          "source_grid": {
+            "row": 4,
+            "column": 7,
+            "box": [
+              951,
+              568,
+              1135,
+              715
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            7,
+            2,
+            176,
+            139
+          ],
+          "trimmed_size": [
+            169,
+            137
+          ],
+          "paste_xy": [
+            12,
+            29
+          ]
+        }
+      ]
+    },
+    "wrong_landing": {
+      "sheet": "illogical",
+      "fps": 12,
+      "loop": false,
+      "frames": [
+        {
+          "index": 0,
+          "file": "art/characters/astra-mycelion/game-ready/frames/illogical/wrong_landing/wrong_landing_000.png",
+          "duration": 0.083333,
+          "source_grid": {
+            "row": 4,
+            "column": 8,
+            "box": [
+              1136,
+              568,
+              1283,
+              718
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            0,
+            139,
+            142
+          ],
+          "trimmed_size": [
+            131,
+            142
+          ],
+          "paste_xy": [
+            30,
+            24
+          ]
+        },
+        {
+          "index": 1,
+          "file": "art/characters/astra-mycelion/game-ready/frames/illogical/wrong_landing/wrong_landing_001.png",
+          "duration": 0.083333,
+          "source_grid": {
+            "row": 4,
+            "column": 9,
+            "box": [
+              1272,
+              568,
+              1458,
+              748
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            23,
+            0,
+            186,
+            180
+          ],
+          "trimmed_size": [
+            163,
+            180
+          ],
+          "paste_xy": [
+            14,
+            0
+          ]
+        },
+        {
+          "index": 2,
+          "file": "art/characters/astra-mycelion/game-ready/frames/illogical/wrong_landing/wrong_landing_002.png",
+          "duration": 0.083333,
+          "source_grid": {
+            "row": 4,
+            "column": 10,
+            "box": [
+              1455,
+              568,
+              1593,
+              721
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            0,
+            138,
+            145
+          ],
+          "trimmed_size": [
+            130,
+            145
+          ],
+          "paste_xy": [
+            31,
+            21
+          ]
+        },
+        {
+          "index": 3,
+          "file": "art/characters/astra-mycelion/game-ready/frames/illogical/wrong_landing/wrong_landing_003.png",
+          "duration": 0.083333,
+          "source_grid": {
+            "row": 4,
+            "column": 11,
+            "box": [
+              1605,
+              568,
+              1752,
+              720
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            0,
+            139,
+            144
+          ],
+          "trimmed_size": [
+            131,
+            144
+          ],
+          "paste_xy": [
+            30,
+            22
+          ]
+        }
+      ]
+    },
+    "fake_death_rebuild": {
+      "sheet": "illogical",
+      "fps": 12,
+      "loop": false,
+      "frames": [
+        {
+          "index": 0,
+          "file": "art/characters/astra-mycelion/game-ready/frames/illogical/fake_death_rebuild/fake_death_rebuild_000.png",
+          "duration": 0.083333,
+          "source_grid": {
+            "row": 5,
+            "column": 0,
+            "box": [
+              2,
+              712,
+              153,
+              859
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            0,
+            143,
+            139
+          ],
+          "trimmed_size": [
+            135,
+            139
+          ],
+          "paste_xy": [
+            28,
+            27
+          ]
+        },
+        {
+          "index": 1,
+          "file": "art/characters/astra-mycelion/game-ready/frames/illogical/fake_death_rebuild/fake_death_rebuild_001.png",
+          "duration": 0.083333,
+          "source_grid": {
+            "row": 5,
+            "column": 1,
+            "box": [
+              144,
+              712,
+              317,
+              859
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            5,
+            165,
+            139
+          ],
+          "trimmed_size": [
+            157,
+            134
+          ],
+          "paste_xy": [
+            18,
+            32
+          ]
+        },
+        {
+          "index": 2,
+          "file": "art/characters/astra-mycelion/game-ready/frames/illogical/fake_death_rebuild/fake_death_rebuild_002.png",
+          "duration": 0.083333,
+          "source_grid": {
+            "row": 5,
+            "column": 2,
+            "box": [
+              307,
+              712,
+              448,
+              859
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            6,
+            133,
+            139
+          ],
+          "trimmed_size": [
+            125,
+            133
+          ],
+          "paste_xy": [
+            34,
+            33
+          ]
+        },
+        {
+          "index": 3,
+          "file": "art/characters/astra-mycelion/game-ready/frames/illogical/fake_death_rebuild/fake_death_rebuild_003.png",
+          "duration": 0.083333,
+          "source_grid": {
+            "row": 5,
+            "column": 3,
+            "box": [
+              445,
+              712,
+              581,
+              859
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            0,
+            128,
+            139
+          ],
+          "trimmed_size": [
+            120,
+            139
+          ],
+          "paste_xy": [
+            36,
+            27
+          ]
+        },
+        {
+          "index": 4,
+          "file": "art/characters/astra-mycelion/game-ready/frames/illogical/fake_death_rebuild/fake_death_rebuild_004.png",
+          "duration": 0.083333,
+          "source_grid": {
+            "row": 5,
+            "column": 4,
+            "box": [
+              583,
+              712,
+              711,
+              861
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            6,
+            3,
+            120,
+            141
+          ],
+          "trimmed_size": [
+            114,
+            138
+          ],
+          "paste_xy": [
+            39,
+            28
+          ]
+        },
+        {
+          "index": 5,
+          "file": "art/characters/astra-mycelion/game-ready/frames/illogical/fake_death_rebuild/fake_death_rebuild_005.png",
+          "duration": 0.083333,
+          "source_grid": {
+            "row": 5,
+            "column": 5,
+            "box": [
+              714,
+              712,
+              828,
+              866
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            3,
+            106,
+            146
+          ],
+          "trimmed_size": [
+            98,
+            143
+          ],
+          "paste_xy": [
+            47,
+            23
+          ]
+        },
+        {
+          "index": 6,
+          "file": "art/characters/astra-mycelion/game-ready/frames/illogical/fake_death_rebuild/fake_death_rebuild_006.png",
+          "duration": 0.083333,
+          "source_grid": {
+            "row": 5,
+            "column": 6,
+            "box": [
+              829,
+              746,
+              937,
+              870
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            8,
+            100,
+            116
+          ],
+          "trimmed_size": [
+            92,
+            108
+          ],
+          "paste_xy": [
+            50,
+            58
+          ]
+        },
+        {
+          "index": 7,
+          "file": "art/characters/astra-mycelion/game-ready/frames/illogical/fake_death_rebuild/fake_death_rebuild_007.png",
+          "duration": 0.083333,
+          "source_grid": {
+            "row": 5,
+            "column": 7,
+            "box": [
+              944,
+              737,
+              1041,
+              878
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            8,
+            89,
+            133
+          ],
+          "trimmed_size": [
+            81,
+            125
+          ],
+          "paste_xy": [
+            56,
+            41
+          ]
+        },
+        {
+          "index": 8,
+          "file": "art/characters/astra-mycelion/game-ready/frames/illogical/fake_death_rebuild/fake_death_rebuild_008.png",
+          "duration": 0.083333,
+          "source_grid": {
+            "row": 5,
+            "column": 8,
+            "box": [
+              1032,
+              740,
+              1129,
+              877
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            8,
+            89,
+            129
+          ],
+          "trimmed_size": [
+            81,
+            121
+          ],
+          "paste_xy": [
+            56,
+            45
+          ]
+        },
+        {
+          "index": 9,
+          "file": "art/characters/astra-mycelion/game-ready/frames/illogical/fake_death_rebuild/fake_death_rebuild_009.png",
+          "duration": 0.083333,
+          "source_grid": {
+            "row": 5,
+            "column": 9,
+            "box": [
+              1136,
+              732,
+              1241,
+              877
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            8,
+            97,
+            137
+          ],
+          "trimmed_size": [
+            89,
+            129
+          ],
+          "paste_xy": [
+            52,
+            37
+          ]
+        }
+      ]
+    },
+    "victory_glitch": {
+      "sheet": "illogical",
+      "fps": 8,
+      "loop": false,
+      "frames": [
+        {
+          "index": 0,
+          "file": "art/characters/astra-mycelion/game-ready/frames/illogical/victory_glitch/victory_glitch_000.png",
+          "duration": 0.125,
+          "source_grid": {
+            "row": 5,
+            "column": 10,
+            "box": [
+              1245,
+              734,
+              1352,
+              877
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            8,
+            99,
+            135
+          ],
+          "trimmed_size": [
+            91,
+            127
+          ],
+          "paste_xy": [
+            50,
+            39
+          ]
+        },
+        {
+          "index": 1,
+          "file": "art/characters/astra-mycelion/game-ready/frames/illogical/victory_glitch/victory_glitch_001.png",
+          "duration": 0.125,
+          "source_grid": {
+            "row": 5,
+            "column": 11,
+            "box": [
+              1360,
+              729,
+              1483,
+              877
+            ]
+          },
+          "empty": false,
+          "source_bounds": [
+            8,
+            8,
+            115,
+            140
+          ],
+          "trimmed_size": [
+            107,
+            132
+          ],
+          "paste_xy": [
+            42,
+            34
+          ]
+        }
+      ]
+    }
+  },
+  "atlases": {
+    "movement": {
+      "file": "art/characters/astra-mycelion/game-ready/atlases/astra_mycelion_movement_atlas.png",
+      "frames": [
+        {
+          "name": "movement/idle/idle_000.png",
+          "x": 0,
+          "y": 0,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "movement/idle/idle_001.png",
+          "x": 192,
+          "y": 0,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "movement/idle/idle_002.png",
+          "x": 384,
+          "y": 0,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "movement/idle/idle_003.png",
+          "x": 576,
+          "y": 0,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "movement/idle/idle_004.png",
+          "x": 768,
+          "y": 0,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "movement/idle/idle_005.png",
+          "x": 960,
+          "y": 0,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "movement/idle/idle_006.png",
+          "x": 1152,
+          "y": 0,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "movement/idle/idle_007.png",
+          "x": 1344,
+          "y": 0,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "movement/idle_illogical/idle_illogical_000.png",
+          "x": 0,
+          "y": 192,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "movement/idle_illogical/idle_illogical_001.png",
+          "x": 192,
+          "y": 192,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "movement/idle_illogical/idle_illogical_002.png",
+          "x": 384,
+          "y": 192,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "movement/idle_illogical/idle_illogical_003.png",
+          "x": 576,
+          "y": 192,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "movement/walk/walk_000.png",
+          "x": 768,
+          "y": 192,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "movement/walk/walk_001.png",
+          "x": 960,
+          "y": 192,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "movement/walk/walk_002.png",
+          "x": 1152,
+          "y": 192,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "movement/walk/walk_003.png",
+          "x": 1344,
+          "y": 192,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "movement/walk/walk_004.png",
+          "x": 0,
+          "y": 384,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "movement/walk/walk_005.png",
+          "x": 192,
+          "y": 384,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "movement/walk/walk_006.png",
+          "x": 384,
+          "y": 384,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "movement/walk/walk_007.png",
+          "x": 576,
+          "y": 384,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "movement/reverse_walk/reverse_walk_000.png",
+          "x": 768,
+          "y": 384,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "movement/reverse_walk/reverse_walk_001.png",
+          "x": 960,
+          "y": 384,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "movement/reverse_walk/reverse_walk_002.png",
+          "x": 1152,
+          "y": 384,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "movement/reverse_walk/reverse_walk_003.png",
+          "x": 1344,
+          "y": 384,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "movement/run/run_000.png",
+          "x": 0,
+          "y": 576,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "movement/run/run_001.png",
+          "x": 192,
+          "y": 576,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "movement/run/run_002.png",
+          "x": 384,
+          "y": 576,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "movement/run/run_003.png",
+          "x": 576,
+          "y": 576,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "movement/run/run_004.png",
+          "x": 768,
+          "y": 576,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "movement/run/run_005.png",
+          "x": 960,
+          "y": 576,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "movement/run/run_006.png",
+          "x": 1152,
+          "y": 576,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "movement/run/run_007.png",
+          "x": 1344,
+          "y": 576,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "movement/run_start/run_start_000.png",
+          "x": 0,
+          "y": 768,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "movement/run_start/run_start_001.png",
+          "x": 192,
+          "y": 768,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "movement/run_start/run_start_002.png",
+          "x": 384,
+          "y": 768,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "movement/run_start/run_start_003.png",
+          "x": 576,
+          "y": 768,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "movement/run_stop/run_stop_000.png",
+          "x": 768,
+          "y": 768,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "movement/run_stop/run_stop_001.png",
+          "x": 960,
+          "y": 768,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "movement/run_stop/run_stop_002.png",
+          "x": 1152,
+          "y": 768,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "movement/run_stop/run_stop_003.png",
+          "x": 1344,
+          "y": 768,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "movement/run_stop/run_stop_004.png",
+          "x": 0,
+          "y": 960,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "movement/turn_pivot/turn_pivot_000.png",
+          "x": 192,
+          "y": 960,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "movement/turn_pivot/turn_pivot_001.png",
+          "x": 384,
+          "y": 960,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "movement/turn_pivot/turn_pivot_002.png",
+          "x": 576,
+          "y": 960,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "movement/turn_pivot/turn_pivot_003.png",
+          "x": 768,
+          "y": 960,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "movement/crouch/crouch_000.png",
+          "x": 960,
+          "y": 960,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "movement/crouch/crouch_001.png",
+          "x": 1152,
+          "y": 960,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "movement/crouch/crouch_002.png",
+          "x": 1344,
+          "y": 960,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "movement/jump_start/jump_start_000.png",
+          "x": 0,
+          "y": 1152,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "movement/jump_start/jump_start_001.png",
+          "x": 192,
+          "y": 1152,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "movement/jump_start/jump_start_002.png",
+          "x": 384,
+          "y": 1152,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "movement/jump_start/jump_start_003.png",
+          "x": 576,
+          "y": 1152,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "movement/jump_up/jump_up_000.png",
+          "x": 768,
+          "y": 1152,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "movement/jump_up/jump_up_001.png",
+          "x": 960,
+          "y": 1152,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "movement/jump_up/jump_up_002.png",
+          "x": 1152,
+          "y": 1152,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "movement/jump_apex/jump_apex_000.png",
+          "x": 1344,
+          "y": 1152,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "movement/jump_apex/jump_apex_001.png",
+          "x": 0,
+          "y": 1344,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "movement/fall_loop/fall_loop_000.png",
+          "x": 192,
+          "y": 1344,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "movement/fall_loop/fall_loop_001.png",
+          "x": 384,
+          "y": 1344,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "movement/fall_loop/fall_loop_002.png",
+          "x": 576,
+          "y": 1344,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "movement/land_soft/land_soft_000.png",
+          "x": 768,
+          "y": 1344,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "movement/land_soft/land_soft_001.png",
+          "x": 960,
+          "y": 1344,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "movement/land_soft/land_soft_002.png",
+          "x": 1152,
+          "y": 1344,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "movement/land_soft/land_soft_003.png",
+          "x": 1344,
+          "y": 1344,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "movement/land_hard/land_hard_000.png",
+          "x": 0,
+          "y": 1536,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "movement/land_hard/land_hard_001.png",
+          "x": 192,
+          "y": 1536,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "movement/land_hard/land_hard_002.png",
+          "x": 384,
+          "y": 1536,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "movement/land_hard/land_hard_003.png",
+          "x": 576,
+          "y": 1536,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "movement/double_jump/double_jump_000.png",
+          "x": 768,
+          "y": 1536,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "movement/double_jump/double_jump_001.png",
+          "x": 960,
+          "y": 1536,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "movement/double_jump/double_jump_002.png",
+          "x": 1152,
+          "y": 1536,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "movement/double_jump/double_jump_003.png",
+          "x": 1344,
+          "y": 1536,
+          "w": 192,
+          "h": 192
+        }
+      ]
+    },
+    "combat-defense": {
+      "file": "art/characters/astra-mycelion/game-ready/atlases/astra_mycelion_combat_defense_atlas.png",
+      "frames": [
+        {
+          "name": "combat-defense/attack_1/attack_1_000.png",
+          "x": 0,
+          "y": 0,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "combat-defense/attack_1/attack_1_001.png",
+          "x": 192,
+          "y": 0,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "combat-defense/attack_1/attack_1_002.png",
+          "x": 384,
+          "y": 0,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "combat-defense/attack_1/attack_1_003.png",
+          "x": 576,
+          "y": 0,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "combat-defense/attack_1/attack_1_004.png",
+          "x": 768,
+          "y": 0,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "combat-defense/attack_1/attack_1_005.png",
+          "x": 960,
+          "y": 0,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "combat-defense/attack_2/attack_2_000.png",
+          "x": 1152,
+          "y": 0,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "combat-defense/attack_2/attack_2_001.png",
+          "x": 1344,
+          "y": 0,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "combat-defense/attack_2/attack_2_002.png",
+          "x": 0,
+          "y": 192,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "combat-defense/attack_2/attack_2_003.png",
+          "x": 192,
+          "y": 192,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "combat-defense/attack_2/attack_2_004.png",
+          "x": 384,
+          "y": 192,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "combat-defense/attack_2/attack_2_005.png",
+          "x": 576,
+          "y": 192,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "combat-defense/attack_3/attack_3_000.png",
+          "x": 768,
+          "y": 192,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "combat-defense/attack_3/attack_3_001.png",
+          "x": 960,
+          "y": 192,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "combat-defense/attack_3/attack_3_002.png",
+          "x": 1152,
+          "y": 192,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "combat-defense/attack_3/attack_3_003.png",
+          "x": 1344,
+          "y": 192,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "combat-defense/attack_3/attack_3_004.png",
+          "x": 0,
+          "y": 384,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "combat-defense/attack_3/attack_3_005.png",
+          "x": 192,
+          "y": 384,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "combat-defense/attack_3/attack_3_006.png",
+          "x": 384,
+          "y": 384,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "combat-defense/attack_3/attack_3_007.png",
+          "x": 576,
+          "y": 384,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "combat-defense/air_attack/air_attack_000.png",
+          "x": 768,
+          "y": 384,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "combat-defense/air_attack/air_attack_001.png",
+          "x": 960,
+          "y": 384,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "combat-defense/air_attack/air_attack_002.png",
+          "x": 1152,
+          "y": 384,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "combat-defense/air_attack/air_attack_003.png",
+          "x": 1344,
+          "y": 384,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "combat-defense/dash_attack/dash_attack_000.png",
+          "x": 0,
+          "y": 576,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "combat-defense/dash_attack/dash_attack_001.png",
+          "x": 192,
+          "y": 576,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "combat-defense/dash_attack/dash_attack_002.png",
+          "x": 384,
+          "y": 576,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "combat-defense/dash_attack/dash_attack_003.png",
+          "x": 576,
+          "y": 576,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "combat-defense/dash_attack/dash_attack_004.png",
+          "x": 768,
+          "y": 576,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "combat-defense/dash_attack/dash_attack_005.png",
+          "x": 960,
+          "y": 576,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "combat-defense/charged_attack_startup/charged_attack_startup_000.png",
+          "x": 1152,
+          "y": 576,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "combat-defense/charged_attack_startup/charged_attack_startup_001.png",
+          "x": 1344,
+          "y": 576,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "combat-defense/charged_attack_startup/charged_attack_startup_002.png",
+          "x": 0,
+          "y": 768,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "combat-defense/charged_attack_startup/charged_attack_startup_003.png",
+          "x": 192,
+          "y": 768,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "combat-defense/charged_attack_startup/charged_attack_startup_004.png",
+          "x": 384,
+          "y": 768,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "combat-defense/charged_attack_startup/charged_attack_startup_005.png",
+          "x": 576,
+          "y": 768,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "combat-defense/charged_attack_loop/charged_attack_loop_000.png",
+          "x": 768,
+          "y": 768,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "combat-defense/charged_attack_loop/charged_attack_loop_001.png",
+          "x": 960,
+          "y": 768,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "combat-defense/charged_attack_loop/charged_attack_loop_002.png",
+          "x": 1152,
+          "y": 768,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "combat-defense/charged_attack_loop/charged_attack_loop_003.png",
+          "x": 1344,
+          "y": 768,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "combat-defense/charged_attack_release/charged_attack_release_000.png",
+          "x": 0,
+          "y": 960,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "combat-defense/charged_attack_release/charged_attack_release_001.png",
+          "x": 192,
+          "y": 960,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "combat-defense/charged_attack_release/charged_attack_release_002.png",
+          "x": 384,
+          "y": 960,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "combat-defense/charged_attack_release/charged_attack_release_003.png",
+          "x": 576,
+          "y": 960,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "combat-defense/projectile_cast/projectile_cast_000.png",
+          "x": 768,
+          "y": 960,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "combat-defense/projectile_cast/projectile_cast_001.png",
+          "x": 960,
+          "y": 960,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "combat-defense/projectile_cast/projectile_cast_002.png",
+          "x": 1152,
+          "y": 960,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "combat-defense/projectile_cast/projectile_cast_003.png",
+          "x": 1344,
+          "y": 960,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "combat-defense/shield_start/shield_start_000.png",
+          "x": 0,
+          "y": 1152,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "combat-defense/shield_start/shield_start_001.png",
+          "x": 192,
+          "y": 1152,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "combat-defense/shield_start/shield_start_002.png",
+          "x": 384,
+          "y": 1152,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "combat-defense/shield_start/shield_start_003.png",
+          "x": 576,
+          "y": 1152,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "combat-defense/shield_loop/shield_loop_000.png",
+          "x": 768,
+          "y": 1152,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "combat-defense/shield_loop/shield_loop_001.png",
+          "x": 960,
+          "y": 1152,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "combat-defense/shield_loop/shield_loop_002.png",
+          "x": 1152,
+          "y": 1152,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "combat-defense/shield_loop/shield_loop_003.png",
+          "x": 1344,
+          "y": 1152,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "combat-defense/shield_impact/shield_impact_000.png",
+          "x": 0,
+          "y": 1344,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "combat-defense/shield_impact/shield_impact_001.png",
+          "x": 192,
+          "y": 1344,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "combat-defense/shield_impact/shield_impact_002.png",
+          "x": 384,
+          "y": 1344,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "combat-defense/shield_impact/shield_impact_003.png",
+          "x": 576,
+          "y": 1344,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "combat-defense/shield_break/shield_break_000.png",
+          "x": 768,
+          "y": 1344,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "combat-defense/shield_break/shield_break_001.png",
+          "x": 960,
+          "y": 1344,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "combat-defense/shield_break/shield_break_002.png",
+          "x": 1152,
+          "y": 1344,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "combat-defense/shield_break/shield_break_003.png",
+          "x": 1344,
+          "y": 1344,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "combat-defense/parry/parry_000.png",
+          "x": 0,
+          "y": 1536,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "combat-defense/parry/parry_001.png",
+          "x": 192,
+          "y": 1536,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "combat-defense/parry/parry_002.png",
+          "x": 384,
+          "y": 1536,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "combat-defense/parry/parry_003.png",
+          "x": 576,
+          "y": 1536,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "combat-defense/hit_light/hit_light_000.png",
+          "x": 768,
+          "y": 1536,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "combat-defense/hit_light/hit_light_001.png",
+          "x": 960,
+          "y": 1536,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "combat-defense/hit_heavy/hit_heavy_000.png",
+          "x": 1152,
+          "y": 1536,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "combat-defense/hit_heavy/hit_heavy_001.png",
+          "x": 1344,
+          "y": 1536,
+          "w": 192,
+          "h": 192
+        }
+      ]
+    },
+    "illogical": {
+      "file": "art/characters/astra-mycelion/game-ready/atlases/astra_mycelion_illogical_atlas.png",
+      "frames": [
+        {
+          "name": "illogical/gravity_flip/gravity_flip_000.png",
+          "x": 0,
+          "y": 0,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "illogical/gravity_flip/gravity_flip_001.png",
+          "x": 192,
+          "y": 0,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "illogical/gravity_flip/gravity_flip_002.png",
+          "x": 384,
+          "y": 0,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "illogical/gravity_flip/gravity_flip_003.png",
+          "x": 576,
+          "y": 0,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "illogical/gravity_flip/gravity_flip_004.png",
+          "x": 768,
+          "y": 0,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "illogical/gravity_flip/gravity_flip_005.png",
+          "x": 960,
+          "y": 0,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "illogical/gravity_flip/gravity_flip_006.png",
+          "x": 1152,
+          "y": 0,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "illogical/gravity_flip/gravity_flip_007.png",
+          "x": 1344,
+          "y": 0,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "illogical/upside_down_idle/upside_down_idle_000.png",
+          "x": 0,
+          "y": 192,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "illogical/upside_down_idle/upside_down_idle_001.png",
+          "x": 192,
+          "y": 192,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "illogical/upside_down_idle/upside_down_idle_002.png",
+          "x": 384,
+          "y": 192,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "illogical/upside_down_idle/upside_down_idle_003.png",
+          "x": 576,
+          "y": 192,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "illogical/teleport_glitch_out/teleport_glitch_out_000.png",
+          "x": 768,
+          "y": 192,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "illogical/teleport_glitch_out/teleport_glitch_out_001.png",
+          "x": 960,
+          "y": 192,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "illogical/teleport_glitch_out/teleport_glitch_out_002.png",
+          "x": 1152,
+          "y": 192,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "illogical/teleport_glitch_out/teleport_glitch_out_003.png",
+          "x": 1344,
+          "y": 192,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "illogical/teleport_glitch_out/teleport_glitch_out_004.png",
+          "x": 0,
+          "y": 384,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "illogical/teleport_glitch_out/teleport_glitch_out_005.png",
+          "x": 192,
+          "y": 384,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "illogical/teleport_glitch_in/teleport_glitch_in_000.png",
+          "x": 384,
+          "y": 384,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "illogical/teleport_glitch_in/teleport_glitch_in_001.png",
+          "x": 576,
+          "y": 384,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "illogical/teleport_glitch_in/teleport_glitch_in_002.png",
+          "x": 768,
+          "y": 384,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "illogical/teleport_glitch_in/teleport_glitch_in_003.png",
+          "x": 960,
+          "y": 384,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "illogical/teleport_glitch_in/teleport_glitch_in_004.png",
+          "x": 1152,
+          "y": 384,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "illogical/teleport_glitch_in/teleport_glitch_in_005.png",
+          "x": 1344,
+          "y": 384,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "illogical/impossible_dash/impossible_dash_000.png",
+          "x": 0,
+          "y": 576,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "illogical/impossible_dash/impossible_dash_001.png",
+          "x": 192,
+          "y": 576,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "illogical/impossible_dash/impossible_dash_002.png",
+          "x": 384,
+          "y": 576,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "illogical/impossible_dash/impossible_dash_003.png",
+          "x": 576,
+          "y": 576,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "illogical/impossible_dash/impossible_dash_004.png",
+          "x": 768,
+          "y": 576,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "illogical/impossible_dash/impossible_dash_005.png",
+          "x": 960,
+          "y": 576,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "illogical/impossible_dash/impossible_dash_006.png",
+          "x": 1152,
+          "y": 576,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "illogical/impossible_dash/impossible_dash_007.png",
+          "x": 1344,
+          "y": 576,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "illogical/temporal_freeze/temporal_freeze_000.png",
+          "x": 0,
+          "y": 768,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "illogical/temporal_freeze/temporal_freeze_001.png",
+          "x": 192,
+          "y": 768,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "illogical/temporal_freeze/temporal_freeze_002.png",
+          "x": 384,
+          "y": 768,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "illogical/temporal_freeze/temporal_freeze_003.png",
+          "x": 576,
+          "y": 768,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "illogical/mirror_split/mirror_split_000.png",
+          "x": 768,
+          "y": 768,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "illogical/mirror_split/mirror_split_001.png",
+          "x": 960,
+          "y": 768,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "illogical/mirror_split/mirror_split_002.png",
+          "x": 1152,
+          "y": 768,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "illogical/mirror_split/mirror_split_003.png",
+          "x": 1344,
+          "y": 768,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "illogical/mirror_split/mirror_split_004.png",
+          "x": 0,
+          "y": 960,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "illogical/mirror_split/mirror_split_005.png",
+          "x": 192,
+          "y": 960,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "illogical/mirror_split/mirror_split_006.png",
+          "x": 384,
+          "y": 960,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "illogical/mirror_split/mirror_split_007.png",
+          "x": 576,
+          "y": 960,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "illogical/false_fall/false_fall_000.png",
+          "x": 768,
+          "y": 960,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "illogical/false_fall/false_fall_001.png",
+          "x": 960,
+          "y": 960,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "illogical/false_fall/false_fall_002.png",
+          "x": 1152,
+          "y": 960,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "illogical/false_fall/false_fall_003.png",
+          "x": 1344,
+          "y": 960,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "illogical/phase_through_floor/phase_through_floor_000.png",
+          "x": 0,
+          "y": 1152,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "illogical/phase_through_floor/phase_through_floor_001.png",
+          "x": 192,
+          "y": 1152,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "illogical/phase_through_floor/phase_through_floor_002.png",
+          "x": 384,
+          "y": 1152,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "illogical/phase_through_floor/phase_through_floor_003.png",
+          "x": 576,
+          "y": 1152,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "illogical/phase_through_floor/phase_through_floor_004.png",
+          "x": 768,
+          "y": 1152,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "illogical/phase_through_floor/phase_through_floor_005.png",
+          "x": 960,
+          "y": 1152,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "illogical/phase_through_floor/phase_through_floor_006.png",
+          "x": 1152,
+          "y": 1152,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "illogical/phase_through_floor/phase_through_floor_007.png",
+          "x": 1344,
+          "y": 1152,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "illogical/wrong_landing/wrong_landing_000.png",
+          "x": 0,
+          "y": 1344,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "illogical/wrong_landing/wrong_landing_001.png",
+          "x": 192,
+          "y": 1344,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "illogical/wrong_landing/wrong_landing_002.png",
+          "x": 384,
+          "y": 1344,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "illogical/wrong_landing/wrong_landing_003.png",
+          "x": 576,
+          "y": 1344,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "illogical/fake_death_rebuild/fake_death_rebuild_000.png",
+          "x": 768,
+          "y": 1344,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "illogical/fake_death_rebuild/fake_death_rebuild_001.png",
+          "x": 960,
+          "y": 1344,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "illogical/fake_death_rebuild/fake_death_rebuild_002.png",
+          "x": 1152,
+          "y": 1344,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "illogical/fake_death_rebuild/fake_death_rebuild_003.png",
+          "x": 1344,
+          "y": 1344,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "illogical/fake_death_rebuild/fake_death_rebuild_004.png",
+          "x": 0,
+          "y": 1536,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "illogical/fake_death_rebuild/fake_death_rebuild_005.png",
+          "x": 192,
+          "y": 1536,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "illogical/fake_death_rebuild/fake_death_rebuild_006.png",
+          "x": 384,
+          "y": 1536,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "illogical/fake_death_rebuild/fake_death_rebuild_007.png",
+          "x": 576,
+          "y": 1536,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "illogical/fake_death_rebuild/fake_death_rebuild_008.png",
+          "x": 768,
+          "y": 1536,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "illogical/fake_death_rebuild/fake_death_rebuild_009.png",
+          "x": 960,
+          "y": 1536,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "illogical/victory_glitch/victory_glitch_000.png",
+          "x": 1152,
+          "y": 1536,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "illogical/victory_glitch/victory_glitch_001.png",
+          "x": 1344,
+          "y": 1536,
+          "w": 192,
+          "h": 192
+        }
+      ]
+    }
+  },
+  "qa": {
+    "warnings": [
+      "Used fallback grid crop: movement/double_jump/2",
+      "Used fallback grid crop: movement/double_jump/3",
+      "Used fallback grid crop: combat-defense/attack_1/5",
+      "Used fallback grid crop: combat-defense/attack_2/0",
+      "Used fallback grid crop: combat-defense/attack_2/1",
+      "Used fallback grid crop: combat-defense/attack_2/2",
+      "Used fallback grid crop: combat-defense/attack_2/3",
+      "Used fallback grid crop: combat-defense/attack_2/4",
+      "Used fallback grid crop: combat-defense/attack_2/5",
+      "Used fallback grid crop: combat-defense/attack_3/6",
+      "Used fallback grid crop: combat-defense/attack_3/7",
+      "Used fallback grid crop: combat-defense/air_attack/0",
+      "Used fallback grid crop: combat-defense/air_attack/1",
+      "Used fallback grid crop: combat-defense/air_attack/2",
+      "Used fallback grid crop: combat-defense/air_attack/3",
+      "Used fallback grid crop: combat-defense/charged_attack_startup/3",
+      "Used fallback grid crop: combat-defense/charged_attack_startup/4",
+      "Used fallback grid crop: combat-defense/charged_attack_startup/5",
+      "Used fallback grid crop: combat-defense/projectile_cast/1",
+      "Used fallback grid crop: combat-defense/projectile_cast/2",
+      "Used fallback grid crop: combat-defense/projectile_cast/3",
+      "Used fallback grid crop: combat-defense/shield_loop/3",
+      "Used fallback grid crop: combat-defense/shield_impact/0",
+      "Used fallback grid crop: combat-defense/shield_impact/1",
+      "Used fallback grid crop: combat-defense/shield_impact/2",
+      "Used fallback grid crop: combat-defense/shield_impact/3",
+      "Used fallback grid crop: combat-defense/parry/1",
+      "Used fallback grid crop: combat-defense/parry/2",
+      "Used fallback grid crop: combat-defense/parry/3",
+      "Used fallback grid crop: combat-defense/hit_light/0",
+      "Used fallback grid crop: combat-defense/hit_light/1",
+      "Used fallback grid crop: combat-defense/hit_heavy/0",
+      "Used fallback grid crop: combat-defense/hit_heavy/1",
+      "Used fallback grid crop: illogical/impossible_dash/7",
+      "Used fallback grid crop: illogical/temporal_freeze/0",
+      "Used fallback grid crop: illogical/temporal_freeze/1",
+      "Used fallback grid crop: illogical/temporal_freeze/2",
+      "Used fallback grid crop: illogical/temporal_freeze/3"
+    ],
+    "detected_rows": {
+      "movement": [
+        {
+          "row": 0,
+          "detected_frames": 13
+        },
+        {
+          "row": 1,
+          "detected_frames": 13
+        },
+        {
+          "row": 2,
+          "detected_frames": 13
+        },
+        {
+          "row": 3,
+          "detected_frames": 13
+        },
+        {
+          "row": 4,
+          "detected_frames": 12
+        },
+        {
+          "row": 5,
+          "detected_frames": 10
+        }
+      ],
+      "combat-defense": [
+        {
+          "row": 0,
+          "detected_frames": 5
+        },
+        {
+          "row": 1,
+          "detected_frames": 6
+        },
+        {
+          "row": 2,
+          "detected_frames": 9
+        },
+        {
+          "row": 3,
+          "detected_frames": 9
+        },
+        {
+          "row": 4,
+          "detected_frames": 7
+        },
+        {
+          "row": 5,
+          "detected_frames": 5
+        }
+      ],
+      "illogical": [
+        {
+          "row": 0,
+          "detected_frames": 12
+        },
+        {
+          "row": 1,
+          "detected_frames": 12
+        },
+        {
+          "row": 2,
+          "detected_frames": 7
+        },
+        {
+          "row": 3,
+          "detected_frames": 12
+        },
+        {
+          "row": 4,
+          "detected_frames": 12
+        },
+        {
+          "row": 5,
+          "detected_frames": 14
+        }
+      ]
+    }
+  }
+}

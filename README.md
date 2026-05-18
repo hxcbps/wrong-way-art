@@ -16,6 +16,18 @@ Astra Mycelion es un guardian bio-cyber ilogico construido con vidrio obsidiana,
 - `art/ui/`: HUD, iconos y menus.
 - `docs/`: biblia visual, plan de animacion y reglas de produccion.
 - `manifests/`: indice de assets.
+- `tools/`: scripts reproducibles para cortar, normalizar y empaquetar assets.
+
+## Build De Assets
+
+```bash
+python3 tools/build_astra_mycelion_gameplay_assets.py
+python3 tools/build_astra_mycelion_secondary_assets.py
+```
+
+Las salidas listas para integracion viven en:
+
+`art/characters/astra-mycelion/game-ready/`
 
 ## Regla creativa
 

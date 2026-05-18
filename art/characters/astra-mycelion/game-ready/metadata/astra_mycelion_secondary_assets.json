@@ -1,0 +1,766 @@
+{
+  "hud": {
+    "portrait_large": {
+      "file": "art/characters/astra-mycelion/game-ready/hud/astra_mycelion_portrait_large.png",
+      "size": [
+        768,
+        1024
+      ],
+      "source_bounds": [
+        42,
+        20,
+        760,
+        956
+      ],
+      "trimmed_size": [
+        718,
+        936
+      ],
+      "paste_xy": [
+        25,
+        44
+      ]
+    },
+    "portrait_square": {
+      "file": "art/characters/astra-mycelion/game-ready/hud/astra_mycelion_portrait_square.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_bounds": [
+        14,
+        17,
+        310,
+        319
+      ],
+      "trimmed_size": [
+        251,
+        256
+      ],
+      "paste_xy": [
+        2,
+        0
+      ]
+    },
+    "minimap_marker": {
+      "file": "art/characters/astra-mycelion/game-ready/hud/astra_mycelion_minimap_marker.png",
+      "size": [
+        128,
+        128
+      ],
+      "source_bounds": [
+        16,
+        46,
+        101,
+        183
+      ],
+      "trimmed_size": [
+        79,
+        128
+      ],
+      "paste_xy": [
+        24,
+        0
+      ]
+    },
+    "health_core": {
+      "file": "art/characters/astra-mycelion/game-ready/hud/astra_mycelion_health_core.png",
+      "size": [
+        128,
+        128
+      ],
+      "source_bounds": [
+        11,
+        21,
+        205,
+        240
+      ],
+      "trimmed_size": [
+        113,
+        128
+      ],
+      "paste_xy": [
+        7,
+        0
+      ]
+    },
+    "ability_shield": {
+      "file": "art/characters/astra-mycelion/game-ready/hud/astra_mycelion_ability_shield.png",
+      "size": [
+        128,
+        128
+      ],
+      "source_bounds": [
+        0,
+        21,
+        225,
+        245
+      ],
+      "trimmed_size": [
+        128,
+        127
+      ],
+      "paste_xy": [
+        0,
+        0
+      ]
+    },
+    "ability_teleport_glitch": {
+      "file": "art/characters/astra-mycelion/game-ready/hud/astra_mycelion_ability_teleport_glitch.png",
+      "size": [
+        128,
+        128
+      ],
+      "source_bounds": [
+        3,
+        25,
+        253,
+        245
+      ],
+      "trimmed_size": [
+        128,
+        113
+      ],
+      "paste_xy": [
+        0,
+        7
+      ]
+    },
+    "ability_gravity_flip": {
+      "file": "art/characters/astra-mycelion/game-ready/hud/astra_mycelion_ability_gravity_flip.png",
+      "size": [
+        128,
+        128
+      ],
+      "source_bounds": [
+        0,
+        0,
+        310,
+        267
+      ],
+      "trimmed_size": [
+        128,
+        110
+      ],
+      "paste_xy": [
+        0,
+        9
+      ]
+    }
+  },
+  "vfx": {
+    "cell_size": [
+      256,
+      256
+    ],
+    "source": "procedural-raster",
+    "concept_sheet": "art/vfx/astra-mycelion/astra_mycelion_ability_vfx_sheet.png",
+    "animations": {
+      "shield_activation": {
+        "fps": 14,
+        "loop": false,
+        "frames": [
+          {
+            "index": 0,
+            "file": "art/characters/astra-mycelion/game-ready/vfx/frames/shield_activation/shield_activation_000.png",
+            "duration": 0.071429
+          },
+          {
+            "index": 1,
+            "file": "art/characters/astra-mycelion/game-ready/vfx/frames/shield_activation/shield_activation_001.png",
+            "duration": 0.071429
+          },
+          {
+            "index": 2,
+            "file": "art/characters/astra-mycelion/game-ready/vfx/frames/shield_activation/shield_activation_002.png",
+            "duration": 0.071429
+          },
+          {
+            "index": 3,
+            "file": "art/characters/astra-mycelion/game-ready/vfx/frames/shield_activation/shield_activation_003.png",
+            "duration": 0.071429
+          },
+          {
+            "index": 4,
+            "file": "art/characters/astra-mycelion/game-ready/vfx/frames/shield_activation/shield_activation_004.png",
+            "duration": 0.071429
+          },
+          {
+            "index": 5,
+            "file": "art/characters/astra-mycelion/game-ready/vfx/frames/shield_activation/shield_activation_005.png",
+            "duration": 0.071429
+          },
+          {
+            "index": 6,
+            "file": "art/characters/astra-mycelion/game-ready/vfx/frames/shield_activation/shield_activation_006.png",
+            "duration": 0.071429
+          },
+          {
+            "index": 7,
+            "file": "art/characters/astra-mycelion/game-ready/vfx/frames/shield_activation/shield_activation_007.png",
+            "duration": 0.071429
+          },
+          {
+            "index": 8,
+            "file": "art/characters/astra-mycelion/game-ready/vfx/frames/shield_activation/shield_activation_008.png",
+            "duration": 0.071429
+          },
+          {
+            "index": 9,
+            "file": "art/characters/astra-mycelion/game-ready/vfx/frames/shield_activation/shield_activation_009.png",
+            "duration": 0.071429
+          },
+          {
+            "index": 10,
+            "file": "art/characters/astra-mycelion/game-ready/vfx/frames/shield_activation/shield_activation_010.png",
+            "duration": 0.071429
+          },
+          {
+            "index": 11,
+            "file": "art/characters/astra-mycelion/game-ready/vfx/frames/shield_activation/shield_activation_011.png",
+            "duration": 0.071429
+          }
+        ]
+      },
+      "teleport_glitch": {
+        "fps": 14,
+        "loop": false,
+        "frames": [
+          {
+            "index": 0,
+            "file": "art/characters/astra-mycelion/game-ready/vfx/frames/teleport_glitch/teleport_glitch_000.png",
+            "duration": 0.071429
+          },
+          {
+            "index": 1,
+            "file": "art/characters/astra-mycelion/game-ready/vfx/frames/teleport_glitch/teleport_glitch_001.png",
+            "duration": 0.071429
+          },
+          {
+            "index": 2,
+            "file": "art/characters/astra-mycelion/game-ready/vfx/frames/teleport_glitch/teleport_glitch_002.png",
+            "duration": 0.071429
+          },
+          {
+            "index": 3,
+            "file": "art/characters/astra-mycelion/game-ready/vfx/frames/teleport_glitch/teleport_glitch_003.png",
+            "duration": 0.071429
+          },
+          {
+            "index": 4,
+            "file": "art/characters/astra-mycelion/game-ready/vfx/frames/teleport_glitch/teleport_glitch_004.png",
+            "duration": 0.071429
+          },
+          {
+            "index": 5,
+            "file": "art/characters/astra-mycelion/game-ready/vfx/frames/teleport_glitch/teleport_glitch_005.png",
+            "duration": 0.071429
+          },
+          {
+            "index": 6,
+            "file": "art/characters/astra-mycelion/game-ready/vfx/frames/teleport_glitch/teleport_glitch_006.png",
+            "duration": 0.071429
+          },
+          {
+            "index": 7,
+            "file": "art/characters/astra-mycelion/game-ready/vfx/frames/teleport_glitch/teleport_glitch_007.png",
+            "duration": 0.071429
+          },
+          {
+            "index": 8,
+            "file": "art/characters/astra-mycelion/game-ready/vfx/frames/teleport_glitch/teleport_glitch_008.png",
+            "duration": 0.071429
+          },
+          {
+            "index": 9,
+            "file": "art/characters/astra-mycelion/game-ready/vfx/frames/teleport_glitch/teleport_glitch_009.png",
+            "duration": 0.071429
+          },
+          {
+            "index": 10,
+            "file": "art/characters/astra-mycelion/game-ready/vfx/frames/teleport_glitch/teleport_glitch_010.png",
+            "duration": 0.071429
+          },
+          {
+            "index": 11,
+            "file": "art/characters/astra-mycelion/game-ready/vfx/frames/teleport_glitch/teleport_glitch_011.png",
+            "duration": 0.071429
+          }
+        ]
+      },
+      "gravity_flip": {
+        "fps": 12,
+        "loop": false,
+        "frames": [
+          {
+            "index": 0,
+            "file": "art/characters/astra-mycelion/game-ready/vfx/frames/gravity_flip/gravity_flip_000.png",
+            "duration": 0.083333
+          },
+          {
+            "index": 1,
+            "file": "art/characters/astra-mycelion/game-ready/vfx/frames/gravity_flip/gravity_flip_001.png",
+            "duration": 0.083333
+          },
+          {
+            "index": 2,
+            "file": "art/characters/astra-mycelion/game-ready/vfx/frames/gravity_flip/gravity_flip_002.png",
+            "duration": 0.083333
+          },
+          {
+            "index": 3,
+            "file": "art/characters/astra-mycelion/game-ready/vfx/frames/gravity_flip/gravity_flip_003.png",
+            "duration": 0.083333
+          },
+          {
+            "index": 4,
+            "file": "art/characters/astra-mycelion/game-ready/vfx/frames/gravity_flip/gravity_flip_004.png",
+            "duration": 0.083333
+          },
+          {
+            "index": 5,
+            "file": "art/characters/astra-mycelion/game-ready/vfx/frames/gravity_flip/gravity_flip_005.png",
+            "duration": 0.083333
+          },
+          {
+            "index": 6,
+            "file": "art/characters/astra-mycelion/game-ready/vfx/frames/gravity_flip/gravity_flip_006.png",
+            "duration": 0.083333
+          },
+          {
+            "index": 7,
+            "file": "art/characters/astra-mycelion/game-ready/vfx/frames/gravity_flip/gravity_flip_007.png",
+            "duration": 0.083333
+          },
+          {
+            "index": 8,
+            "file": "art/characters/astra-mycelion/game-ready/vfx/frames/gravity_flip/gravity_flip_008.png",
+            "duration": 0.083333
+          },
+          {
+            "index": 9,
+            "file": "art/characters/astra-mycelion/game-ready/vfx/frames/gravity_flip/gravity_flip_009.png",
+            "duration": 0.083333
+          },
+          {
+            "index": 10,
+            "file": "art/characters/astra-mycelion/game-ready/vfx/frames/gravity_flip/gravity_flip_010.png",
+            "duration": 0.083333
+          },
+          {
+            "index": 11,
+            "file": "art/characters/astra-mycelion/game-ready/vfx/frames/gravity_flip/gravity_flip_011.png",
+            "duration": 0.083333
+          }
+        ]
+      },
+      "parry_impact": {
+        "fps": 16,
+        "loop": false,
+        "frames": [
+          {
+            "index": 0,
+            "file": "art/characters/astra-mycelion/game-ready/vfx/frames/parry_impact/parry_impact_000.png",
+            "duration": 0.0625
+          },
+          {
+            "index": 1,
+            "file": "art/characters/astra-mycelion/game-ready/vfx/frames/parry_impact/parry_impact_001.png",
+            "duration": 0.0625
+          },
+          {
+            "index": 2,
+            "file": "art/characters/astra-mycelion/game-ready/vfx/frames/parry_impact/parry_impact_002.png",
+            "duration": 0.0625
+          },
+          {
+            "index": 3,
+            "file": "art/characters/astra-mycelion/game-ready/vfx/frames/parry_impact/parry_impact_003.png",
+            "duration": 0.0625
+          },
+          {
+            "index": 4,
+            "file": "art/characters/astra-mycelion/game-ready/vfx/frames/parry_impact/parry_impact_004.png",
+            "duration": 0.0625
+          },
+          {
+            "index": 5,
+            "file": "art/characters/astra-mycelion/game-ready/vfx/frames/parry_impact/parry_impact_005.png",
+            "duration": 0.0625
+          },
+          {
+            "index": 6,
+            "file": "art/characters/astra-mycelion/game-ready/vfx/frames/parry_impact/parry_impact_006.png",
+            "duration": 0.0625
+          },
+          {
+            "index": 7,
+            "file": "art/characters/astra-mycelion/game-ready/vfx/frames/parry_impact/parry_impact_007.png",
+            "duration": 0.0625
+          },
+          {
+            "index": 8,
+            "file": "art/characters/astra-mycelion/game-ready/vfx/frames/parry_impact/parry_impact_008.png",
+            "duration": 0.0625
+          },
+          {
+            "index": 9,
+            "file": "art/characters/astra-mycelion/game-ready/vfx/frames/parry_impact/parry_impact_009.png",
+            "duration": 0.0625
+          },
+          {
+            "index": 10,
+            "file": "art/characters/astra-mycelion/game-ready/vfx/frames/parry_impact/parry_impact_010.png",
+            "duration": 0.0625
+          },
+          {
+            "index": 11,
+            "file": "art/characters/astra-mycelion/game-ready/vfx/frames/parry_impact/parry_impact_011.png",
+            "duration": 0.0625
+          }
+        ]
+      }
+    },
+    "atlas": {
+      "file": "art/characters/astra-mycelion/game-ready/vfx/atlases/astra_mycelion_vfx_atlas.png",
+      "frames": [
+        {
+          "name": "shield_activation/shield_activation_000.png",
+          "x": 0,
+          "y": 0,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "name": "shield_activation/shield_activation_001.png",
+          "x": 256,
+          "y": 0,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "name": "shield_activation/shield_activation_002.png",
+          "x": 512,
+          "y": 0,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "name": "shield_activation/shield_activation_003.png",
+          "x": 768,
+          "y": 0,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "name": "shield_activation/shield_activation_004.png",
+          "x": 1024,
+          "y": 0,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "name": "shield_activation/shield_activation_005.png",
+          "x": 1280,
+          "y": 0,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "name": "shield_activation/shield_activation_006.png",
+          "x": 1536,
+          "y": 0,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "name": "shield_activation/shield_activation_007.png",
+          "x": 1792,
+          "y": 0,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "name": "shield_activation/shield_activation_008.png",
+          "x": 0,
+          "y": 256,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "name": "shield_activation/shield_activation_009.png",
+          "x": 256,
+          "y": 256,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "name": "shield_activation/shield_activation_010.png",
+          "x": 512,
+          "y": 256,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "name": "shield_activation/shield_activation_011.png",
+          "x": 768,
+          "y": 256,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "name": "teleport_glitch/teleport_glitch_000.png",
+          "x": 1024,
+          "y": 256,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "name": "teleport_glitch/teleport_glitch_001.png",
+          "x": 1280,
+          "y": 256,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "name": "teleport_glitch/teleport_glitch_002.png",
+          "x": 1536,
+          "y": 256,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "name": "teleport_glitch/teleport_glitch_003.png",
+          "x": 1792,
+          "y": 256,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "name": "teleport_glitch/teleport_glitch_004.png",
+          "x": 0,
+          "y": 512,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "name": "teleport_glitch/teleport_glitch_005.png",
+          "x": 256,
+          "y": 512,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "name": "teleport_glitch/teleport_glitch_006.png",
+          "x": 512,
+          "y": 512,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "name": "teleport_glitch/teleport_glitch_007.png",
+          "x": 768,
+          "y": 512,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "name": "teleport_glitch/teleport_glitch_008.png",
+          "x": 1024,
+          "y": 512,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "name": "teleport_glitch/teleport_glitch_009.png",
+          "x": 1280,
+          "y": 512,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "name": "teleport_glitch/teleport_glitch_010.png",
+          "x": 1536,
+          "y": 512,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "name": "teleport_glitch/teleport_glitch_011.png",
+          "x": 1792,
+          "y": 512,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "name": "gravity_flip/gravity_flip_000.png",
+          "x": 0,
+          "y": 768,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "name": "gravity_flip/gravity_flip_001.png",
+          "x": 256,
+          "y": 768,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "name": "gravity_flip/gravity_flip_002.png",
+          "x": 512,
+          "y": 768,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "name": "gravity_flip/gravity_flip_003.png",
+          "x": 768,
+          "y": 768,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "name": "gravity_flip/gravity_flip_004.png",
+          "x": 1024,
+          "y": 768,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "name": "gravity_flip/gravity_flip_005.png",
+          "x": 1280,
+          "y": 768,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "name": "gravity_flip/gravity_flip_006.png",
+          "x": 1536,
+          "y": 768,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "name": "gravity_flip/gravity_flip_007.png",
+          "x": 1792,
+          "y": 768,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "name": "gravity_flip/gravity_flip_008.png",
+          "x": 0,
+          "y": 1024,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "name": "gravity_flip/gravity_flip_009.png",
+          "x": 256,
+          "y": 1024,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "name": "gravity_flip/gravity_flip_010.png",
+          "x": 512,
+          "y": 1024,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "name": "gravity_flip/gravity_flip_011.png",
+          "x": 768,
+          "y": 1024,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "name": "parry_impact/parry_impact_000.png",
+          "x": 1024,
+          "y": 1024,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "name": "parry_impact/parry_impact_001.png",
+          "x": 1280,
+          "y": 1024,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "name": "parry_impact/parry_impact_002.png",
+          "x": 1536,
+          "y": 1024,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "name": "parry_impact/parry_impact_003.png",
+          "x": 1792,
+          "y": 1024,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "name": "parry_impact/parry_impact_004.png",
+          "x": 0,
+          "y": 1280,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "name": "parry_impact/parry_impact_005.png",
+          "x": 256,
+          "y": 1280,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "name": "parry_impact/parry_impact_006.png",
+          "x": 512,
+          "y": 1280,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "name": "parry_impact/parry_impact_007.png",
+          "x": 768,
+          "y": 1280,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "name": "parry_impact/parry_impact_008.png",
+          "x": 1024,
+          "y": 1280,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "name": "parry_impact/parry_impact_009.png",
+          "x": 1280,
+          "y": 1280,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "name": "parry_impact/parry_impact_010.png",
+          "x": 1536,
+          "y": 1280,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "name": "parry_impact/parry_impact_011.png",
+          "x": 1792,
+          "y": 1280,
+          "w": 256,
+          "h": 256
+        }
+      ]
+    }
+  }
+}
