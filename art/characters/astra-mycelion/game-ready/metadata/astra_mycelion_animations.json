@@ -2911,125 +2911,66 @@
       "sheet": "combat-defense",
       "fps": 14,
       "loop": false,
+      "curated_component": "art/characters/astra-mycelion/game-ready/components/air_attack/metadata/air_attack_component.json",
       "frames": [
         {
           "index": 0,
           "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/air_attack/air_attack_000.png",
           "duration": 0.071429,
-          "source_grid": {
-            "row": 1,
-            "column": 8,
-            "box": [
-              1012,
-              179,
-              1155,
-              359
-            ]
-          },
-          "empty": false,
-          "source_bounds": [
-            0,
-            15,
-            143,
-            143
-          ],
-          "trimmed_size": [
-            143,
-            128
-          ],
-          "paste_xy": [
-            24,
-            38
+          "source": "curated-air-attack-v2",
+          "cell_size": [
+            192,
+            192
           ]
         },
         {
           "index": 1,
           "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/air_attack/air_attack_001.png",
           "duration": 0.071429,
-          "source_grid": {
-            "row": 1,
-            "column": 9,
-            "box": [
-              1139,
-              179,
-              1282,
-              359
-            ]
-          },
-          "empty": false,
-          "source_bounds": [
-            0,
-            19,
-            143,
-            180
-          ],
-          "trimmed_size": [
-            143,
-            161
-          ],
-          "paste_xy": [
-            24,
-            5
+          "source": "curated-air-attack-v2",
+          "cell_size": [
+            192,
+            192
           ]
         },
         {
           "index": 2,
           "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/air_attack/air_attack_002.png",
           "duration": 0.071429,
-          "source_grid": {
-            "row": 1,
-            "column": 10,
-            "box": [
-              1266,
-              179,
-              1408,
-              359
-            ]
-          },
-          "empty": false,
-          "source_bounds": [
-            0,
-            19,
-            120,
-            180
-          ],
-          "trimmed_size": [
-            120,
-            161
-          ],
-          "paste_xy": [
-            36,
-            5
+          "source": "curated-air-attack-v2",
+          "cell_size": [
+            192,
+            192
           ]
         },
         {
           "index": 3,
           "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/air_attack/air_attack_003.png",
           "duration": 0.071429,
-          "source_grid": {
-            "row": 1,
-            "column": 11,
-            "box": [
-              1392,
-              179,
-              1535,
-              359
-            ]
-          },
-          "empty": false,
-          "source_bounds": [
-            9,
-            25,
-            126,
-            145
-          ],
-          "trimmed_size": [
-            117,
-            120
-          ],
-          "paste_xy": [
-            38,
-            46
+          "source": "curated-air-attack-v2",
+          "cell_size": [
+            192,
+            192
+          ]
+        },
+        {
+          "index": 4,
+          "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/air_attack/air_attack_004.png",
+          "duration": 0.071429,
+          "source": "curated-air-attack-v2",
+          "cell_size": [
+            192,
+            192
+          ]
+        },
+        {
+          "index": 5,
+          "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/air_attack/air_attack_005.png",
+          "duration": 0.071429,
+          "source": "curated-air-attack-v2",
+          "cell_size": [
+            192,
+            192
           ]
         }
       ]
@@ -7485,342 +7426,357 @@
           "h": 192
         },
         {
-          "name": "combat-defense/dash_attack/dash_attack_000.png",
+          "name": "combat-defense/air_attack/air_attack_004.png",
           "x": 0,
+          "y": 576,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "combat-defense/air_attack/air_attack_005.png",
+          "x": 192,
+          "y": 576,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "combat-defense/dash_attack/dash_attack_000.png",
+          "x": 384,
           "y": 576,
           "w": 192,
           "h": 192
         },
         {
           "name": "combat-defense/dash_attack/dash_attack_001.png",
-          "x": 192,
+          "x": 576,
           "y": 576,
           "w": 192,
           "h": 192
         },
         {
           "name": "combat-defense/dash_attack/dash_attack_002.png",
-          "x": 384,
+          "x": 768,
           "y": 576,
           "w": 192,
           "h": 192
         },
         {
           "name": "combat-defense/dash_attack/dash_attack_003.png",
-          "x": 576,
+          "x": 960,
           "y": 576,
           "w": 192,
           "h": 192
         },
         {
           "name": "combat-defense/dash_attack/dash_attack_004.png",
-          "x": 768,
+          "x": 1152,
           "y": 576,
           "w": 192,
           "h": 192
         },
         {
           "name": "combat-defense/dash_attack/dash_attack_005.png",
-          "x": 960,
+          "x": 1344,
           "y": 576,
           "w": 192,
           "h": 192
         },
         {
           "name": "combat-defense/charged_attack_startup/charged_attack_startup_000.png",
-          "x": 1152,
-          "y": 576,
+          "x": 0,
+          "y": 768,
           "w": 192,
           "h": 192
         },
         {
           "name": "combat-defense/charged_attack_startup/charged_attack_startup_001.png",
-          "x": 1344,
-          "y": 576,
+          "x": 192,
+          "y": 768,
           "w": 192,
           "h": 192
         },
         {
           "name": "combat-defense/charged_attack_startup/charged_attack_startup_002.png",
-          "x": 0,
+          "x": 384,
           "y": 768,
           "w": 192,
           "h": 192
         },
         {
           "name": "combat-defense/charged_attack_startup/charged_attack_startup_003.png",
-          "x": 192,
+          "x": 576,
           "y": 768,
           "w": 192,
           "h": 192
         },
         {
           "name": "combat-defense/charged_attack_startup/charged_attack_startup_004.png",
-          "x": 384,
+          "x": 768,
           "y": 768,
           "w": 192,
           "h": 192
         },
         {
           "name": "combat-defense/charged_attack_startup/charged_attack_startup_005.png",
-          "x": 576,
+          "x": 960,
           "y": 768,
           "w": 192,
           "h": 192
         },
         {
           "name": "combat-defense/charged_attack_loop/charged_attack_loop_000.png",
-          "x": 768,
+          "x": 1152,
           "y": 768,
           "w": 192,
           "h": 192
         },
         {
           "name": "combat-defense/charged_attack_loop/charged_attack_loop_001.png",
-          "x": 960,
+          "x": 1344,
           "y": 768,
           "w": 192,
           "h": 192
         },
         {
           "name": "combat-defense/charged_attack_loop/charged_attack_loop_002.png",
-          "x": 1152,
-          "y": 768,
+          "x": 0,
+          "y": 960,
           "w": 192,
           "h": 192
         },
         {
           "name": "combat-defense/charged_attack_loop/charged_attack_loop_003.png",
-          "x": 1344,
-          "y": 768,
+          "x": 192,
+          "y": 960,
           "w": 192,
           "h": 192
         },
         {
           "name": "combat-defense/charged_attack_release/charged_attack_release_000.png",
-          "x": 0,
+          "x": 384,
           "y": 960,
           "w": 192,
           "h": 192
         },
         {
           "name": "combat-defense/charged_attack_release/charged_attack_release_001.png",
-          "x": 192,
+          "x": 576,
           "y": 960,
           "w": 192,
           "h": 192
         },
         {
           "name": "combat-defense/charged_attack_release/charged_attack_release_002.png",
-          "x": 384,
+          "x": 768,
           "y": 960,
           "w": 192,
           "h": 192
         },
         {
           "name": "combat-defense/charged_attack_release/charged_attack_release_003.png",
-          "x": 576,
+          "x": 960,
           "y": 960,
           "w": 192,
           "h": 192
         },
         {
           "name": "combat-defense/projectile_cast/projectile_cast_000.png",
-          "x": 768,
+          "x": 1152,
           "y": 960,
           "w": 192,
           "h": 192
         },
         {
           "name": "combat-defense/projectile_cast/projectile_cast_001.png",
-          "x": 960,
+          "x": 1344,
           "y": 960,
           "w": 192,
           "h": 192
         },
         {
           "name": "combat-defense/projectile_cast/projectile_cast_002.png",
-          "x": 1152,
-          "y": 960,
+          "x": 0,
+          "y": 1152,
           "w": 192,
           "h": 192
         },
         {
           "name": "combat-defense/projectile_cast/projectile_cast_003.png",
-          "x": 1344,
-          "y": 960,
+          "x": 192,
+          "y": 1152,
           "w": 192,
           "h": 192
         },
         {
           "name": "combat-defense/shield_start/shield_start_000.png",
-          "x": 0,
+          "x": 384,
           "y": 1152,
           "w": 192,
           "h": 192
         },
         {
           "name": "combat-defense/shield_start/shield_start_001.png",
-          "x": 192,
+          "x": 576,
           "y": 1152,
           "w": 192,
           "h": 192
         },
         {
           "name": "combat-defense/shield_start/shield_start_002.png",
-          "x": 384,
+          "x": 768,
           "y": 1152,
           "w": 192,
           "h": 192
         },
         {
           "name": "combat-defense/shield_start/shield_start_003.png",
-          "x": 576,
+          "x": 960,
           "y": 1152,
           "w": 192,
           "h": 192
         },
         {
           "name": "combat-defense/shield_loop/shield_loop_000.png",
-          "x": 768,
+          "x": 1152,
           "y": 1152,
           "w": 192,
           "h": 192
         },
         {
           "name": "combat-defense/shield_loop/shield_loop_001.png",
-          "x": 960,
+          "x": 1344,
           "y": 1152,
           "w": 192,
           "h": 192
         },
         {
           "name": "combat-defense/shield_loop/shield_loop_002.png",
-          "x": 1152,
-          "y": 1152,
+          "x": 0,
+          "y": 1344,
           "w": 192,
           "h": 192
         },
         {
           "name": "combat-defense/shield_loop/shield_loop_003.png",
-          "x": 1344,
-          "y": 1152,
+          "x": 192,
+          "y": 1344,
           "w": 192,
           "h": 192
         },
         {
           "name": "combat-defense/shield_impact/shield_impact_000.png",
-          "x": 0,
+          "x": 384,
           "y": 1344,
           "w": 192,
           "h": 192
         },
         {
           "name": "combat-defense/shield_impact/shield_impact_001.png",
-          "x": 192,
+          "x": 576,
           "y": 1344,
           "w": 192,
           "h": 192
         },
         {
           "name": "combat-defense/shield_impact/shield_impact_002.png",
-          "x": 384,
+          "x": 768,
           "y": 1344,
           "w": 192,
           "h": 192
         },
         {
           "name": "combat-defense/shield_impact/shield_impact_003.png",
-          "x": 576,
+          "x": 960,
           "y": 1344,
           "w": 192,
           "h": 192
         },
         {
           "name": "combat-defense/shield_break/shield_break_000.png",
-          "x": 768,
+          "x": 1152,
           "y": 1344,
           "w": 192,
           "h": 192
         },
         {
           "name": "combat-defense/shield_break/shield_break_001.png",
-          "x": 960,
+          "x": 1344,
           "y": 1344,
           "w": 192,
           "h": 192
         },
         {
           "name": "combat-defense/shield_break/shield_break_002.png",
-          "x": 1152,
-          "y": 1344,
-          "w": 192,
-          "h": 192
-        },
-        {
-          "name": "combat-defense/shield_break/shield_break_003.png",
-          "x": 1344,
-          "y": 1344,
-          "w": 192,
-          "h": 192
-        },
-        {
-          "name": "combat-defense/parry/parry_000.png",
           "x": 0,
           "y": 1536,
           "w": 192,
           "h": 192
         },
         {
-          "name": "combat-defense/parry/parry_001.png",
+          "name": "combat-defense/shield_break/shield_break_003.png",
           "x": 192,
           "y": 1536,
           "w": 192,
           "h": 192
         },
         {
-          "name": "combat-defense/parry/parry_002.png",
+          "name": "combat-defense/parry/parry_000.png",
           "x": 384,
           "y": 1536,
           "w": 192,
           "h": 192
         },
         {
-          "name": "combat-defense/parry/parry_003.png",
+          "name": "combat-defense/parry/parry_001.png",
           "x": 576,
           "y": 1536,
           "w": 192,
           "h": 192
         },
         {
-          "name": "combat-defense/hit_light/hit_light_000.png",
+          "name": "combat-defense/parry/parry_002.png",
           "x": 768,
           "y": 1536,
           "w": 192,
           "h": 192
         },
         {
-          "name": "combat-defense/hit_light/hit_light_001.png",
+          "name": "combat-defense/parry/parry_003.png",
           "x": 960,
           "y": 1536,
           "w": 192,
           "h": 192
         },
         {
-          "name": "combat-defense/hit_heavy/hit_heavy_000.png",
+          "name": "combat-defense/hit_light/hit_light_000.png",
           "x": 1152,
           "y": 1536,
           "w": 192,
           "h": 192
         },
         {
-          "name": "combat-defense/hit_heavy/hit_heavy_001.png",
+          "name": "combat-defense/hit_light/hit_light_001.png",
           "x": 1344,
           "y": 1536,
           "w": 192,
           "h": 192
+        },
+        {
+          "name": "combat-defense/hit_heavy/hit_heavy_000.png",
+          "x": 0,
+          "y": 1728,
+          "w": 192,
+          "h": 192
+        },
+        {
+          "name": "combat-defense/hit_heavy/hit_heavy_001.png",
+          "x": 192,
+          "y": 1728,
+          "w": 192,
+          "h": 192
         }
-      ]
+      ],
+      "note": "Combat atlas repacked after curated air_attack v2 replacement."
     },
     "illogical": {
       "file": "art/characters/astra-mycelion/game-ready/atlases/astra_mycelion_illogical_atlas.png",

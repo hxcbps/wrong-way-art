@@ -1,0 +1,503 @@
+{
+  "component": "air_attack",
+  "version": "v2-curated",
+  "source": "art/characters/astra-mycelion/refinement/air-attack/astra_mycelion_air_attack_v2_source.png",
+  "frame_count": 6,
+  "fps": 14,
+  "loop": false,
+  "cell_size": [
+    384,
+    256
+  ],
+  "pivot_pixels": [
+    192,
+    244
+  ],
+  "legacy_cell_size": [
+    192,
+    192
+  ],
+  "legacy_pivot_pixels": [
+    96,
+    176
+  ],
+  "atlas": {
+    "file": "art/characters/astra-mycelion/game-ready/components/air_attack/atlas/astra_mycelion_air_attack_v2_atlas.png",
+    "frames": [
+      {
+        "name": "air_attack_000.png",
+        "x": 0,
+        "y": 0,
+        "w": 384,
+        "h": 256
+      },
+      {
+        "name": "air_attack_001.png",
+        "x": 384,
+        "y": 0,
+        "w": 384,
+        "h": 256
+      },
+      {
+        "name": "air_attack_002.png",
+        "x": 768,
+        "y": 0,
+        "w": 384,
+        "h": 256
+      },
+      {
+        "name": "air_attack_003.png",
+        "x": 1152,
+        "y": 0,
+        "w": 384,
+        "h": 256
+      },
+      {
+        "name": "air_attack_004.png",
+        "x": 1536,
+        "y": 0,
+        "w": 384,
+        "h": 256
+      },
+      {
+        "name": "air_attack_005.png",
+        "x": 1920,
+        "y": 0,
+        "w": 384,
+        "h": 256
+      }
+    ]
+  },
+  "frames": [
+    {
+      "index": 0,
+      "source_segment": [
+        24,
+        255
+      ],
+      "frame": "art/characters/astra-mycelion/game-ready/components/air_attack/frames/air_attack_000.png",
+      "legacy_frame": "art/characters/astra-mycelion/game-ready/frames/combat-defense/air_attack/air_attack_000.png",
+      "duration": 0.071429,
+      "hi": {
+        "source_bounds": [
+          18,
+          18,
+          249,
+          371
+        ],
+        "trimmed_size": [
+          154,
+          236
+        ],
+        "scale": 0.667195,
+        "paste_xy": [
+          115,
+          8
+        ],
+        "alpha_bbox": [
+          115,
+          8,
+          269,
+          244
+        ]
+      },
+      "legacy": {
+        "source_bounds": [
+          18,
+          18,
+          249,
+          371
+        ],
+        "trimmed_size": [
+          108,
+          165
+        ],
+        "scale": 0.467762,
+        "paste_xy": [
+          42,
+          11
+        ],
+        "alpha_bbox": [
+          42,
+          11,
+          150,
+          176
+        ]
+      },
+      "edge_clearance_hi": {
+        "left": 115,
+        "top": 8,
+        "right": 115,
+        "bottom": 12,
+        "passes": true
+      },
+      "edge_clearance_legacy": {
+        "left": 42,
+        "top": 11,
+        "right": 42,
+        "bottom": 16,
+        "passes": true
+      }
+    },
+    {
+      "index": 1,
+      "source_segment": [
+        324,
+        596
+      ],
+      "frame": "art/characters/astra-mycelion/game-ready/components/air_attack/frames/air_attack_001.png",
+      "legacy_frame": "art/characters/astra-mycelion/game-ready/frames/combat-defense/air_attack/air_attack_001.png",
+      "duration": 0.071429,
+      "hi": {
+        "source_bounds": [
+          17,
+          18,
+          290,
+          319
+        ],
+        "trimmed_size": [
+          214,
+          236
+        ],
+        "scale": 0.782458,
+        "paste_xy": [
+          85,
+          8
+        ],
+        "alpha_bbox": [
+          85,
+          8,
+          299,
+          244
+        ]
+      },
+      "legacy": {
+        "source_bounds": [
+          17,
+          18,
+          290,
+          319
+        ],
+        "trimmed_size": [
+          150,
+          165
+        ],
+        "scale": 0.548571,
+        "paste_xy": [
+          21,
+          11
+        ],
+        "alpha_bbox": [
+          21,
+          11,
+          171,
+          176
+        ]
+      },
+      "edge_clearance_hi": {
+        "left": 85,
+        "top": 8,
+        "right": 85,
+        "bottom": 12,
+        "passes": true
+      },
+      "edge_clearance_legacy": {
+        "left": 21,
+        "top": 11,
+        "right": 21,
+        "bottom": 16,
+        "passes": true
+      }
+    },
+    {
+      "index": 2,
+      "source_segment": [
+        665,
+        983
+      ],
+      "frame": "art/characters/astra-mycelion/game-ready/components/air_attack/frames/air_attack_002.png",
+      "legacy_frame": "art/characters/astra-mycelion/game-ready/frames/combat-defense/air_attack/air_attack_002.png",
+      "duration": 0.071429,
+      "hi": {
+        "source_bounds": [
+          17,
+          18,
+          342,
+          250
+        ],
+        "trimmed_size": [
+          325,
+          232
+        ],
+        "scale": 1.0,
+        "paste_xy": [
+          30,
+          12
+        ],
+        "alpha_bbox": [
+          30,
+          12,
+          355,
+          244
+        ]
+      },
+      "legacy": {
+        "source_bounds": [
+          17,
+          18,
+          342,
+          250
+        ],
+        "trimmed_size": [
+          165,
+          118
+        ],
+        "scale": 0.508062,
+        "paste_xy": [
+          14,
+          58
+        ],
+        "alpha_bbox": [
+          14,
+          58,
+          179,
+          176
+        ]
+      },
+      "edge_clearance_hi": {
+        "left": 30,
+        "top": 12,
+        "right": 29,
+        "bottom": 12,
+        "passes": true
+      },
+      "edge_clearance_legacy": {
+        "left": 14,
+        "top": 58,
+        "right": 13,
+        "bottom": 16,
+        "passes": true
+      }
+    },
+    {
+      "index": 3,
+      "source_segment": [
+        1036,
+        1459
+      ],
+      "frame": "art/characters/astra-mycelion/game-ready/components/air_attack/frames/air_attack_003.png",
+      "legacy_frame": "art/characters/astra-mycelion/game-ready/frames/combat-defense/air_attack/air_attack_003.png",
+      "duration": 0.071429,
+      "hi": {
+        "source_bounds": [
+          18,
+          18,
+          448,
+          340
+        ],
+        "trimmed_size": [
+          315,
+          236
+        ],
+        "scale": 0.731429,
+        "paste_xy": [
+          34,
+          8
+        ],
+        "alpha_bbox": [
+          34,
+          8,
+          349,
+          244
+        ]
+      },
+      "legacy": {
+        "source_bounds": [
+          18,
+          18,
+          448,
+          340
+        ],
+        "trimmed_size": [
+          165,
+          124
+        ],
+        "scale": 0.384,
+        "paste_xy": [
+          14,
+          52
+        ],
+        "alpha_bbox": [
+          14,
+          52,
+          179,
+          176
+        ]
+      },
+      "edge_clearance_hi": {
+        "left": 34,
+        "top": 8,
+        "right": 35,
+        "bottom": 12,
+        "passes": true
+      },
+      "edge_clearance_legacy": {
+        "left": 14,
+        "top": 52,
+        "right": 13,
+        "bottom": 16,
+        "passes": true
+      }
+    },
+    {
+      "index": 4,
+      "source_segment": [
+        1501,
+        1863
+      ],
+      "frame": "art/characters/astra-mycelion/game-ready/components/air_attack/frames/air_attack_004.png",
+      "legacy_frame": "art/characters/astra-mycelion/game-ready/frames/combat-defense/air_attack/air_attack_004.png",
+      "duration": 0.071429,
+      "hi": {
+        "source_bounds": [
+          16,
+          18,
+          381,
+          296
+        ],
+        "trimmed_size": [
+          309,
+          236
+        ],
+        "scale": 0.847194,
+        "paste_xy": [
+          38,
+          8
+        ],
+        "alpha_bbox": [
+          38,
+          8,
+          347,
+          244
+        ]
+      },
+      "legacy": {
+        "source_bounds": [
+          16,
+          18,
+          381,
+          296
+        ],
+        "trimmed_size": [
+          165,
+          126
+        ],
+        "scale": 0.452384,
+        "paste_xy": [
+          14,
+          50
+        ],
+        "alpha_bbox": [
+          14,
+          50,
+          179,
+          176
+        ]
+      },
+      "edge_clearance_hi": {
+        "left": 38,
+        "top": 8,
+        "right": 37,
+        "bottom": 12,
+        "passes": true
+      },
+      "edge_clearance_legacy": {
+        "left": 14,
+        "top": 50,
+        "right": 13,
+        "bottom": 16,
+        "passes": true
+      }
+    },
+    {
+      "index": 5,
+      "source_segment": [
+        1889,
+        2109
+      ],
+      "frame": "art/characters/astra-mycelion/game-ready/components/air_attack/frames/air_attack_005.png",
+      "legacy_frame": "art/characters/astra-mycelion/game-ready/frames/combat-defense/air_attack/air_attack_005.png",
+      "duration": 0.071429,
+      "hi": {
+        "source_bounds": [
+          18,
+          18,
+          238,
+          335
+        ],
+        "trimmed_size": [
+          163,
+          236
+        ],
+        "scale": 0.742965,
+        "paste_xy": [
+          110,
+          8
+        ],
+        "alpha_bbox": [
+          110,
+          8,
+          273,
+          244
+        ]
+      },
+      "legacy": {
+        "source_bounds": [
+          18,
+          18,
+          238,
+          335
+        ],
+        "trimmed_size": [
+          115,
+          165
+        ],
+        "scale": 0.520883,
+        "paste_xy": [
+          38,
+          11
+        ],
+        "alpha_bbox": [
+          38,
+          11,
+          153,
+          176
+        ]
+      },
+      "edge_clearance_hi": {
+        "left": 110,
+        "top": 8,
+        "right": 111,
+        "bottom": 12,
+        "passes": true
+      },
+      "edge_clearance_legacy": {
+        "left": 38,
+        "top": 11,
+        "right": 39,
+        "bottom": 16,
+        "passes": true
+      }
+    }
+  ],
+  "qa": {
+    "status": "passes-component-audit",
+    "checks": [
+      "six readable animation frames",
+      "no alpha touching frame edges in canonical frames",
+      "no neighboring sprite bleed",
+      "transparent PNG output",
+      "legacy air_attack frames replaced for existing GitHub paths"
+    ]
+  }
+}

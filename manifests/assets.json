@@ -115,6 +115,15 @@
           "atlas": "art/characters/astra-mycelion/game-ready/vfx/atlases/astra_mycelion_vfx_atlas.png",
           "metadata": "art/characters/astra-mycelion/game-ready/metadata/astra_mycelion_secondary_assets.json",
           "status": "gameplay-ready-draft-01"
+        },
+        {
+          "type": "curated-component",
+          "component": "air_attack",
+          "path": "art/characters/astra-mycelion/game-ready/components/air_attack",
+          "atlas": "art/characters/astra-mycelion/game-ready/components/air_attack/atlas/astra_mycelion_air_attack_v2_atlas.png",
+          "metadata": "art/characters/astra-mycelion/game-ready/components/air_attack/metadata/air_attack_component.json",
+          "qa": "docs/audits/air-attack-v2.md",
+          "status": "passes-component-audit"
         }
       ]
     }

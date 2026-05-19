@@ -14,5 +14,6 @@
 | HUD assets | `art/characters/astra-mycelion/game-ready/hud/` | Retrato, icono, minimap marker, vida y habilidades |
 | VFX atlas | `art/characters/astra-mycelion/game-ready/vfx/atlases/astra_mycelion_vfx_atlas.png` | Escudo, teleport, gravity flip y parry impact |
 | Secondary metadata | `art/characters/astra-mycelion/game-ready/metadata/astra_mycelion_secondary_assets.json` | Metadata de HUD y VFX |
+| Air attack V2 | `art/characters/astra-mycelion/game-ready/components/air_attack/` | Primer componente auditado y curado |
 
 Cada PNG final tiene transparencia. Cada archivo `*_chroma.png` conserva el fondo verde original para reprocesar alpha si hace falta.
