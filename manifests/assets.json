@@ -124,6 +124,15 @@
           "metadata": "art/characters/astra-mycelion/game-ready/components/air_attack/metadata/air_attack_component.json",
           "qa": "docs/audits/air-attack-v2.md",
           "status": "passes-component-audit"
+        },
+        {
+          "type": "curated-component",
+          "component": "dash_attack",
+          "path": "art/characters/astra-mycelion/game-ready/components/dash_attack",
+          "atlas": "art/characters/astra-mycelion/game-ready/components/dash_attack/atlas/astra_mycelion_dash_attack_v2_atlas.png",
+          "metadata": "art/characters/astra-mycelion/game-ready/components/dash_attack/metadata/dash_attack_component.json",
+          "qa": "docs/audits/dash-attack-v2.md",
+          "status": "passes-component-audit"
         }
       ]
     }
