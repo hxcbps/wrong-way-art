@@ -2984,8 +2984,8 @@
         {
           "index": 0,
           "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/dash_attack/dash_attack_000.png",
-          "duration": 0.055556,
-          "source": "curated-dash-attack-v2",
+          "duration": 0.09,
+          "source": "curated-dash-attack-v2.1",
           "cell_size": [
             192,
             192
@@ -2994,8 +2994,8 @@
         {
           "index": 1,
           "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/dash_attack/dash_attack_001.png",
-          "duration": 0.055556,
-          "source": "curated-dash-attack-v2",
+          "duration": 0.045,
+          "source": "curated-dash-attack-v2.1",
           "cell_size": [
             192,
             192
@@ -3004,8 +3004,8 @@
         {
           "index": 2,
           "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/dash_attack/dash_attack_002.png",
-          "duration": 0.055556,
-          "source": "curated-dash-attack-v2",
+          "duration": 0.04,
+          "source": "curated-dash-attack-v2.1",
           "cell_size": [
             192,
             192
@@ -3014,8 +3014,8 @@
         {
           "index": 3,
           "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/dash_attack/dash_attack_003.png",
-          "duration": 0.055556,
-          "source": "curated-dash-attack-v2",
+          "duration": 0.035,
+          "source": "curated-dash-attack-v2.1",
           "cell_size": [
             192,
             192
@@ -3024,8 +3024,8 @@
         {
           "index": 4,
           "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/dash_attack/dash_attack_004.png",
-          "duration": 0.055556,
-          "source": "curated-dash-attack-v2",
+          "duration": 0.05,
+          "source": "curated-dash-attack-v2.1",
           "cell_size": [
             192,
             192
@@ -3034,8 +3034,8 @@
         {
           "index": 5,
           "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/dash_attack/dash_attack_005.png",
-          "duration": 0.055556,
-          "source": "curated-dash-attack-v2",
+          "duration": 0.06,
+          "source": "curated-dash-attack-v2.1",
           "cell_size": [
             192,
             192
@@ -3044,8 +3044,8 @@
         {
           "index": 6,
           "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/dash_attack/dash_attack_006.png",
-          "duration": 0.055556,
-          "source": "curated-dash-attack-v2",
+          "duration": 0.075,
+          "source": "curated-dash-attack-v2.1",
           "cell_size": [
             192,
             192
@@ -3054,8 +3054,8 @@
         {
           "index": 7,
           "file": "art/characters/astra-mycelion/game-ready/frames/combat-defense/dash_attack/dash_attack_007.png",
-          "duration": 0.055556,
-          "source": "curated-dash-attack-v2",
+          "duration": 0.1,
+          "source": "curated-dash-attack-v2.1",
           "cell_size": [
             192,
             192

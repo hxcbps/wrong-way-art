@@ -4,7 +4,7 @@ import math
 import shutil
 from pathlib import Path
 
-from PIL import Image
+from PIL import Image, ImageDraw, ImageFilter
 
 from curate_air_attack_component import (
     crop_segment,
@@ -30,6 +30,8 @@ PIVOT_HI = (192, 248)
 PIVOT_LEGACY = (96, 172)
 FPS = 18
 FRAME_COUNT = 8
+VERSION = "v2.1-curated"
+TIMING = [0.09, 0.045, 0.04, 0.035, 0.05, 0.06, 0.075, 0.1]
 
 
 def clean_dir(path: Path) -> None:
@@ -46,8 +48,8 @@ def update_combat_atlas():
         dash_frames.append({
             "index": idx,
             "file": str(file_path.relative_to(ROOT)),
-            "duration": round(1 / FPS, 6),
-            "source": "curated-dash-attack-v2",
+            "duration": TIMING[idx],
+            "source": "curated-dash-attack-v2.1",
             "cell_size": list(LEGACY_CELL),
         })
     data["animations"]["dash_attack"] = {
@@ -86,6 +88,75 @@ def update_combat_atlas():
     METADATA.write_text(json.dumps(data, indent=2))
 
 
+def draw_impact_overlay(frame: Image.Image, idx: int) -> Image.Image:
+    """Add the game-feel pass for the contact and follow-through frames."""
+    if idx not in {2, 3, 4}:
+        return frame
+
+    im = frame.copy()
+    bbox = im.getchannel("A").getbbox()
+    if bbox is None:
+        return im
+
+    left, top, right, bottom = bbox
+    width, height = im.size
+    scale = width / 384
+    safe_margin = max(18, 30 * scale)
+    cx = min(width - safe_margin, right - 34 * scale)
+    cy = top + (bottom - top) * (0.47 if idx == 3 else 0.52)
+    layer = Image.new("RGBA", im.size, (0, 0, 0, 0))
+    draw = ImageDraw.Draw(layer)
+
+    if idx == 2:
+        # Pre-impact compression: thin amber speed needles ahead of the lance.
+        for n in range(4):
+            y = cy + (n - 1.5) * 8 * scale
+            draw.line(
+                (cx - 12 * scale, y, min(width - safe_margin, cx + (24 + n * 6) * scale), y - 3 * scale),
+                fill=(255, 224, 54, 150),
+                width=max(1, round(2 * scale)),
+            )
+    elif idx == 3:
+        # Main contact: sharp starburst, short shock ring, and obsidian shard spray.
+        r_outer = min(42 * scale, (width - safe_margin - cx) * 0.9)
+        r_inner = 12 * scale
+        points = []
+        for n in range(18):
+            angle = n * 3.14159265 * 2 / 18
+            radius = r_outer if n % 2 == 0 else r_inner
+            points.append((cx + math.cos(angle) * radius, cy + math.sin(angle) * radius))
+        draw.polygon(points, fill=(255, 211, 42, 205))
+        draw.ellipse((cx - 28 * scale, cy - 28 * scale, cx + 28 * scale, cy + 28 * scale), outline=(255, 179, 33, 230), width=max(1, round(3 * scale)))
+        draw.line((cx - 70 * scale, cy, min(width - safe_margin, cx + 42 * scale), cy), fill=(255, 244, 145, 235), width=max(2, round(4 * scale)))
+        draw.line((cx - 42 * scale, cy - 18 * scale, min(width - safe_margin, cx + 32 * scale), cy + 15 * scale), fill=(255, 179, 33, 190), width=max(1, round(2 * scale)))
+        for n in range(9):
+            angle = -0.65 + n * 0.16
+            sx = cx + math.cos(angle) * 30 * scale
+            sy = cy + math.sin(angle) * 30 * scale
+            shard = [
+                (sx, sy),
+                (sx + 10 * scale, sy + (n % 3 - 1) * 5 * scale),
+                (sx + 2 * scale, sy + 10 * scale),
+            ]
+            draw.polygon(shard, fill=(42, 44, 49, 210), outline=(255, 224, 54, 150))
+    elif idx == 4:
+        # Follow-through: fading fracture trail so the hit has a readable aftershock.
+        for n in range(8):
+            x = cx - (n * 18 + 8) * scale
+            y = cy + ((n % 3) - 1) * 9 * scale
+            draw.line((x, y, x + 28 * scale, y - 5 * scale), fill=(255, 179, 33, max(45, 150 - n * 13)), width=max(1, round(2 * scale)))
+            draw.polygon(
+                [(x + 7 * scale, y), (x + 14 * scale, y + 7 * scale), (x + 2 * scale, y + 9 * scale)],
+                fill=(141, 40, 71, max(45, 130 - n * 10)),
+            )
+
+    glow = layer.filter(ImageFilter.GaussianBlur(max(1, round(5 * scale))))
+    glow.putalpha(glow.getchannel("A").point(lambda value: min(150, value)))
+    im.alpha_composite(glow)
+    im.alpha_composite(layer)
+    return im
+
+
 def main():
     src = Image.open(SOURCE).convert("RGBA")
     segments = x_segments(src, expected=FRAME_COUNT)
@@ -102,6 +173,10 @@ def main():
         crop = crop_segment(src, x0, x1)
         hi, hi_qa = normalize(crop, HI_CELL, PIVOT_HI, max_fill=0.92)
         legacy, legacy_qa = normalize(crop, LEGACY_CELL, PIVOT_LEGACY, max_fill=0.86)
+        hi = draw_impact_overlay(hi, idx)
+        legacy = draw_impact_overlay(legacy, idx)
+        hi_qa["alpha_bbox"] = list(hi.getchannel("A").getbbox())
+        legacy_qa["alpha_bbox"] = list(legacy.getchannel("A").getbbox())
         hi_path = COMPONENT_ROOT / "frames" / f"dash_attack_{idx:03d}.png"
         legacy_path = LEGACY_ROOT / f"dash_attack_{idx:03d}.png"
         hi.save(hi_path)
@@ -113,7 +188,7 @@ def main():
             "source_segment": [x0, x1],
             "frame": str(hi_path.relative_to(ROOT)),
             "legacy_frame": str(legacy_path.relative_to(ROOT)),
-            "duration": round(1 / FPS, 6),
+            "duration": TIMING[idx],
             "hi": hi_qa,
             "legacy": legacy_qa,
             "edge_clearance_hi": edge_clearance(hi),
@@ -128,7 +203,7 @@ def main():
 
     metadata = {
         "component": "dash_attack",
-        "version": "v2-curated",
+        "version": VERSION,
         "source": str(SOURCE.relative_to(ROOT)),
         "frame_count": FRAME_COUNT,
         "fps": FPS,
@@ -143,6 +218,8 @@ def main():
             "status": "passes-component-audit",
             "checks": [
                 "eight readable dash attack frames",
+                "curated anticipation/contact/recovery timing",
+                "aggressive impact pass on the contact frame",
                 "no alpha touching frame edges",
                 "no neighboring sprite bleed",
                 "transparent PNG output",

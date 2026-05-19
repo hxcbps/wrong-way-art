@@ -1,6 +1,6 @@
 {
   "component": "dash_attack",
-  "version": "v2-curated",
+  "version": "v2.1-curated",
   "source": "art/characters/astra-mycelion/refinement/dash-attack/astra_mycelion_dash_attack_v2_source.png",
   "frame_count": 8,
   "fps": 18,
@@ -91,7 +91,7 @@
       ],
       "frame": "art/characters/astra-mycelion/game-ready/components/dash_attack/frames/dash_attack_000.png",
       "legacy_frame": "art/characters/astra-mycelion/game-ready/frames/combat-defense/dash_attack/dash_attack_000.png",
-      "duration": 0.055556,
+      "duration": 0.09,
       "hi": {
         "source_bounds": [
           16,
@@ -161,7 +161,7 @@
       ],
       "frame": "art/characters/astra-mycelion/game-ready/components/dash_attack/frames/dash_attack_001.png",
       "legacy_frame": "art/characters/astra-mycelion/game-ready/frames/combat-defense/dash_attack/dash_attack_001.png",
-      "duration": 0.055556,
+      "duration": 0.045,
       "hi": {
         "source_bounds": [
           16,
@@ -231,7 +231,7 @@
       ],
       "frame": "art/characters/astra-mycelion/game-ready/components/dash_attack/frames/dash_attack_002.png",
       "legacy_frame": "art/characters/astra-mycelion/game-ready/frames/combat-defense/dash_attack/dash_attack_002.png",
-      "duration": 0.055556,
+      "duration": 0.04,
       "hi": {
         "source_bounds": [
           3,
@@ -251,7 +251,7 @@
         "alpha_bbox": [
           54,
           107,
-          329,
+          348,
           248
         ]
       },
@@ -274,21 +274,21 @@
         "alpha_bbox": [
           14,
           87,
-          179,
+          180,
           172
         ]
       },
       "edge_clearance_hi": {
         "left": 54,
         "top": 107,
-        "right": 55,
+        "right": 36,
         "bottom": 8,
         "passes": true
       },
       "edge_clearance_legacy": {
         "left": 14,
         "top": 87,
-        "right": 13,
+        "right": 12,
         "bottom": 20,
         "passes": true
       }
@@ -301,7 +301,7 @@
       ],
       "frame": "art/characters/astra-mycelion/game-ready/components/dash_attack/frames/dash_attack_003.png",
       "legacy_frame": "art/characters/astra-mycelion/game-ready/frames/combat-defense/dash_attack/dash_attack_003.png",
-      "duration": 0.055556,
+      "duration": 0.035,
       "hi": {
         "source_bounds": [
           17,
@@ -321,7 +321,7 @@
         "alpha_bbox": [
           44,
           92,
-          339,
+          360,
           248
         ]
       },
@@ -344,21 +344,21 @@
         "alpha_bbox": [
           14,
           85,
-          179,
+          187,
           172
         ]
       },
       "edge_clearance_hi": {
         "left": 44,
         "top": 92,
-        "right": 45,
+        "right": 24,
         "bottom": 8,
         "passes": true
       },
       "edge_clearance_legacy": {
         "left": 14,
         "top": 85,
-        "right": 13,
+        "right": 5,
         "bottom": 20,
         "passes": true
       }
@@ -371,7 +371,7 @@
       ],
       "frame": "art/characters/astra-mycelion/game-ready/components/dash_attack/frames/dash_attack_004.png",
       "legacy_frame": "art/characters/astra-mycelion/game-ready/frames/combat-defense/dash_attack/dash_attack_004.png",
-      "duration": 0.055556,
+      "duration": 0.05,
       "hi": {
         "source_bounds": [
           10,
@@ -441,7 +441,7 @@
       ],
       "frame": "art/characters/astra-mycelion/game-ready/components/dash_attack/frames/dash_attack_005.png",
       "legacy_frame": "art/characters/astra-mycelion/game-ready/frames/combat-defense/dash_attack/dash_attack_005.png",
-      "duration": 0.055556,
+      "duration": 0.06,
       "hi": {
         "source_bounds": [
           5,
@@ -511,7 +511,7 @@
       ],
       "frame": "art/characters/astra-mycelion/game-ready/components/dash_attack/frames/dash_attack_006.png",
       "legacy_frame": "art/characters/astra-mycelion/game-ready/frames/combat-defense/dash_attack/dash_attack_006.png",
-      "duration": 0.055556,
+      "duration": 0.075,
       "hi": {
         "source_bounds": [
           17,
@@ -581,7 +581,7 @@
       ],
       "frame": "art/characters/astra-mycelion/game-ready/components/dash_attack/frames/dash_attack_007.png",
       "legacy_frame": "art/characters/astra-mycelion/game-ready/frames/combat-defense/dash_attack/dash_attack_007.png",
-      "duration": 0.055556,
+      "duration": 0.1,
       "hi": {
         "source_bounds": [
           17,
@@ -648,6 +648,8 @@
     "status": "passes-component-audit",
     "checks": [
       "eight readable dash attack frames",
+      "curated anticipation/contact/recovery timing",
+      "aggressive impact pass on the contact frame",
       "no alpha touching frame edges",
       "no neighboring sprite bleed",
       "transparent PNG output",

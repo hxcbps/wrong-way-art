@@ -1,4 +1,4 @@
-# Auditoria De Componente: Dash Attack V2
+# Auditoria De Componente: Dash Attack V2.1
 
 ## Alcance
 
@@ -21,6 +21,11 @@ Se genero una tira dedicada de 8 frames para `dash_attack`, se removio chroma a 
 - Canonica high-res: `384x256`
 - Compatibilidad legacy: `192x192`
 
+La revision `v2.1` mejora dos puntos de game feel:
+
+- Timing no uniforme: anticipacion y recuperacion tienen mas lectura; aceleracion e impacto son mas rapidos.
+- Frame de contacto mas agresivo: se agrego una capa de impacto ambar con estrella, linea de penetracion y particulas de fractura.
+
 ## Recursos
 
 | Recurso | Ruta |
@@ -30,6 +35,7 @@ Se genero una tira dedicada de 8 frames para `dash_attack`, se removio chroma a 
 | Metadata canonica | `art/characters/astra-mycelion/game-ready/components/dash_attack/metadata/dash_attack_component.json` |
 | Contact sheet QA high-res | `art/characters/astra-mycelion/game-ready/qa/dash_attack/dash_attack_v2_contact_hi.png` |
 | Contact sheet QA legacy | `art/characters/astra-mycelion/game-ready/qa/dash_attack/dash_attack_v2_contact_legacy.png` |
+| Preview animado QA | `art/characters/astra-mycelion/game-ready/qa/dash_attack/dash_attack_v2_preview.gif` |
 | Frames legacy reemplazados | `art/characters/astra-mycelion/game-ready/frames/combat-defense/dash_attack/` |
 
 ## QA
@@ -39,6 +45,7 @@ Estado: `passes-component-audit`
 Checks:
 
 - 8 frames legibles.
+- Duraciones: `90ms, 45ms, 40ms, 35ms, 50ms, 60ms, 75ms, 100ms`.
 - Ningun frame toca bordes.
 - Sin fragmentos de sprites vecinos.
 - PNG con alpha real.
